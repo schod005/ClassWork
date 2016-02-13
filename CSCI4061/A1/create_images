@@ -1,0 +1,136 @@
+#!/bin/csh
+# CSci4061 Spring 2015 Assignment 1
+# Name: David Schoder, Henry Grittner
+# Student ID: 4552990, 4560922
+# CSELabs machine: 4250-06
+#
+# This script is used to convert .png, .gif, or .tiff files into .jpg format
+# and creates an html file with thumbnails that link to each file created
+#
+# Usage: create_images input_dir output_dir 'pattern_1' 'pattern_2'...
+# The html file is created in the directory of the script and all converted files
+# are created in the output directory
+
+echo "Starting Script"
+
+##make sure number of arguments is correct
+	if ($#argv < 3) then
+		echo "Usage: create_images input_dir output_dir 'pattern_1' 'pattern_2'..."
+		exit 1
+	endif
+
+##getting input/output directories
+	set indir = $1
+	shift
+	set outdir = $1
+	shift
+
+##Input directory not found error handling
+	if (! -d $indir) then
+		echo "Error: $indir does not exist!"
+		exit 0
+	endif
+
+	if (! -r $indir) then
+		echo "Error: $indir cannot be read!"
+		exit 0
+	endif
+
+##Output directory creation/error handling
+	if (! -e $outdir) then		#create directory if it does not exist
+		echo "Creating $outdir"
+		echo "Creating $outdir/thumbs"
+		mkdir $outdir
+		mkdir $outdir/thumbs
+	else if (! -d $outdir) then	#if it does exist, make sure it is valid
+		echo "Error: $outdir is not a valid directory"
+		exit 0
+	else if (! -e $outdir/thumbs) then	#create thumbs directory if it does not exist
+		echo "Creating $outdir/thumbs"
+		mkdir $outdir/thumbs
+	else if (! -d $outdir/thumbs) then	#if thumbs does exist, make sure it is valid
+		echo "Error: $outdir/thumbs is not a valid directory"
+		exit 0
+	endif
+
+##Unsupported file error handling
+	set argList = ""
+	set i = 1
+	while($#argv > 0)
+		if (("$argv[1]" !~ *.tiff) && ("$argv[1]" !~ *.gif) && ("$argv[1]" !~ *.png)) then #check input patterns
+			echo "Error: $argv[1] is not a supported filetype!"
+		else
+			set argList = ($argList:q "$argv[1]") # saves valid patterns to this list
+		endif
+		shift
+	end
+
+	#exit if we have no valid patterns to search
+	if (($#argList == 1) && ("$argList[1]" == "")) then
+		echo "Error: no valid patterns"
+		exit 1
+	endif
+
+##argList contains usable arguments
+##Find files matching patterns in argList
+	set fileList = ""
+	while($#argList > 0)
+		set curFiles = `find $indir -name "$argList[1]"` # search for files matching patterns
+		
+		if ($#curFiles == 0) then
+			echo "No files matching pattern: $argList[1]"
+		else
+			set fileList = ($fileList:q $curFiles:q) # saves all filenames in this list
+		endif
+		shift argList
+	end
+
+	#exit if no matching files were found
+	if (($#fileList == 1) && ("$fileList[1]" == "")) then
+		echo "Error: no files found"
+		exit 1
+	endif
+
+##fileList contains all files to convert (with paths)
+##create HTML file
+	echo "<html><head><title>Images</title></head>" > pic_name_xx.html
+
+##converting files/making html
+	set one = 1
+	set two = 2
+	while($#fileList > 0)
+		#get filenames
+		set fileName=`echo "$fileList[1]:t:r" | tr '[:lower:]' '[:upper:]'` #translate basename to uppercase
+		#get dimensions
+		set fileIdent=`identify $fileList[1]`
+		set xIndex=`echo $fileIdent[3] | awk '{print index($1,"x")}'` # gets index of the "x" in dimensions ie. 220x430
+		set xIndex=`expr $xIndex \- $one` 
+		set dim1=`echo $fileIdent[3] $xIndex | awk '{print substr($1,0,$2)}'` # x dimension
+		set xIndex=`expr $xIndex \+ $two`
+		set dim2=`echo $fileIdent[3] $xIndex | awk '{print substr($1,$2)}'` # y dimension
+		#create thumbnails and images/append HTML file
+		if (-e $outdir/$fileName.jpg) then # does converted file already exist?
+			echo "Error: cannot convert $fileList[1], $fileName.jpg already exists"
+		else if (-e $outdir/thumbs/"$fileName"_thumb.jpg) then # does thumbnail already exist?
+			echo "Error: cannot create thumbnail for $fileList[1], ""$fileName""_thumb.jpg already exists"
+		else 
+			echo "Creating thumbnail for $fileList[1]"
+			if ($dim1 > $dim2) then # makes largest dimension 200 pixels
+				convert -geometry 200x $fileList[1] $outdir/thumbs/"$fileName"_thumb.jpg 
+			else
+				convert -geometry x200 $fileList[1] $outdir/thumbs/"$fileName"_thumb.jpg
+			endif
+			echo "Converting $fileList[1] to .jpg format"
+			convert $fileList[1] $outdir/$fileName.jpg # create converted image
+			echo "<a href="'"'"./$outdir/$fileName.jpg"'"'">" >> pic_name_xx.html #csh doesn't allow you to escape " inside of "", which is why I typed "'"'"
+			echo "<img src="'"'"./$outdir/thumbs/""$fileName""_thumb.jpg"'"'"/></a>" >> pic_name_xx.html
+		endif
+		shift fileList
+	end
+	
+##finish up HTML file
+	set theDate=`date`
+	echo "<br></h1>$theDate[1-3]<h1>" >> pic_name_xx.html
+	echo "</body></html>" >> pic_name_xx.html
+
+echo "Completing Script"

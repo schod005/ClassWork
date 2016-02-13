@@ -1,0 +1,2210 @@
+
+------------------------------------------------
+
+Beginning program...
+Version: v1
+
+Beginning scan of directory: /home/schod005/Documents/CSCI_4061/
+    Thread 0x7ffff77f6700: /home/schod005/Documents/CSCI_4061/
+    Thread 0x7ffff6ff5700: /home/schod005/Documents/CSCI_4061//A3
+    Thread 0x7ffff67f4700: /home/schod005/Documents/CSCI_4061//A4
+    Thread 0x7ffff5ff3700: /home/schod005/Documents/CSCI_4061//A5
+    Thread 0x7ffff57f2700: /home/schod005/Documents/CSCI_4061//A2
+    Thread 0x7ffff5ff3700 exiting after successful execution
+    Thread 0x7ffff67f4700 exiting after successful execution
+    Thread 0x7ffff6ff5700 exiting after successful execution
+    Thread 0x7ffff4ff1700: /home/schod005/Documents/CSCI_4061//.git
+    Thread 0x7ffff57f2700 exiting after successful execution
+    Thread 0x7fffe7fff700: /home/schod005/Documents/CSCI_4061//A1
+    Thread 0x7ffff77f6700 exiting after successful execution
+    Thread 0x7fffe7fff700 exiting after successful execution
+    Thread 0x7fffe77fe700: /home/schod005/Documents/CSCI_4061//.git/branches
+    Joined thread: 0x7ffff77f6700
+    Joined thread: 0x7ffff6ff5700
+    Joined thread: 0x7ffff67f4700
+    Joined thread: 0x7ffff5ff3700
+    Joined thread: 0x7ffff57f2700
+    Thread 0x7ffff57f2700: /home/schod005/Documents/CSCI_4061//.git/logs
+    Thread 0x7fffe77fe700 exiting after successful execution
+    Thread 0x7ffff5ff3700: /home/schod005/Documents/CSCI_4061//.git/objects
+    Thread 0x7ffff67f4700: /home/schod005/Documents/CSCI_4061//.git/logs/refs
+    Thread 0x7ffff6ff5700: /home/schod005/Documents/CSCI_4061//.git/info
+    Thread 0x7ffff77f6700: /home/schod005/Documents/CSCI_4061//.git/logs/refs/heads
+    Thread 0x7ffff67f4700 exiting after successful execution
+    Thread 0x7ffff6ff5700 exiting after successful execution
+    Thread 0x7fffe6ffd700: /home/schod005/Documents/CSCI_4061//.git/objects/58
+    Thread 0x7ffff77f6700 exiting after successful execution
+    Thread 0x7ffff57f2700 exiting after successful execution
+    Thread 0x7fffe67fc700: /home/schod005/Documents/CSCI_4061//.git/refs
+    Thread 0x7fffe6ffd700 exiting after successful execution
+    Thread 0x7fffe5ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/36
+    Thread 0x7fffe57fa700: /home/schod005/Documents/CSCI_4061//.git/hooks
+    Thread 0x7fffe4ff9700: /home/schod005/Documents/CSCI_4061//.git/refs/heads
+    Thread 0x7fffe57fa700 exiting after successful execution
+    Thread 0x7fffdbfff700: /home/schod005/Documents/CSCI_4061//.git/objects/09
+    Thread 0x7fffe4ff9700 exiting after successful execution
+    Thread 0x7fffdb7fe700: /home/schod005/Documents/CSCI_4061//.git/refs/tags
+    Thread 0x7ffff4ff1700 exiting after successful execution
+    Thread 0x7fffe67fc700 exiting after successful execution
+    Thread 0x7fffdaffd700: /home/schod005/Documents/CSCI_4061//.git/objects/info
+    Thread 0x7fffdb7fe700 exiting after successful execution
+    Thread 0x7fffdbfff700 exiting after successful execution
+    Thread 0x7fffe5ffb700 exiting after successful execution
+    Thread 0x7fffda7fc700: /home/schod005/Documents/CSCI_4061//.git/objects/a2
+    Thread 0x7fffdaffd700 exiting after successful execution
+    Thread 0x7fffda7fc700 exiting after successful execution
+    Thread 0x7fffd9ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/ee
+    Thread 0x7fffd97fa700: /home/schod005/Documents/CSCI_4061//.git/objects/55
+    Thread 0x7fffd9ffb700 exiting after successful execution
+    Joined thread: 0x7ffff4ff1700
+    Joined thread: 0x7fffe7fff700
+    Joined thread: 0x7fffe77fe700
+    Joined thread: 0x7ffff57f2700
+    Thread 0x7ffff57f2700: /home/schod005/Documents/CSCI_4061//.git/objects/9f
+    Thread 0x7fffe77fe700: /home/schod005/Documents/CSCI_4061//.git/objects/48
+    Thread 0x7fffd97fa700 exiting after successful execution
+    Thread 0x7ffff57f2700 exiting after successful execution
+    Thread 0x7fffe7fff700: /home/schod005/Documents/CSCI_4061//.git/objects/2d
+    Thread 0x7fffe77fe700 exiting after successful execution
+    Thread 0x7ffff4ff1700: /home/schod005/Documents/CSCI_4061//.git/objects/8e
+    Thread 0x7fffe7fff700 exiting after successful execution
+    Thread 0x7fffd8ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/e4
+    Thread 0x7ffff4ff1700 exiting after successful execution
+    Thread 0x7fffd87f8700: /home/schod005/Documents/CSCI_4061//.git/objects/ac
+    Thread 0x7fffd8ff9700 exiting after successful execution
+    Thread 0x7fffd7ff7700: /home/schod005/Documents/CSCI_4061//.git/objects/19
+    Thread 0x7fffd87f8700 exiting after successful execution
+    Thread 0x7fffd77f6700: /home/schod005/Documents/CSCI_4061//.git/objects/88
+    Thread 0x7fffd7ff7700 exiting after successful execution
+    Thread 0x7fffd6ff5700: /home/schod005/Documents/CSCI_4061//.git/objects/4e
+    Thread 0x7fffd77f6700 exiting after successful execution
+    Thread 0x7fffd67f4700: /home/schod005/Documents/CSCI_4061//.git/objects/02
+    Thread 0x7fffd6ff5700 exiting after successful execution
+    Thread 0x7fffd5ff3700: /home/schod005/Documents/CSCI_4061//.git/objects/a9
+    Thread 0x7fffd5ff3700 exiting after successful execution
+    Thread 0x7fffd57f2700: /home/schod005/Documents/CSCI_4061//.git/objects/30
+    Thread 0x7fffd67f4700 exiting after successful execution
+    Thread 0x7fffd4ff1700: /home/schod005/Documents/CSCI_4061//.git/objects/e1
+    Thread 0x7fffd47f0700: /home/schod005/Documents/CSCI_4061//.git/objects/2f
+    Thread 0x7fffd4ff1700 exiting after successful execution
+    Thread 0x7fffd57f2700 exiting after successful execution
+    Thread 0x7fffd3fef700: /home/schod005/Documents/CSCI_4061//.git/objects/pack
+    Thread 0x7fffd47f0700 exiting after successful execution
+    Thread 0x7fffd37ee700: /home/schod005/Documents/CSCI_4061//.git/objects/40
+    Thread 0x7fffd3fef700 exiting after successful execution
+    Thread 0x7fffd2fed700: /home/schod005/Documents/CSCI_4061//.git/objects/37
+    Thread 0x7fffd37ee700 exiting after successful execution
+    Thread 0x7fffd27ec700: /home/schod005/Documents/CSCI_4061//.git/objects/78
+    Thread 0x7fffd1feb700: /home/schod005/Documents/CSCI_4061//.git/objects/7d
+    Thread 0x7fffd27ec700 exiting after successful execution
+    Thread 0x7fffd2fed700 exiting after successful execution
+    Thread 0x7fffd17ea700: /home/schod005/Documents/CSCI_4061//.git/objects/65
+    Thread 0x7fffd0fe9700: /home/schod005/Documents/CSCI_4061//.git/objects/c1
+    Thread 0x7fffd17ea700 exiting after successful execution
+    Thread 0x7fffd1feb700 exiting after successful execution
+    Thread 0x7fffd07e8700: /home/schod005/Documents/CSCI_4061//.git/objects/20
+    Thread 0x7fffd0fe9700 exiting after successful execution
+    Thread 0x7fffcffe7700: /home/schod005/Documents/CSCI_4061//.git/objects/a0
+    Thread 0x7fffd07e8700 exiting after successful execution
+    Thread 0x7fffcf7e6700: /home/schod005/Documents/CSCI_4061//.git/objects/98
+    Thread 0x7fffcffe7700 exiting after successful execution
+    Thread 0x7fffcefe5700: /home/schod005/Documents/CSCI_4061//.git/objects/2e
+    Thread 0x7fffce7e4700: /home/schod005/Documents/CSCI_4061//.git/objects/5b
+    Thread 0x7fffcf7e6700 exiting after successful execution
+    Thread 0x7fffcdfe3700: /home/schod005/Documents/CSCI_4061//.git/objects/b5
+    Thread 0x7fffcefe5700 exiting after successful execution
+    Thread 0x7fffce7e4700 exiting after successful execution
+    Thread 0x7fffcd7e2700: /home/schod005/Documents/CSCI_4061//.git/objects/e2
+    Thread 0x7fffcdfe3700 exiting after successful execution
+    Thread 0x7fffccfe1700: /home/schod005/Documents/CSCI_4061//.git/objects/ae
+    Thread 0x7fffcd7e2700 exiting after successful execution
+    Thread 0x7fffcc7e0700: /home/schod005/Documents/CSCI_4061//.git/objects/15
+    Thread 0x7fffccfe1700 exiting after successful execution
+    Thread 0x7fffcbfdf700: /home/schod005/Documents/CSCI_4061//.git/objects/0d
+    Thread 0x7ffff5ff3700 exiting after successful execution
+    Thread 0x7fffcc7e0700 exiting after successful execution
+    Joined thread: 0x7ffff5ff3700
+    Joined thread: 0x7ffff67f4700
+    Joined thread: 0x7ffff6ff5700
+    Joined thread: 0x7ffff77f6700
+    Thread 0x7fffcbfdf700 exiting after successful execution
+    Joined thread: 0x7fffe6ffd700
+    Joined thread: 0x7fffe67fc700
+    Joined thread: 0x7fffe5ffb700
+    Joined thread: 0x7fffe57fa700
+    Joined thread: 0x7fffe4ff9700
+    Joined thread: 0x7fffdbfff700
+    Joined thread: 0x7fffdb7fe700
+    Joined thread: 0x7fffdaffd700
+    Joined thread: 0x7fffda7fc700
+    Joined thread: 0x7fffd9ffb700
+    Joined thread: 0x7fffd97fa700
+    Joined thread: 0x7ffff57f2700
+    Joined thread: 0x7fffe77fe700
+    Joined thread: 0x7fffe7fff700
+    Joined thread: 0x7ffff4ff1700
+    Joined thread: 0x7fffd8ff9700
+    Joined thread: 0x7fffd87f8700
+    Joined thread: 0x7fffd7ff7700
+    Joined thread: 0x7fffd77f6700
+    Joined thread: 0x7fffd6ff5700
+    Joined thread: 0x7fffd67f4700
+    Joined thread: 0x7fffd5ff3700
+    Joined thread: 0x7fffd57f2700
+    Joined thread: 0x7fffd4ff1700
+    Joined thread: 0x7fffd47f0700
+    Joined thread: 0x7fffd3fef700
+    Joined thread: 0x7fffd37ee700
+    Joined thread: 0x7fffd2fed700
+    Joined thread: 0x7fffd27ec700
+    Joined thread: 0x7fffd1feb700
+    Joined thread: 0x7fffd17ea700
+    Joined thread: 0x7fffd0fe9700
+    Joined thread: 0x7fffd07e8700
+    Joined thread: 0x7fffcffe7700
+    Joined thread: 0x7fffcf7e6700
+    Joined thread: 0x7fffcefe5700
+    Joined thread: 0x7fffce7e4700
+    Joined thread: 0x7fffcdfe3700
+    Joined thread: 0x7fffcd7e2700
+    Joined thread: 0x7fffccfe1700
+    Joined thread: 0x7fffcc7e0700
+    Joined thread: 0x7fffcbfdf700
+
+Scan complete
+Number of images: 0
+Number of directories: 55
+Number of threads: 55
+Done!
+
+------------------------------------------------
+
+Beginning program...
+Version: v1
+
+Beginning scan of directory: /home/schod005/Documents/CSCI_4061/
+    Thread 0x7ffff77f6700: /home/schod005/Documents/CSCI_4061/
+    Thread 0x7ffff6ff5700: /home/schod005/Documents/CSCI_4061//A3
+    Thread 0x7ffff67f4700: /home/schod005/Documents/CSCI_4061//A4
+    Thread 0x7ffff6ff5700 exiting after successful execution
+    Thread 0x7ffff5ff3700: /home/schod005/Documents/CSCI_4061//A5
+    Thread 0x7ffff57f2700: /home/schod005/Documents/CSCI_4061//A2
+    Thread 0x7ffff67f4700 exiting after successful execution
+    Thread 0x7ffff57f2700 exiting after successful execution
+    Thread 0x7ffff5ff3700 exiting after successful execution
+    Thread 0x7ffff4ff1700: /home/schod005/Documents/CSCI_4061//.git
+    Thread 0x7fffe7fff700: /home/schod005/Documents/CSCI_4061//.git/branches
+    Thread 0x7fffe77fe700: /home/schod005/Documents/CSCI_4061//A1
+    Thread 0x7ffff77f6700 exiting after successful execution
+    Thread 0x7fffe7fff700 exiting after successful execution
+    Thread 0x7fffe6ffd700: /home/schod005/Documents/CSCI_4061//.git/logs
+    Thread 0x7fffe77fe700 exiting after successful execution
+    Joined thread: 0x7ffff77f6700
+    Joined thread: 0x7ffff6ff5700
+    Joined thread: 0x7ffff67f4700
+    Joined thread: 0x7ffff5ff3700
+    Joined thread: 0x7ffff57f2700
+    Thread 0x7ffff57f2700: /home/schod005/Documents/CSCI_4061//.git/logs/refs
+    Thread 0x7fffe6ffd700 exiting after successful execution
+    Thread 0x7ffff5ff3700: /home/schod005/Documents/CSCI_4061//.git/logs/refs/heads
+    Thread 0x7ffff57f2700 exiting after successful execution
+    Thread 0x7ffff5ff3700 exiting after successful execution
+    Thread 0x7ffff67f4700: /home/schod005/Documents/CSCI_4061//.git/objects
+    Thread 0x7ffff6ff5700: /home/schod005/Documents/CSCI_4061//.git/info
+    Thread 0x7ffff77f6700: /home/schod005/Documents/CSCI_4061//.git/objects/58
+    Thread 0x7ffff6ff5700 exiting after successful execution
+    Thread 0x7fffe67fc700: /home/schod005/Documents/CSCI_4061//.git/refs
+    Thread 0x7ffff77f6700 exiting after successful execution
+    Thread 0x7fffe5ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/36
+    Thread 0x7fffe57fa700: /home/schod005/Documents/CSCI_4061//.git/refs/heads
+    Thread 0x7fffe4ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/09
+    Thread 0x7fffdbfff700: /home/schod005/Documents/CSCI_4061//.git/refs/tags
+    Thread 0x7fffe67fc700 exiting after successful execution
+    Thread 0x7fffe57fa700 exiting after successful execution
+    Thread 0x7fffdb7fe700: /home/schod005/Documents/CSCI_4061//.git/objects/info
+    Thread 0x7fffe5ffb700 exiting after successful execution
+    Thread 0x7fffdaffd700: /home/schod005/Documents/CSCI_4061//.git/objects/a2
+    Thread 0x7fffda7fc700: /home/schod005/Documents/CSCI_4061//.git/hooks
+    Thread 0x7ffff4ff1700 exiting after successful execution
+    Thread 0x7fffe4ff9700 exiting after successful execution
+    Thread 0x7fffd9ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/ee
+    Thread 0x7fffdb7fe700 exiting after successful execution
+    Thread 0x7fffdaffd700 exiting after successful execution
+    Thread 0x7fffdbfff700 exiting after successful execution
+    Thread 0x7fffd97fa700: /home/schod005/Documents/CSCI_4061//.git/objects/55
+    Thread 0x7fffda7fc700 exiting after successful execution
+    Thread 0x7fffd9ffb700 exiting after successful execution
+    Thread 0x7fffd97fa700 exiting after successful execution
+    Thread 0x7fffd8ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/9f
+    Thread 0x7fffd3fff700: /home/schod005/Documents/CSCI_4061//.git/objects/48
+    Thread 0x7fffd8ff9700 exiting after successful execution
+    Joined thread: 0x7ffff4ff1700
+    Joined thread: 0x7fffe7fff700
+    Joined thread: 0x7fffe77fe700
+    Joined thread: 0x7fffe6ffd700
+    Joined thread: 0x7ffff57f2700
+    Joined thread: 0x7ffff5ff3700
+    Thread 0x7ffff5ff3700: /home/schod005/Documents/CSCI_4061//.git/objects/2d
+    Thread 0x7ffff57f2700: /home/schod005/Documents/CSCI_4061//.git/objects/8e
+    Thread 0x7ffff5ff3700 exiting after successful execution
+    Thread 0x7fffd3fff700 exiting after successful execution
+    Thread 0x7fffe6ffd700: /home/schod005/Documents/CSCI_4061//.git/objects/e4
+    Thread 0x7ffff57f2700 exiting after successful execution
+    Thread 0x7fffe77fe700: /home/schod005/Documents/CSCI_4061//.git/objects/ac
+    Thread 0x7fffe6ffd700 exiting after successful execution
+    Thread 0x7ffff4ff1700: /home/schod005/Documents/CSCI_4061//.git/objects/19
+    Thread 0x7fffe77fe700 exiting after successful execution
+    Thread 0x7fffe7fff700: /home/schod005/Documents/CSCI_4061//.git/objects/88
+    Thread 0x7ffff4ff1700 exiting after successful execution
+    Thread 0x7fffd37fe700: /home/schod005/Documents/CSCI_4061//.git/objects/4e
+    Thread 0x7fffe7fff700 exiting after successful execution
+    Thread 0x7fffd2ffd700: /home/schod005/Documents/CSCI_4061//.git/objects/02
+    Thread 0x7fffd37fe700 exiting after successful execution
+    Thread 0x7fffd27fc700: /home/schod005/Documents/CSCI_4061//.git/objects/a9
+    Thread 0x7fffd2ffd700 exiting after successful execution
+    Thread 0x7fffd1ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/30
+    Thread 0x7fffd27fc700 exiting after successful execution
+    Thread 0x7fffd17fa700: /home/schod005/Documents/CSCI_4061//.git/objects/e1
+    Thread 0x7fffd1ffb700 exiting after successful execution
+    Thread 0x7fffd17fa700 exiting after successful execution
+    Thread 0x7fffd0ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/2f
+    Thread 0x7fffd07f8700: /home/schod005/Documents/CSCI_4061//.git/objects/pack
+    Thread 0x7fffcfff7700: /home/schod005/Documents/CSCI_4061//.git/objects/40
+    Thread 0x7fffcf7f6700: /home/schod005/Documents/CSCI_4061//.git/objects/37
+    Thread 0x7fffd0ff9700 exiting after successful execution
+    Thread 0x7fffceff5700: /home/schod005/Documents/CSCI_4061//.git/objects/78
+    Thread 0x7fffd07f8700 exiting after successful execution
+    Thread 0x7fffcfff7700 exiting after successful execution
+    Thread 0x7fffce7f4700: /home/schod005/Documents/CSCI_4061//.git/objects/7d
+    Thread 0x7fffcf7f6700 exiting after successful execution
+    Thread 0x7fffceff5700 exiting after successful execution
+    Thread 0x7fffcdff3700: /home/schod005/Documents/CSCI_4061//.git/objects/65
+    Thread 0x7fffce7f4700 exiting after successful execution
+    Thread 0x7fffcd7f2700: /home/schod005/Documents/CSCI_4061//.git/objects/c1
+    Thread 0x7fffcdff3700 exiting after successful execution
+    Thread 0x7fffccff1700: /home/schod005/Documents/CSCI_4061//.git/objects/20
+    Thread 0x7fffcd7f2700 exiting after successful execution
+    Thread 0x7fffcc7f0700: /home/schod005/Documents/CSCI_4061//.git/objects/a0
+    Thread 0x7fffccff1700 exiting after successful execution
+    Thread 0x7fffcbfef700: /home/schod005/Documents/CSCI_4061//.git/objects/98
+    Thread 0x7fffcc7f0700 exiting after successful execution
+    Thread 0x7fffcb7ee700: /home/schod005/Documents/CSCI_4061//.git/objects/2e
+    Thread 0x7fffcbfef700 exiting after successful execution
+    Thread 0x7fffcafed700: /home/schod005/Documents/CSCI_4061//.git/objects/5b
+    Thread 0x7fffcb7ee700 exiting after successful execution
+    Thread 0x7fffca7ec700: /home/schod005/Documents/CSCI_4061//.git/objects/b5
+    Thread 0x7fffcafed700 exiting after successful execution
+    Thread 0x7fffc9feb700: /home/schod005/Documents/CSCI_4061//.git/objects/e2
+    Thread 0x7fffca7ec700 exiting after successful execution
+    Thread 0x7fffc97ea700: /home/schod005/Documents/CSCI_4061//.git/objects/ae
+    Thread 0x7fffc9feb700 exiting after successful execution
+    Thread 0x7fffc8fe9700: /home/schod005/Documents/CSCI_4061//.git/objects/15
+    Thread 0x7fffc97ea700 exiting after successful execution
+    Thread 0x7fffc87e8700: /home/schod005/Documents/CSCI_4061//.git/objects/0d
+    Thread 0x7ffff67f4700 exiting after successful execution
+    Thread 0x7fffc8fe9700 exiting after successful execution
+    Joined thread: 0x7ffff67f4700
+    Joined thread: 0x7ffff6ff5700
+    Joined thread: 0x7ffff77f6700
+    Joined thread: 0x7fffe67fc700
+    Joined thread: 0x7fffe5ffb700
+    Joined thread: 0x7fffe57fa700
+    Joined thread: 0x7fffe4ff9700
+    Joined thread: 0x7fffdbfff700
+    Joined thread: 0x7fffdb7fe700
+    Joined thread: 0x7fffdaffd700
+    Joined thread: 0x7fffda7fc700
+    Joined thread: 0x7fffd9ffb700
+    Joined thread: 0x7fffd97fa700
+    Joined thread: 0x7fffd8ff9700
+    Joined thread: 0x7fffd3fff700
+    Joined thread: 0x7ffff5ff3700
+    Joined thread: 0x7ffff57f2700
+    Joined thread: 0x7fffe6ffd700
+    Joined thread: 0x7fffe77fe700
+    Joined thread: 0x7ffff4ff1700
+    Joined thread: 0x7fffe7fff700
+    Joined thread: 0x7fffd37fe700
+    Joined thread: 0x7fffd2ffd700
+    Joined thread: 0x7fffd27fc700
+    Joined thread: 0x7fffd1ffb700
+    Joined thread: 0x7fffd17fa700
+    Joined thread: 0x7fffd0ff9700
+    Joined thread: 0x7fffd07f8700
+    Joined thread: 0x7fffcfff7700
+    Joined thread: 0x7fffcf7f6700
+    Joined thread: 0x7fffceff5700
+    Joined thread: 0x7fffce7f4700
+    Joined thread: 0x7fffcdff3700
+    Joined thread: 0x7fffcd7f2700
+    Joined thread: 0x7fffccff1700
+    Joined thread: 0x7fffcc7f0700
+    Joined thread: 0x7fffcbfef700
+    Joined thread: 0x7fffcb7ee700
+    Joined thread: 0x7fffcafed700
+    Joined thread: 0x7fffca7ec700
+    Joined thread: 0x7fffc9feb700
+    Joined thread: 0x7fffc97ea700
+    Joined thread: 0x7fffc8fe9700
+    Thread 0x7fffc87e8700 exiting after successful execution
+    Joined thread: 0x7fffc87e8700
+
+Scan complete
+Number of images: 0
+Number of directories: 55
+Number of threads: 55
+Done!
+
+------------------------------------------------
+
+Beginning program...
+Version: v1
+
+Beginning scan of directory: /home/schod005/Documents/CSCI_4061/
+    Thread 0x7ffff77f6700: /home/schod005/Documents/CSCI_4061/
+    Thread 0x7ffff6ff5700: /home/schod005/Documents/CSCI_4061//A3
+    Thread 0x7ffff67f4700: /home/schod005/Documents/CSCI_4061//A4
+    Thread 0x7ffff5ff3700: /home/schod005/Documents/CSCI_4061//A5
+    Thread 0x7ffff6ff5700 exiting after successful execution
+    Thread 0x7ffff57f2700: /home/schod005/Documents/CSCI_4061//A2
+    Thread 0x7ffff67f4700 exiting after successful execution
+    Thread 0x7ffff4ff1700: /home/schod005/Documents/CSCI_4061//.git
+    Thread 0x7ffff57f2700 exiting after successful execution
+    Thread 0x7fffe7fff700: /home/schod005/Documents/CSCI_4061//A1
+    Thread 0x7ffff77f6700 exiting after successful execution
+    Thread 0x7ffff5ff3700 exiting after successful execution
+    Thread 0x7fffe77fe700: /home/schod005/Documents/CSCI_4061//.git/branches
+    Thread 0x7fffe7fff700 exiting after successful execution
+    Thread 0x7fffe6ffd700: /home/schod005/Documents/CSCI_4061//.git/logs
+    Thread 0x7fffe77fe700 exiting after successful execution
+    Thread 0x7fffe67fc700: /home/schod005/Documents/CSCI_4061//.git/objects
+    Thread 0x7fffe5ffb700: /home/schod005/Documents/CSCI_4061//.git/info
+    Thread 0x7fffe57fa700: /home/schod005/Documents/CSCI_4061//.git/objects/58
+    Thread 0x7ffff77f6700: /home/schod005/Documents/CSCI_4061//.git/logs/refs
+    Thread 0x7fffe5ffb700 exiting after successful execution
+    Thread 0x7fffe6ffd700 exiting after successful execution
+    Joined thread: 0x7ffff77f6700
+    Thread 0x7fffe4ff9700: /home/schod005/Documents/CSCI_4061//.git/refs
+    Thread 0x7fffdffff700: /home/schod005/Documents/CSCI_4061//.git/objects/36
+    Thread 0x7fffdf7fe700: /home/schod005/Documents/CSCI_4061//.git/hooks
+    Thread 0x7ffff4ff1700 exiting after successful execution
+    Thread 0x7fffdeffd700: /home/schod005/Documents/CSCI_4061//.git/logs/refs/heads
+    Thread 0x7ffff77f6700 exiting after successful execution
+    Thread 0x7fffde7fc700: /home/schod005/Documents/CSCI_4061//.git/refs/heads
+    Thread 0x7fffddffb700: /home/schod005/Documents/CSCI_4061//.git/objects/09
+    Thread 0x7fffdd7fa700: /home/schod005/Documents/CSCI_4061//.git/refs/tags
+    Thread 0x7fffe4ff9700 exiting after successful execution
+    Thread 0x7fffdffff700 exiting after successful execution
+    Joined thread: 0x7ffff6ff5700
+    Joined thread: 0x7ffff67f4700
+    Joined thread: 0x7ffff5ff3700
+    Joined thread: 0x7ffff57f2700
+    Joined thread: 0x7ffff4ff1700
+    Joined thread: 0x7fffe7fff700
+    Joined thread: 0x7fffe77fe700
+    Joined thread: 0x7fffe6ffd700
+    Thread 0x7fffe6ffd700: /home/schod005/Documents/CSCI_4061//.git/objects/info
+    Thread 0x7fffe57fa700 exiting after successful execution
+    Thread 0x7fffe77fe700: /home/schod005/Documents/CSCI_4061//.git/objects/a2
+    Thread 0x7fffdf7fe700 exiting after successful execution
+    Thread 0x7fffdeffd700 exiting after successful execution
+    Thread 0x7fffde7fc700 exiting after successful execution
+    Thread 0x7fffe7fff700: /home/schod005/Documents/CSCI_4061//.git/objects/ee
+    Thread 0x7fffddffb700 exiting after successful execution
+    Thread 0x7ffff4ff1700: /home/schod005/Documents/CSCI_4061//.git/objects/55
+    Thread 0x7fffdd7fa700 exiting after successful execution
+    Thread 0x7fffe6ffd700 exiting after successful execution
+    Thread 0x7ffff6ff5700: /home/schod005/Documents/CSCI_4061//.git/objects/9f
+    Thread 0x7ffff4ff1700 exiting after successful execution
+    Thread 0x7fffe77fe700 exiting after successful execution
+    Thread 0x7fffe7fff700 exiting after successful execution
+    Thread 0x7ffff67f4700: /home/schod005/Documents/CSCI_4061//.git/objects/48
+    Thread 0x7ffff6ff5700 exiting after successful execution
+    Thread 0x7ffff5ff3700: /home/schod005/Documents/CSCI_4061//.git/objects/2d
+    Thread 0x7ffff57f2700: /home/schod005/Documents/CSCI_4061//.git/objects/8e
+    Thread 0x7fffdcff9700: /home/schod005/Documents/CSCI_4061//.git/objects/e4
+    Thread 0x7ffff57f2700 exiting after successful execution
+    Thread 0x7ffff67f4700 exiting after successful execution
+    Thread 0x7fffd3fff700: /home/schod005/Documents/CSCI_4061//.git/objects/ac
+    Thread 0x7fffdcff9700 exiting after successful execution
+    Thread 0x7fffd37fe700: /home/schod005/Documents/CSCI_4061//.git/objects/19
+    Thread 0x7ffff5ff3700 exiting after successful execution
+    Thread 0x7fffd3fff700 exiting after successful execution
+    Thread 0x7fffd2ffd700: /home/schod005/Documents/CSCI_4061//.git/objects/88
+    Thread 0x7fffd27fc700: /home/schod005/Documents/CSCI_4061//.git/objects/4e
+    Thread 0x7fffd2ffd700 exiting after successful execution
+    Thread 0x7fffd37fe700 exiting after successful execution
+    Thread 0x7fffd1ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/02
+    Thread 0x7fffd27fc700 exiting after successful execution
+    Thread 0x7fffd17fa700: /home/schod005/Documents/CSCI_4061//.git/objects/a9
+    Thread 0x7fffd0ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/30
+    Thread 0x7fffd17fa700 exiting after successful execution
+    Thread 0x7fffcbfff700: /home/schod005/Documents/CSCI_4061//.git/objects/e1
+    Thread 0x7fffcb7fe700: /home/schod005/Documents/CSCI_4061//.git/objects/2f
+    Thread 0x7fffd1ffb700 exiting after successful execution
+    Thread 0x7fffcaffd700: /home/schod005/Documents/CSCI_4061//.git/objects/pack
+    Thread 0x7fffd0ff9700 exiting after successful execution
+    Thread 0x7fffca7fc700: /home/schod005/Documents/CSCI_4061//.git/objects/40
+    Thread 0x7fffcbfff700 exiting after successful execution
+    Thread 0x7fffc9ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/37
+    Thread 0x7fffcb7fe700 exiting after successful execution
+    Thread 0x7fffc97fa700: /home/schod005/Documents/CSCI_4061//.git/objects/78
+    Thread 0x7fffcaffd700 exiting after successful execution
+    Thread 0x7fffc8ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/7d
+    Thread 0x7fffc87f8700: /home/schod005/Documents/CSCI_4061//.git/objects/65
+    Thread 0x7fffca7fc700 exiting after successful execution
+    Thread 0x7fffc7ff7700: /home/schod005/Documents/CSCI_4061//.git/objects/c1
+    Thread 0x7fffc9ffb700 exiting after successful execution
+    Thread 0x7fffc77f6700: /home/schod005/Documents/CSCI_4061//.git/objects/20
+    Thread 0x7fffc8ff9700 exiting after successful execution
+    Thread 0x7fffc97fa700 exiting after successful execution
+    Thread 0x7fffc87f8700 exiting after successful execution
+    Thread 0x7fffc6ff5700: /home/schod005/Documents/CSCI_4061//.git/objects/a0
+    Thread 0x7fffc77f6700 exiting after successful execution
+    Thread 0x7fffc7ff7700 exiting after successful execution
+    Thread 0x7fffc67f4700: /home/schod005/Documents/CSCI_4061//.git/objects/98
+    Thread 0x7fffc6ff5700 exiting after successful execution
+    Thread 0x7fffc5ff3700: /home/schod005/Documents/CSCI_4061//.git/objects/2e
+    Thread 0x7fffc67f4700 exiting after successful execution
+    Thread 0x7fffc57f2700: /home/schod005/Documents/CSCI_4061//.git/objects/5b
+    Thread 0x7fffc5ff3700 exiting after successful execution
+    Thread 0x7fffc4ff1700: /home/schod005/Documents/CSCI_4061//.git/objects/b5
+    Thread 0x7fffc57f2700 exiting after successful execution
+    Thread 0x7fffc47f0700: /home/schod005/Documents/CSCI_4061//.git/objects/e2
+    Thread 0x7fffc4ff1700 exiting after successful execution
+    Thread 0x7fffc3fef700: /home/schod005/Documents/CSCI_4061//.git/objects/ae
+    Thread 0x7fffc47f0700 exiting after successful execution
+    Thread 0x7fffc37ee700: /home/schod005/Documents/CSCI_4061//.git/objects/15
+    Thread 0x7fffc3fef700 exiting after successful execution
+    Thread 0x7fffc2fed700: /home/schod005/Documents/CSCI_4061//.git/objects/0d
+    Thread 0x7fffe67fc700 exiting after successful execution
+    Joined thread: 0x7fffe67fc700
+    Joined thread: 0x7fffe5ffb700
+    Joined thread: 0x7fffe57fa700
+    Joined thread: 0x7ffff77f6700
+    Joined thread: 0x7fffe4ff9700
+    Joined thread: 0x7fffdffff700
+    Joined thread: 0x7fffdf7fe700
+    Joined thread: 0x7fffdeffd700
+    Joined thread: 0x7fffde7fc700
+    Joined thread: 0x7fffddffb700
+    Joined thread: 0x7fffdd7fa700
+    Joined thread: 0x7fffe6ffd700
+    Joined thread: 0x7fffe77fe700
+    Joined thread: 0x7fffe7fff700
+    Joined thread: 0x7ffff4ff1700
+    Joined thread: 0x7ffff6ff5700
+    Joined thread: 0x7ffff67f4700
+    Joined thread: 0x7ffff5ff3700
+    Joined thread: 0x7ffff57f2700
+    Joined thread: 0x7fffdcff9700
+    Joined thread: 0x7fffd3fff700
+    Joined thread: 0x7fffd37fe700
+    Joined thread: 0x7fffd2ffd700
+    Joined thread: 0x7fffd27fc700
+    Joined thread: 0x7fffd1ffb700
+    Joined thread: 0x7fffd17fa700
+    Joined thread: 0x7fffd0ff9700
+    Joined thread: 0x7fffcbfff700
+    Joined thread: 0x7fffcb7fe700
+    Joined thread: 0x7fffcaffd700
+    Joined thread: 0x7fffca7fc700
+    Joined thread: 0x7fffc9ffb700
+    Joined thread: 0x7fffc97fa700
+    Joined thread: 0x7fffc8ff9700
+    Joined thread: 0x7fffc87f8700
+    Joined thread: 0x7fffc7ff7700
+    Joined thread: 0x7fffc77f6700
+    Joined thread: 0x7fffc6ff5700
+    Joined thread: 0x7fffc67f4700
+    Joined thread: 0x7fffc5ff3700
+    Joined thread: 0x7fffc57f2700
+    Joined thread: 0x7fffc4ff1700
+    Joined thread: 0x7fffc47f0700
+    Joined thread: 0x7fffc3fef700
+    Thread 0x7fffc37ee700 exiting after successful execution
+    Joined thread: 0x7fffc37ee700
+    Thread 0x7fffc2fed700 exiting after successful execution
+    Joined thread: 0x7fffc2fed700
+
+Scan complete
+Number of images: 0
+Number of directories: 55
+Number of threads: 55
+Done!
+
+------------------------------------------------
+
+Beginning program...
+Version: v2
+
+Beginning scan of directory: /home/schod005/Documents/CSCI_4061/
+    Thread 0x7ffff77f6700: /home/schod005/Documents/CSCI_4061/
+    BMP thread 0x7ffff6ff5700: /home/schod005/Documents/CSCI_4061/
+    GIF thread 0x7ffff67f4700: /home/schod005/Documents/CSCI_4061/
+    PNG thread 0x7ffff5ff3700: /home/schod005/Documents/CSCI_4061/
+    JPG thread 0x7ffff57f2700: /home/schod005/Documents/CSCI_4061/
+    Thread 0x7ffff6ff5700 exiting after successful execution
+    Thread 0x7ffff4ff1700: /home/schod005/Documents/CSCI_4061//A3
+    Thread 0x7fffe7fff700: /home/schod005/Documents/CSCI_4061//A4
+    Thread 0x7ffff67f4700 exiting after successful execution
+    Thread 0x7fffe77fe700: /home/schod005/Documents/CSCI_4061//A5
+    Thread 0x7ffff5ff3700 exiting after successful execution
+    Thread 0x7fffe6ffd700: /home/schod005/Documents/CSCI_4061//A2
+    BMP thread 0x7fffe67fc700: /home/schod005/Documents/CSCI_4061//A3
+    GIF thread 0x7fffe5ffb700: /home/schod005/Documents/CSCI_4061//A3
+    PNG thread 0x7fffe57fa700: /home/schod005/Documents/CSCI_4061//A3
+    JPG thread 0x7fffe4ff9700: /home/schod005/Documents/CSCI_4061//A3
+    Thread 0x7fffcffff700: /home/schod005/Documents/CSCI_4061//.git
+    BMP thread 0x7fffcf7fe700: /home/schod005/Documents/CSCI_4061//A4
+    GIF thread 0x7fffceffd700: /home/schod005/Documents/CSCI_4061//A4
+    PNG thread 0x7fffce7fc700: /home/schod005/Documents/CSCI_4061//A4
+    JPG thread 0x7fffcdffb700: /home/schod005/Documents/CSCI_4061//A4
+    Thread 0x7fffcf7fe700 exiting after successful execution
+    BMP thread 0x7fffcd7fa700: /home/schod005/Documents/CSCI_4061//.git
+    GIF thread 0x7fffccff9700: /home/schod005/Documents/CSCI_4061//.git
+    PNG thread 0x7fffaffff700: /home/schod005/Documents/CSCI_4061//.git
+    JPG thread 0x7fffaf7fe700: /home/schod005/Documents/CSCI_4061//.git
+    BMP thread 0x7fffaeffd700: /home/schod005/Documents/CSCI_4061//A2
+    GIF thread 0x7fffae7fc700: /home/schod005/Documents/CSCI_4061//A2
+    PNG thread 0x7fffadffb700: /home/schod005/Documents/CSCI_4061//A2
+    JPG thread 0x7fffad7fa700: /home/schod005/Documents/CSCI_4061//A2
+    Thread 0x7fffadffb700 exiting after successful execution
+    Thread 0x7fffce7fc700 exiting after successful execution
+    Thread 0x7fffacff9700: /home/schod005/Documents/CSCI_4061//.git/branches
+    Thread 0x7fffaffff700 exiting after successful execution
+    Thread 0x7fffe4ff9700 exiting after successful execution
+    Thread 0x7fffe57fa700 exiting after successful execution
+    Thread 0x7fffe6ffd700 exiting after successful execution
+    Thread 0x7fffe7fff700 exiting after successful execution
+    Thread 0x7fffe67fc700 exiting after successful execution
+    Thread 0x7fffaf7fe700 exiting after successful execution
+    Thread 0x7fffe5ffb700 exiting after successful execution
+    Thread 0x7ffff4ff1700 exiting after successful execution
+    Thread 0x7ffff57f2700 exiting after successful execution
+    Thread 0x7fffaeffd700 exiting after successful execution
+    Thread 0x7fffae7fc700 exiting after successful execution
+    Thread 0x7fffad7fa700 exiting after successful execution
+    Thread 0x7fffccff9700 exiting after successful execution
+    Thread 0x7fffcd7fa700 exiting after successful execution
+    Thread 0x7fffcdffb700 exiting after successful execution
+    Thread 0x7fffceffd700 exiting after successful execution
+    BMP thread 0x7fff97fff700: /home/schod005/Documents/CSCI_4061//A5
+    GIF thread 0x7fff977fe700: /home/schod005/Documents/CSCI_4061//A5
+    PNG thread 0x7fff96ffd700: /home/schod005/Documents/CSCI_4061//A5
+    JPG thread 0x7fff967fc700: /home/schod005/Documents/CSCI_4061//A5
+    Thread 0x7fff977fe700 exiting after successful execution
+    Thread 0x7fff97fff700 exiting after successful execution
+    BMP thread 0x7fff95ffb700: /home/schod005/Documents/CSCI_4061//.git/branches
+    GIF thread 0x7fff957fa700: /home/schod005/Documents/CSCI_4061//.git/branches
+    PNG thread 0x7fff94ff9700: /home/schod005/Documents/CSCI_4061//.git/branches
+    JPG thread 0x7fff8ffff700: /home/schod005/Documents/CSCI_4061//.git/branches
+    Thread 0x7fffacff9700 exiting after successful execution
+    Thread 0x7fff957fa700 exiting after successful execution
+    Thread 0x7fff967fc700 exiting after successful execution
+    Thread 0x7fff96ffd700 exiting after successful execution
+    Thread 0x7fff8f7fe700: /home/schod005/Documents/CSCI_4061//.git/logs
+    Thread 0x7fff95ffb700 exiting after successful execution
+    Thread 0x7fff94ff9700 exiting after successful execution
+    Thread 0x7fffe77fe700 exiting after successful execution
+    Thread 0x7fff8effd700: /home/schod005/Documents/CSCI_4061//A1
+    Thread 0x7ffff77f6700 exiting after successful execution
+    Thread 0x7fff8ffff700 exiting after successful execution
+    Thread 0x7fff8e7fc700: /home/schod005/Documents/CSCI_4061//.git/objects
+    BMP thread 0x7ffff77f6700: /home/schod005/Documents/CSCI_4061//.git/logs
+    GIF thread 0x7fff8dffb700: /home/schod005/Documents/CSCI_4061//.git/logs
+    PNG thread 0x7fff8d7fa700: /home/schod005/Documents/CSCI_4061//.git/logs
+    JPG thread 0x7fff8cff9700: /home/schod005/Documents/CSCI_4061//.git/logs
+    Thread 0x7ffff77f6700 exiting after successful execution
+    Thread 0x7fff8c7f8700: /home/schod005/Documents/CSCI_4061//.git/info
+    Thread 0x7fff8bff7700: /home/schod005/Documents/CSCI_4061//.git/logs/refs
+    Thread 0x7fff8f7fe700 exiting after successful execution
+    Thread 0x7fff8cff9700 exiting after successful execution
+    BMP thread 0x7fff8b7f6700: /home/schod005/Documents/CSCI_4061//.git/info
+    GIF thread 0x7fff8aff5700: /home/schod005/Documents/CSCI_4061//.git/info
+    PNG thread 0x7fff8a7f4700: /home/schod005/Documents/CSCI_4061//.git/info
+    JPG thread 0x7fff89ff3700: /home/schod005/Documents/CSCI_4061//.git/info
+    Thread 0x7fff8b7f6700 exiting after successful execution
+    Thread 0x7fff8aff5700 exiting after successful execution
+    BMP thread 0x7fff897f2700: /home/schod005/Documents/CSCI_4061//.git/logs/refs
+    GIF thread 0x7fff88ff1700: /home/schod005/Documents/CSCI_4061//.git/logs/refs
+    PNG thread 0x7fff887f0700: /home/schod005/Documents/CSCI_4061//.git/logs/refs
+    JPG thread 0x7fff87fef700: /home/schod005/Documents/CSCI_4061//.git/logs/refs
+    Thread 0x7fff8c7f8700 exiting after successful execution
+    Thread 0x7fff877ee700: /home/schod005/Documents/CSCI_4061//.git/refs
+    BMP thread 0x7fff86fed700: /home/schod005/Documents/CSCI_4061//A1
+    GIF thread 0x7fff867ec700: /home/schod005/Documents/CSCI_4061//A1
+    PNG thread 0x7fff85feb700: /home/schod005/Documents/CSCI_4061//A1
+    JPG thread 0x7fff857ea700: /home/schod005/Documents/CSCI_4061//A1
+    Joined thread: 0x7ffff77f6700
+    Joined thread: 0x7ffff6ff5700
+    Joined thread: 0x7ffff67f4700
+    Joined thread: 0x7ffff5ff3700
+    Joined thread: 0x7ffff57f2700
+    Joined thread: 0x7ffff4ff1700
+    Joined thread: 0x7fffe7fff700
+    Joined thread: 0x7fffe77fe700
+    Thread 0x7fff887f0700 exiting after successful execution
+    Thread 0x7fff8d7fa700 exiting after successful execution
+    Joined thread: 0x7fffe6ffd700
+    BMP thread 0x7fffe67fc700: /home/schod005/Documents/CSCI_4061//.git/objects
+    GIF thread 0x7fffe6ffd700: /home/schod005/Documents/CSCI_4061//.git/objects
+    PNG thread 0x7fffe77fe700: /home/schod005/Documents/CSCI_4061//.git/objects
+    JPG thread 0x7fffe7fff700: /home/schod005/Documents/CSCI_4061//.git/objects
+    Thread 0x7ffff6ff5700: /home/schod005/Documents/CSCI_4061//.git/hooks
+    Thread 0x7fffcffff700 exiting after successful execution
+    Thread 0x7fff897f2700 exiting after successful execution
+    Thread 0x7fff89ff3700 exiting after successful execution
+    Thread 0x7fff8effd700 exiting after successful execution
+    Thread 0x7fff8dffb700 exiting after successful execution
+    Thread 0x7fff867ec700 exiting after successful execution
+    Thread 0x7fff88ff1700 exiting after successful execution
+    Thread 0x7fffe67fc700 exiting after successful execution
+    Thread 0x7fff8a7f4700 exiting after successful execution
+    Joined thread: 0x7fffe67fc700
+    Joined thread: 0x7fffe5ffb700
+    Joined thread: 0x7fffe57fa700
+    Joined thread: 0x7fffe4ff9700
+    Thread 0x7fff857ea700 exiting after successful execution
+    Thread 0x7fffe4ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/58
+    Thread 0x7fffe6ffd700 exiting after successful execution
+    Thread 0x7fff85feb700 exiting after successful execution
+    Thread 0x7fffe57fa700: /home/schod005/Documents/CSCI_4061//.git/logs/refs/heads
+    Thread 0x7fff8bff7700 exiting after successful execution
+    Thread 0x7fffe7fff700 exiting after successful execution
+    BMP thread 0x7fffcffff700: /home/schod005/Documents/CSCI_4061//.git/objects/58
+    GIF thread 0x7fffe5ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/58
+    PNG thread 0x7ffff67f4700: /home/schod005/Documents/CSCI_4061//.git/objects/58
+    JPG thread 0x7ffff5ff3700: /home/schod005/Documents/CSCI_4061//.git/objects/58
+    Thread 0x7fffe77fe700 exiting after successful execution
+    Thread 0x7ffff57f2700: /home/schod005/Documents/CSCI_4061//.git/objects/36
+    Thread 0x7ffff67f4700 exiting after successful execution
+    Thread 0x7fffcffff700 exiting after successful execution
+    BMP thread 0x7ffff4ff1700: /home/schod005/Documents/CSCI_4061//.git/logs/refs/heads
+    GIF thread 0x7fff84fe9700: /home/schod005/Documents/CSCI_4061//.git/logs/refs/heads
+    PNG thread 0x7fff847e8700: /home/schod005/Documents/CSCI_4061//.git/logs/refs/heads
+    JPG thread 0x7fff83fe7700: /home/schod005/Documents/CSCI_4061//.git/logs/refs/heads
+    Thread 0x7fff84fe9700 exiting after successful execution
+    Thread 0x7fff847e8700 exiting after successful execution
+    BMP thread 0x7fff837e6700: /home/schod005/Documents/CSCI_4061//.git/objects/36
+    GIF thread 0x7fff82fe5700: /home/schod005/Documents/CSCI_4061//.git/objects/36
+    PNG thread 0x7fff827e4700: /home/schod005/Documents/CSCI_4061//.git/objects/36
+    JPG thread 0x7fff81fe3700: /home/schod005/Documents/CSCI_4061//.git/objects/36
+    Thread 0x7fff827e4700 exiting after successful execution
+    Thread 0x7fff837e6700 exiting after successful execution
+    Thread 0x7fff83fe7700 exiting after successful execution
+    Thread 0x7ffff4ff1700 exiting after successful execution
+    Thread 0x7fffe57fa700 exiting after successful execution
+    Thread 0x7fffe5ffb700 exiting after successful execution
+    Thread 0x7ffff5ff3700 exiting after successful execution
+    BMP thread 0x7fff817e2700: /home/schod005/Documents/CSCI_4061//.git/hooks
+    GIF thread 0x7fff80fe1700: /home/schod005/Documents/CSCI_4061//.git/hooks
+    PNG thread 0x7fff807e0700: /home/schod005/Documents/CSCI_4061//.git/hooks
+    JPG thread 0x7fff7ffdf700: /home/schod005/Documents/CSCI_4061//.git/hooks
+    Thread 0x7fff81fe3700 exiting after successful execution
+    Thread 0x7fff80fe1700 exiting after successful execution
+    Thread 0x7fff817e2700 exiting after successful execution
+    Thread 0x7fff82fe5700 exiting after successful execution
+    Thread 0x7ffff57f2700 exiting after successful execution
+    Thread 0x7fffe4ff9700 exiting after successful execution
+    Thread 0x7fff86fed700 exiting after successful execution
+    BMP thread 0x7fff7f7de700: /home/schod005/Documents/CSCI_4061//.git/refs
+    GIF thread 0x7fff7efdd700: /home/schod005/Documents/CSCI_4061//.git/refs
+    PNG thread 0x7fff7e7dc700: /home/schod005/Documents/CSCI_4061//.git/refs
+    JPG thread 0x7fff7dfdb700: /home/schod005/Documents/CSCI_4061//.git/refs
+    Thread 0x7fff7f7de700 exiting after successful execution
+    Thread 0x7fff7ffdf700 exiting after successful execution
+    Thread 0x7fff807e0700 exiting after successful execution
+    Thread 0x7ffff6ff5700 exiting after successful execution
+    Thread 0x7fff87fef700 exiting after successful execution
+    Thread 0x7fff7d7da700: /home/schod005/Documents/CSCI_4061//.git/objects/09
+    Thread 0x7fff7e7dc700 exiting after successful execution
+    Thread 0x7fff7efdd700 exiting after successful execution
+    Thread 0x7fff7cfd9700: /home/schod005/Documents/CSCI_4061//.git/refs/heads
+    Thread 0x7fff7dfdb700 exiting after successful execution
+    BMP thread 0x7fff7c7d8700: /home/schod005/Documents/CSCI_4061//.git/objects/09
+    GIF thread 0x7fff7bfd7700: /home/schod005/Documents/CSCI_4061//.git/objects/09
+    PNG thread 0x7fff7b7d6700: /home/schod005/Documents/CSCI_4061//.git/objects/09
+    JPG thread 0x7fff7afd5700: /home/schod005/Documents/CSCI_4061//.git/objects/09
+    Thread 0x7fff7c7d8700 exiting after successful execution
+    Thread 0x7fff7bfd7700 exiting after successful execution
+    BMP thread 0x7fff7a7d4700: /home/schod005/Documents/CSCI_4061//.git/refs/heads
+    GIF thread 0x7fff79fd3700: /home/schod005/Documents/CSCI_4061//.git/refs/heads
+    PNG thread 0x7fff797d2700: /home/schod005/Documents/CSCI_4061//.git/refs/heads
+    JPG thread 0x7fff78fd1700: /home/schod005/Documents/CSCI_4061//.git/refs/heads
+    Thread 0x7fff7afd5700 exiting after successful execution
+    Thread 0x7fff7a7d4700 exiting after successful execution
+    Thread 0x7fff7b7d6700 exiting after successful execution
+    Thread 0x7fff7d7da700 exiting after successful execution
+    Thread 0x7fff787d0700: /home/schod005/Documents/CSCI_4061//.git/refs/tags
+    Thread 0x7fff877ee700 exiting after successful execution
+    Thread 0x7fff79fd3700 exiting after successful execution
+    Thread 0x7fff797d2700 exiting after successful execution
+    Thread 0x7fff7cfd9700 exiting after successful execution
+    Thread 0x7fff77fcf700: /home/schod005/Documents/CSCI_4061//.git/objects/info
+    BMP thread 0x7fff777ce700: /home/schod005/Documents/CSCI_4061//.git/refs/tags
+    GIF thread 0x7fff76fcd700: /home/schod005/Documents/CSCI_4061//.git/refs/tags
+    PNG thread 0x7fff767cc700: /home/schod005/Documents/CSCI_4061//.git/refs/tags
+    JPG thread 0x7fff75fcb700: /home/schod005/Documents/CSCI_4061//.git/refs/tags
+    Thread 0x7fff787d0700 exiting after successful execution
+    Thread 0x7fff777ce700 exiting after successful execution
+    BMP thread 0x7fff757ca700: /home/schod005/Documents/CSCI_4061//.git/objects/info
+    GIF thread 0x7fff74fc9700: /home/schod005/Documents/CSCI_4061//.git/objects/info
+    PNG thread 0x7fff747c8700: /home/schod005/Documents/CSCI_4061//.git/objects/info
+    JPG thread 0x7fff73fc7700: /home/schod005/Documents/CSCI_4061//.git/objects/info
+    Thread 0x7fff77fcf700 exiting after successful execution
+    Thread 0x7fff78fd1700 exiting after successful execution
+    Thread 0x7fff737c6700: /home/schod005/Documents/CSCI_4061//.git/objects/a2
+    Thread 0x7fff76fcd700 exiting after successful execution
+    Joined thread: 0x7fffcffff700
+    Joined thread: 0x7fffcf7fe700
+    Joined thread: 0x7fffceffd700
+    Joined thread: 0x7fffce7fc700
+    Joined thread: 0x7fffcdffb700
+    Joined thread: 0x7fffcd7fa700
+    Joined thread: 0x7fffccff9700
+    Joined thread: 0x7fffaffff700
+    Joined thread: 0x7fffaf7fe700
+    Joined thread: 0x7fffaeffd700
+    Joined thread: 0x7fffae7fc700
+    Thread 0x7fff767cc700 exiting after successful execution
+    Thread 0x7fffadffb700: /home/schod005/Documents/CSCI_4061//.git/objects/ee
+    Joined thread: 0x7fffadffb700
+    Joined thread: 0x7fffad7fa700
+    Joined thread: 0x7fffacff9700
+    Joined thread: 0x7fff97fff700
+    Joined thread: 0x7fff977fe700
+    Joined thread: 0x7fff96ffd700
+    Joined thread: 0x7fff967fc700
+    Joined thread: 0x7fff95ffb700
+    Joined thread: 0x7fff957fa700
+    Joined thread: 0x7fff94ff9700
+    Joined thread: 0x7fff8ffff700
+    Joined thread: 0x7fff8f7fe700
+    Joined thread: 0x7fff8effd700
+    Thread 0x7fff75fcb700 exiting after successful execution
+    Thread 0x7fff757ca700 exiting after successful execution
+    Thread 0x7fff74fc9700 exiting after successful execution
+    Thread 0x7fff8effd700: /home/schod005/Documents/CSCI_4061//.git/objects/55
+    Thread 0x7fff747c8700 exiting after successful execution
+    Thread 0x7fff73fc7700 exiting after successful execution
+    BMP thread 0x7fff8f7fe700: /home/schod005/Documents/CSCI_4061//.git/objects/a2
+    GIF thread 0x7fff8ffff700: /home/schod005/Documents/CSCI_4061//.git/objects/a2
+    PNG thread 0x7fff94ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/a2
+    JPG thread 0x7fffcf7fe700: /home/schod005/Documents/CSCI_4061//.git/objects/a2
+    Thread 0x7fff8f7fe700 exiting after successful execution
+    BMP thread 0x7fffceffd700: /home/schod005/Documents/CSCI_4061//.git/objects/ee
+    GIF thread 0x7fffce7fc700: /home/schod005/Documents/CSCI_4061//.git/objects/ee
+    PNG thread 0x7fffcdffb700: /home/schod005/Documents/CSCI_4061//.git/objects/ee
+    JPG thread 0x7fffcd7fa700: /home/schod005/Documents/CSCI_4061//.git/objects/ee
+    Thread 0x7fff94ff9700 exiting after successful execution
+    Thread 0x7fff737c6700 exiting after successful execution
+    Thread 0x7fffccff9700: /home/schod005/Documents/CSCI_4061//.git/objects/9f
+    BMP thread 0x7fffaffff700: /home/schod005/Documents/CSCI_4061//.git/objects/55
+    GIF thread 0x7fffaf7fe700: /home/schod005/Documents/CSCI_4061//.git/objects/55
+    PNG thread 0x7fffaeffd700: /home/schod005/Documents/CSCI_4061//.git/objects/55
+    JPG thread 0x7fffae7fc700: /home/schod005/Documents/CSCI_4061//.git/objects/55
+    BMP thread 0x7fffad7fa700: /home/schod005/Documents/CSCI_4061//.git/objects/9f
+    GIF thread 0x7fffacff9700: /home/schod005/Documents/CSCI_4061//.git/objects/9f
+    PNG thread 0x7fff97fff700: /home/schod005/Documents/CSCI_4061//.git/objects/9f
+    JPG thread 0x7fff977fe700: /home/schod005/Documents/CSCI_4061//.git/objects/9f
+    Thread 0x7fffaffff700 exiting after successful execution
+    Thread 0x7fffcd7fa700 exiting after successful execution
+    Thread 0x7fffacff9700 exiting after successful execution
+    Thread 0x7fffaeffd700 exiting after successful execution
+    Thread 0x7fffae7fc700 exiting after successful execution
+    Thread 0x7fffaf7fe700 exiting after successful execution
+    Thread 0x7fffceffd700 exiting after successful execution
+    Thread 0x7fffadffb700 exiting after successful execution
+    Thread 0x7fff8ffff700 exiting after successful execution
+    Thread 0x7fffcf7fe700 exiting after successful execution
+    Thread 0x7fff8effd700 exiting after successful execution
+    Thread 0x7fffcdffb700 exiting after successful execution
+    Thread 0x7fffce7fc700 exiting after successful execution
+    Thread 0x7fff96ffd700: /home/schod005/Documents/CSCI_4061//.git/objects/48
+    Thread 0x7fff977fe700 exiting after successful execution
+    Thread 0x7fff97fff700 exiting after successful execution
+    Thread 0x7fffad7fa700 exiting after successful execution
+    Thread 0x7fffccff9700 exiting after successful execution
+    BMP thread 0x7fff967fc700: /home/schod005/Documents/CSCI_4061//.git/objects/48
+    GIF thread 0x7fff95ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/48
+    PNG thread 0x7fff957fa700: /home/schod005/Documents/CSCI_4061//.git/objects/48
+    JPG thread 0x7fff72fc5700: /home/schod005/Documents/CSCI_4061//.git/objects/48
+    Thread 0x7fff967fc700 exiting after successful execution
+    Thread 0x7fff727c4700: /home/schod005/Documents/CSCI_4061//.git/objects/2d
+    Thread 0x7fff96ffd700 exiting after successful execution
+    Thread 0x7fff95ffb700 exiting after successful execution
+    Thread 0x7fff71fc3700: /home/schod005/Documents/CSCI_4061//.git/objects/8e
+    Thread 0x7fff957fa700 exiting after successful execution
+    Thread 0x7fff717c2700: /home/schod005/Documents/CSCI_4061//.git/objects/e4
+    Thread 0x7fff72fc5700 exiting after successful execution
+    BMP thread 0x7fff70fc1700: /home/schod005/Documents/CSCI_4061//.git/objects/2d
+    GIF thread 0x7fff707c0700: /home/schod005/Documents/CSCI_4061//.git/objects/2d
+    PNG thread 0x7fff6ffbf700: /home/schod005/Documents/CSCI_4061//.git/objects/2d
+    JPG thread 0x7fff6f7be700: /home/schod005/Documents/CSCI_4061//.git/objects/2d
+    Thread 0x7fff70fc1700 exiting after successful execution
+    Thread 0x7fff6efbd700: /home/schod005/Documents/CSCI_4061//.git/objects/ac
+    Thread 0x7fff707c0700 exiting after successful execution
+    BMP thread 0x7fff6e7bc700: /home/schod005/Documents/CSCI_4061//.git/objects/e4
+    GIF thread 0x7fff6dfbb700: /home/schod005/Documents/CSCI_4061//.git/objects/e4
+    PNG thread 0x7fff6d7ba700: /home/schod005/Documents/CSCI_4061//.git/objects/e4
+    JPG thread 0x7fff6cfb9700: /home/schod005/Documents/CSCI_4061//.git/objects/e4
+    Thread 0x7fff6e7bc700 exiting after successful execution
+    Thread 0x7fff717c2700 exiting after successful execution
+    Thread 0x7fff6ffbf700 exiting after successful execution
+    BMP thread 0x7fff6c7b8700: /home/schod005/Documents/CSCI_4061//.git/objects/ac
+    GIF thread 0x7fff6bfb7700: /home/schod005/Documents/CSCI_4061//.git/objects/ac
+    PNG thread 0x7fff6b7b6700: /home/schod005/Documents/CSCI_4061//.git/objects/ac
+    JPG thread 0x7fff6afb5700: /home/schod005/Documents/CSCI_4061//.git/objects/ac
+    Thread 0x7fff6dfbb700 exiting after successful execution
+    BMP thread 0x7fff6a7b4700: /home/schod005/Documents/CSCI_4061//.git/objects/8e
+    GIF thread 0x7fff69fb3700: /home/schod005/Documents/CSCI_4061//.git/objects/8e
+    PNG thread 0x7fff697b2700: /home/schod005/Documents/CSCI_4061//.git/objects/8e
+    JPG thread 0x7fff68fb1700: /home/schod005/Documents/CSCI_4061//.git/objects/8e
+    Thread 0x7fff6c7b8700 exiting after successful execution
+    Thread 0x7fff6d7ba700 exiting after successful execution
+    Thread 0x7fff727c4700 exiting after successful execution
+    Thread 0x7fff687b0700: /home/schod005/Documents/CSCI_4061//.git/objects/19
+    Thread 0x7fff6bfb7700 exiting after successful execution
+    Thread 0x7fff6a7b4700 exiting after successful execution
+    Thread 0x7fff6cfb9700 exiting after successful execution
+    Thread 0x7fff6efbd700 exiting after successful execution
+    Thread 0x7fff6f7be700 exiting after successful execution
+    Thread 0x7fff6b7b6700 exiting after successful execution
+    Thread 0x7fff69fb3700 exiting after successful execution
+    Thread 0x7fff71fc3700 exiting after successful execution
+    Thread 0x7fff67faf700: /home/schod005/Documents/CSCI_4061//.git/objects/88
+    Thread 0x7fff6afb5700 exiting after successful execution
+    Thread 0x7fff697b2700 exiting after successful execution
+    Thread 0x7fff68fb1700 exiting after successful execution
+    Thread 0x7fff677ae700: /home/schod005/Documents/CSCI_4061//.git/objects/4e
+    BMP thread 0x7fff66fad700: /home/schod005/Documents/CSCI_4061//.git/objects/19
+    GIF thread 0x7fff667ac700: /home/schod005/Documents/CSCI_4061//.git/objects/19
+    PNG thread 0x7fff65fab700: /home/schod005/Documents/CSCI_4061//.git/objects/19
+    JPG thread 0x7fff657aa700: /home/schod005/Documents/CSCI_4061//.git/objects/19
+    Thread 0x7fff66fad700 exiting after successful execution
+    Thread 0x7fff64fa9700: /home/schod005/Documents/CSCI_4061//.git/objects/02
+    Thread 0x7fff687b0700 exiting after successful execution
+    BMP thread 0x7fff647a8700: /home/schod005/Documents/CSCI_4061//.git/objects/4e
+    GIF thread 0x7fff63fa7700: /home/schod005/Documents/CSCI_4061//.git/objects/4e
+    PNG thread 0x7fff637a6700: /home/schod005/Documents/CSCI_4061//.git/objects/4e
+    JPG thread 0x7fff62fa5700: /home/schod005/Documents/CSCI_4061//.git/objects/4e
+    BMP thread 0x7fff627a4700: /home/schod005/Documents/CSCI_4061//.git/objects/02
+    GIF thread 0x7fff61fa3700: /home/schod005/Documents/CSCI_4061//.git/objects/02
+    PNG thread 0x7fff617a2700: /home/schod005/Documents/CSCI_4061//.git/objects/02
+    JPG thread 0x7fff60fa1700: /home/schod005/Documents/CSCI_4061//.git/objects/02
+    Thread 0x7fff63fa7700 exiting after successful execution
+    Thread 0x7fff647a8700 exiting after successful execution
+    Thread 0x7fff657aa700 exiting after successful execution
+    Thread 0x7fff677ae700 exiting after successful execution
+    BMP thread 0x7fff607a0700: /home/schod005/Documents/CSCI_4061//.git/objects/88
+    GIF thread 0x7fff5ff9f700: /home/schod005/Documents/CSCI_4061//.git/objects/88
+    PNG thread 0x7fff5f79e700: /home/schod005/Documents/CSCI_4061//.git/objects/88
+    JPG thread 0x7fff5ef9d700: /home/schod005/Documents/CSCI_4061//.git/objects/88
+    Thread 0x7fff617a2700 exiting after successful execution
+    Thread 0x7fff60fa1700 exiting after successful execution
+    Thread 0x7fff61fa3700 exiting after successful execution
+    Thread 0x7fff627a4700 exiting after successful execution
+    Thread 0x7fff62fa5700 exiting after successful execution
+    Thread 0x7fff637a6700 exiting after successful execution
+    Thread 0x7fff64fa9700 exiting after successful execution
+    Thread 0x7fff65fab700 exiting after successful execution
+    Thread 0x7fff667ac700 exiting after successful execution
+    Thread 0x7fff5e79c700: /home/schod005/Documents/CSCI_4061//.git/objects/a9
+    Thread 0x7fff5ef9d700 exiting after successful execution
+    Thread 0x7fff5f79e700 exiting after successful execution
+    Thread 0x7fff5ff9f700 exiting after successful execution
+    Thread 0x7fff607a0700 exiting after successful execution
+    Thread 0x7fff67faf700 exiting after successful execution
+    BMP thread 0x7fff5df9b700: /home/schod005/Documents/CSCI_4061//.git/objects/a9
+    GIF thread 0x7fff5d79a700: /home/schod005/Documents/CSCI_4061//.git/objects/a9
+    PNG thread 0x7fff5cf99700: /home/schod005/Documents/CSCI_4061//.git/objects/a9
+    JPG thread 0x7fff5c798700: /home/schod005/Documents/CSCI_4061//.git/objects/a9
+    Thread 0x7fff5df9b700 exiting after successful execution
+    Thread 0x7fff5d79a700 exiting after successful execution
+    Thread 0x7fff5bf97700: /home/schod005/Documents/CSCI_4061//.git/objects/30
+    Thread 0x7fff5cf99700 exiting after successful execution
+    Thread 0x7fff5c798700 exiting after successful execution
+    Thread 0x7fff5b796700: /home/schod005/Documents/CSCI_4061//.git/objects/e1
+    Thread 0x7fff5e79c700 exiting after successful execution
+    BMP thread 0x7fff5af95700: /home/schod005/Documents/CSCI_4061//.git/objects/30
+    GIF thread 0x7fff5a794700: /home/schod005/Documents/CSCI_4061//.git/objects/30
+    PNG thread 0x7fff59f93700: /home/schod005/Documents/CSCI_4061//.git/objects/30
+    JPG thread 0x7fff59792700: /home/schod005/Documents/CSCI_4061//.git/objects/30
+    Thread 0x7fff58f91700: /home/schod005/Documents/CSCI_4061//.git/objects/2f
+    Thread 0x7fff59f93700 exiting after successful execution
+    Thread 0x7fff59792700 exiting after successful execution
+    Thread 0x7fff5a794700 exiting after successful execution
+    BMP thread 0x7fff58790700: /home/schod005/Documents/CSCI_4061//.git/objects/2f
+    GIF thread 0x7fff57f8f700: /home/schod005/Documents/CSCI_4061//.git/objects/2f
+    PNG thread 0x7fff5778e700: /home/schod005/Documents/CSCI_4061//.git/objects/2f
+    JPG thread 0x7fff56f8d700: /home/schod005/Documents/CSCI_4061//.git/objects/2f
+    Thread 0x7fff5af95700 exiting after successful execution
+    BMP thread 0x7fff5678c700: /home/schod005/Documents/CSCI_4061//.git/objects/e1
+    GIF thread 0x7fff55f8b700: /home/schod005/Documents/CSCI_4061//.git/objects/e1
+    PNG thread 0x7fff5578a700: /home/schod005/Documents/CSCI_4061//.git/objects/e1
+    JPG thread 0x7fff54f89700: /home/schod005/Documents/CSCI_4061//.git/objects/e1
+    Thread 0x7fff58790700 exiting after successful execution
+    Thread 0x7fff5bf97700 exiting after successful execution
+    Thread 0x7fff54788700: /home/schod005/Documents/CSCI_4061//.git/objects/pack
+    Thread 0x7fff5678c700 exiting after successful execution
+    Thread 0x7fff5b796700 exiting after successful execution
+    Thread 0x7fff58f91700 exiting after successful execution
+    Thread 0x7fff5778e700 exiting after successful execution
+    Thread 0x7fff57f8f700 exiting after successful execution
+    Thread 0x7fff56f8d700 exiting after successful execution
+    Thread 0x7fff55f8b700 exiting after successful execution
+    Thread 0x7fff53f87700: /home/schod005/Documents/CSCI_4061//.git/objects/40
+    BMP thread 0x7fff53786700: /home/schod005/Documents/CSCI_4061//.git/objects/pack
+    GIF thread 0x7fff52f85700: /home/schod005/Documents/CSCI_4061//.git/objects/pack
+    PNG thread 0x7fff52784700: /home/schod005/Documents/CSCI_4061//.git/objects/pack
+    JPG thread 0x7fff51f83700: /home/schod005/Documents/CSCI_4061//.git/objects/pack
+    Thread 0x7fff54788700 exiting after successful execution
+    Thread 0x7fff54f89700 exiting after successful execution
+    Thread 0x7fff51782700: /home/schod005/Documents/CSCI_4061//.git/objects/37
+    Thread 0x7fff53786700 exiting after successful execution
+    BMP thread 0x7fff50f81700: /home/schod005/Documents/CSCI_4061//.git/objects/40
+    GIF thread 0x7fff50780700: /home/schod005/Documents/CSCI_4061//.git/objects/40
+    PNG thread 0x7fff4ff7f700: /home/schod005/Documents/CSCI_4061//.git/objects/40
+    JPG thread 0x7fff4f77e700: /home/schod005/Documents/CSCI_4061//.git/objects/40
+    Thread 0x7fff5578a700 exiting after successful execution
+    Thread 0x7fff52784700 exiting after successful execution
+    Thread 0x7fff4ef7d700: /home/schod005/Documents/CSCI_4061//.git/objects/78
+    Thread 0x7fff50780700 exiting after successful execution
+    Thread 0x7fff4ff7f700 exiting after successful execution
+    Thread 0x7fff50f81700 exiting after successful execution
+    BMP thread 0x7fff4e77c700: /home/schod005/Documents/CSCI_4061//.git/objects/37
+    GIF thread 0x7fff4df7b700: /home/schod005/Documents/CSCI_4061//.git/objects/37
+    PNG thread 0x7fff4d77a700: /home/schod005/Documents/CSCI_4061//.git/objects/37
+    JPG thread 0x7fff4cf79700: /home/schod005/Documents/CSCI_4061//.git/objects/37
+    Thread 0x7fff4e77c700 exiting after successful execution
+    Thread 0x7fff4f77e700 exiting after successful execution
+    Thread 0x7fff51f83700 exiting after successful execution
+    Thread 0x7fff52f85700 exiting after successful execution
+    Thread 0x7fff53f87700 exiting after successful execution
+    Thread 0x7fff51782700 exiting after successful execution
+    BMP thread 0x7fff4c778700: /home/schod005/Documents/CSCI_4061//.git/objects/78
+    GIF thread 0x7fff4bf77700: /home/schod005/Documents/CSCI_4061//.git/objects/78
+    PNG thread 0x7fff4b776700: /home/schod005/Documents/CSCI_4061//.git/objects/78
+    JPG thread 0x7fff4af75700: /home/schod005/Documents/CSCI_4061//.git/objects/78
+    Thread 0x7fff4bf77700 exiting after successful execution
+    Thread 0x7fff4cf79700 exiting after successful execution
+    Thread 0x7fff4c778700 exiting after successful execution
+    Thread 0x7fff4d77a700 exiting after successful execution
+    Thread 0x7fff4df7b700 exiting after successful execution
+    Thread 0x7fff4a774700: /home/schod005/Documents/CSCI_4061//.git/objects/7d
+    Thread 0x7fff4af75700 exiting after successful execution
+    Thread 0x7fff4b776700 exiting after successful execution
+    Thread 0x7fff4ef7d700 exiting after successful execution
+    Thread 0x7fff49f73700: /home/schod005/Documents/CSCI_4061//.git/objects/65
+    BMP thread 0x7fff49772700: /home/schod005/Documents/CSCI_4061//.git/objects/65
+    GIF thread 0x7fff48f71700: /home/schod005/Documents/CSCI_4061//.git/objects/65
+    PNG thread 0x7fff48770700: /home/schod005/Documents/CSCI_4061//.git/objects/65
+    JPG thread 0x7fff47f6f700: /home/schod005/Documents/CSCI_4061//.git/objects/65
+    Thread 0x7fff4776e700: /home/schod005/Documents/CSCI_4061//.git/objects/c1
+    Thread 0x7fff49f73700 exiting after successful execution
+    Thread 0x7fff49772700 exiting after successful execution
+    Thread 0x7fff46f6d700: /home/schod005/Documents/CSCI_4061//.git/objects/20
+    BMP thread 0x7fff4676c700: /home/schod005/Documents/CSCI_4061//.git/objects/7d
+    GIF thread 0x7fff45f6b700: /home/schod005/Documents/CSCI_4061//.git/objects/7d
+    PNG thread 0x7fff4576a700: /home/schod005/Documents/CSCI_4061//.git/objects/7d
+    JPG thread 0x7fff44f69700: /home/schod005/Documents/CSCI_4061//.git/objects/7d
+    Thread 0x7fff48770700 exiting after successful execution
+    Thread 0x7fff48f71700 exiting after successful execution
+    Thread 0x7fff44768700: /home/schod005/Documents/CSCI_4061//.git/objects/a0
+    Thread 0x7fff4676c700 exiting after successful execution
+    Thread 0x7fff45f6b700 exiting after successful execution
+    Thread 0x7fff4576a700 exiting after successful execution
+    BMP thread 0x7fff43f67700: /home/schod005/Documents/CSCI_4061//.git/objects/20
+    GIF thread 0x7fff43766700: /home/schod005/Documents/CSCI_4061//.git/objects/20
+    PNG thread 0x7fff42f65700: /home/schod005/Documents/CSCI_4061//.git/objects/20
+    JPG thread 0x7fff42764700: /home/schod005/Documents/CSCI_4061//.git/objects/20
+    BMP thread 0x7fff41f63700: /home/schod005/Documents/CSCI_4061//.git/objects/c1
+    GIF thread 0x7fff41762700: /home/schod005/Documents/CSCI_4061//.git/objects/c1
+    PNG thread 0x7fff40f61700: /home/schod005/Documents/CSCI_4061//.git/objects/c1
+    JPG thread 0x7fff40760700: /home/schod005/Documents/CSCI_4061//.git/objects/c1
+    Thread 0x7fff42f65700 exiting after successful execution
+    Thread 0x7fff43766700 exiting after successful execution
+    Thread 0x7fff44f69700 exiting after successful execution
+    Thread 0x7fff4776e700 exiting after successful execution
+    Thread 0x7fff42764700 exiting after successful execution
+    BMP thread 0x7fff3ff5f700: /home/schod005/Documents/CSCI_4061//.git/objects/a0
+    GIF thread 0x7fff3f75e700: /home/schod005/Documents/CSCI_4061//.git/objects/a0
+    PNG thread 0x7fff3ef5d700: /home/schod005/Documents/CSCI_4061//.git/objects/a0
+    JPG thread 0x7fff3e75c700: /home/schod005/Documents/CSCI_4061//.git/objects/a0
+    Thread 0x7fff41f63700 exiting after successful execution
+    Thread 0x7fff43f67700 exiting after successful execution
+    Thread 0x7fff46f6d700 exiting after successful execution
+    Thread 0x7fff40760700 exiting after successful execution
+    Thread 0x7fff40f61700 exiting after successful execution
+    Thread 0x7fff47f6f700 exiting after successful execution
+    Thread 0x7fff41762700 exiting after successful execution
+    Thread 0x7fff3ff5f700 exiting after successful execution
+    Thread 0x7fff3ef5d700 exiting after successful execution
+    Thread 0x7fff4a774700 exiting after successful execution
+    Thread 0x7fff44768700 exiting after successful execution
+    Thread 0x7fff3df5b700: /home/schod005/Documents/CSCI_4061//.git/objects/98
+    Thread 0x7fff3f75e700 exiting after successful execution
+    Thread 0x7fff3d75a700: /home/schod005/Documents/CSCI_4061//.git/objects/2e
+    Thread 0x7fff3e75c700 exiting after successful execution
+    Thread 0x7fff3cf59700: /home/schod005/Documents/CSCI_4061//.git/objects/5b
+    BMP thread 0x7fff3c758700: /home/schod005/Documents/CSCI_4061//.git/objects/2e
+    GIF thread 0x7fff3bf57700: /home/schod005/Documents/CSCI_4061//.git/objects/2e
+    PNG thread 0x7fff3b756700: /home/schod005/Documents/CSCI_4061//.git/objects/2e
+    JPG thread 0x7fff3af55700: /home/schod005/Documents/CSCI_4061//.git/objects/2e
+    BMP thread 0x7fff3a754700: /home/schod005/Documents/CSCI_4061//.git/objects/98
+    GIF thread 0x7fff39f53700: /home/schod005/Documents/CSCI_4061//.git/objects/98
+    PNG thread 0x7fff39752700: /home/schod005/Documents/CSCI_4061//.git/objects/98
+    JPG thread 0x7fff38f51700: /home/schod005/Documents/CSCI_4061//.git/objects/98
+    Thread 0x7fff3af55700 exiting after successful execution
+    Thread 0x7fff3a754700 exiting after successful execution
+    Thread 0x7fff3bf57700 exiting after successful execution
+    Thread 0x7fff3c758700 exiting after successful execution
+    BMP thread 0x7fff38750700: /home/schod005/Documents/CSCI_4061//.git/objects/5b
+    GIF thread 0x7fff37f4f700: /home/schod005/Documents/CSCI_4061//.git/objects/5b
+    PNG thread 0x7fff3774e700: /home/schod005/Documents/CSCI_4061//.git/objects/5b
+    JPG thread 0x7fff36f4d700: /home/schod005/Documents/CSCI_4061//.git/objects/5b
+    Thread 0x7fff37f4f700 exiting after successful execution
+    Thread 0x7fff38f51700 exiting after successful execution
+    Thread 0x7fff3b756700 exiting after successful execution
+    Thread 0x7fff3d75a700 exiting after successful execution
+    Thread 0x7fff39f53700 exiting after successful execution
+    Thread 0x7fff3df5b700 exiting after successful execution
+    Thread 0x7fff3674c700: /home/schod005/Documents/CSCI_4061//.git/objects/b5
+    Thread 0x7fff36f4d700 exiting after successful execution
+    Thread 0x7fff3774e700 exiting after successful execution
+    Thread 0x7fff38750700 exiting after successful execution
+    Thread 0x7fff39752700 exiting after successful execution
+    Thread 0x7fff3cf59700 exiting after successful execution
+    BMP thread 0x7fff35f4b700: /home/schod005/Documents/CSCI_4061//.git/objects/b5
+    GIF thread 0x7fff3574a700: /home/schod005/Documents/CSCI_4061//.git/objects/b5
+    PNG thread 0x7fff34f49700: /home/schod005/Documents/CSCI_4061//.git/objects/b5
+    JPG thread 0x7fff34748700: /home/schod005/Documents/CSCI_4061//.git/objects/b5
+    Thread 0x7fff33f47700: /home/schod005/Documents/CSCI_4061//.git/objects/e2
+    Thread 0x7fff35f4b700 exiting after successful execution
+    Thread 0x7fff3674c700 exiting after successful execution
+    Thread 0x7fff33746700: /home/schod005/Documents/CSCI_4061//.git/objects/ae
+    Thread 0x7fff3574a700 exiting after successful execution
+    Thread 0x7fff34f49700 exiting after successful execution
+    Thread 0x7fff32f45700: /home/schod005/Documents/CSCI_4061//.git/objects/15
+    Thread 0x7fff32744700: /home/schod005/Documents/CSCI_4061//.git/objects/0d
+    Thread 0x7fff8e7fc700 exiting after successful execution
+    BMP thread 0x7fff31f43700: /home/schod005/Documents/CSCI_4061//.git/objects/e2
+    GIF thread 0x7fff31742700: /home/schod005/Documents/CSCI_4061//.git/objects/e2
+    PNG thread 0x7fff8e7fc700: /home/schod005/Documents/CSCI_4061//.git/objects/e2
+    JPG thread 0x7fff30f41700: /home/schod005/Documents/CSCI_4061//.git/objects/e2
+    BMP thread 0x7fff30740700: /home/schod005/Documents/CSCI_4061//.git/objects/0d
+    GIF thread 0x7fff2ff3f700: /home/schod005/Documents/CSCI_4061//.git/objects/0d
+    PNG thread 0x7fff2f73e700: /home/schod005/Documents/CSCI_4061//.git/objects/0d
+    JPG thread 0x7fff2ef3d700: /home/schod005/Documents/CSCI_4061//.git/objects/0d
+    Thread 0x7fff30f41700 exiting after successful execution
+    Thread 0x7fff30740700 exiting after successful execution
+    Thread 0x7fff8e7fc700 exiting after successful execution
+    Thread 0x7fff31742700 exiting after successful execution
+    Thread 0x7fff31f43700 exiting after successful execution
+    Thread 0x7fff33f47700 exiting after successful execution
+    BMP thread 0x7fff2e73c700: /home/schod005/Documents/CSCI_4061//.git/objects/ae
+    GIF thread 0x7fff2df3b700: /home/schod005/Documents/CSCI_4061//.git/objects/ae
+    PNG thread 0x7fff2d73a700: /home/schod005/Documents/CSCI_4061//.git/objects/ae
+    JPG thread 0x7fff2cf39700: /home/schod005/Documents/CSCI_4061//.git/objects/ae
+    Thread 0x7fff2df3b700 exiting after successful execution
+    Thread 0x7fff2e73c700 exiting after successful execution
+    Thread 0x7fff2ef3d700 exiting after successful execution
+    Thread 0x7fff2f73e700 exiting after successful execution
+    Thread 0x7fff34748700 exiting after successful execution
+    Thread 0x7fff32744700 exiting after successful execution
+    BMP thread 0x7fff2c738700: /home/schod005/Documents/CSCI_4061//.git/objects/15
+    GIF thread 0x7fff2bf37700: /home/schod005/Documents/CSCI_4061//.git/objects/15
+    PNG thread 0x7fff2b736700: /home/schod005/Documents/CSCI_4061//.git/objects/15
+    JPG thread 0x7fff2af35700: /home/schod005/Documents/CSCI_4061//.git/objects/15
+    Thread 0x7fff2bf37700 exiting after successful execution
+    Thread 0x7fff2b736700 exiting after successful execution
+    Thread 0x7fff2cf39700 exiting after successful execution
+    Thread 0x7fff2d73a700 exiting after successful execution
+    Thread 0x7fff2ff3f700 exiting after successful execution
+    Thread 0x7fff33746700 exiting after successful execution
+    Joined thread: 0x7fff8e7fc700
+    Joined thread: 0x7ffff77f6700
+    Joined thread: 0x7fff8dffb700
+    Joined thread: 0x7fff8d7fa700
+    Joined thread: 0x7fff8cff9700
+    Joined thread: 0x7fff8c7f8700
+    Joined thread: 0x7fff8bff7700
+    Joined thread: 0x7fff8b7f6700
+    Joined thread: 0x7fff8aff5700
+    Joined thread: 0x7fff8a7f4700
+    Joined thread: 0x7fff89ff3700
+    Joined thread: 0x7fff897f2700
+    Joined thread: 0x7fff88ff1700
+    Joined thread: 0x7fff887f0700
+    Joined thread: 0x7fff87fef700
+    Joined thread: 0x7fff877ee700
+    Joined thread: 0x7fff86fed700
+    Joined thread: 0x7fff867ec700
+    Joined thread: 0x7fff85feb700
+    Joined thread: 0x7fff857ea700
+    Joined thread: 0x7fffe67fc700
+    Joined thread: 0x7fffe6ffd700
+    Joined thread: 0x7fffe77fe700
+    Joined thread: 0x7fffe7fff700
+    Joined thread: 0x7ffff6ff5700
+    Joined thread: 0x7fffe4ff9700
+    Joined thread: 0x7fffe57fa700
+    Joined thread: 0x7fffcffff700
+    Joined thread: 0x7fffe5ffb700
+    Joined thread: 0x7ffff67f4700
+    Joined thread: 0x7ffff5ff3700
+    Joined thread: 0x7ffff57f2700
+    Joined thread: 0x7ffff4ff1700
+    Joined thread: 0x7fff84fe9700
+    Joined thread: 0x7fff847e8700
+    Joined thread: 0x7fff83fe7700
+    Joined thread: 0x7fff837e6700
+    Joined thread: 0x7fff82fe5700
+    Joined thread: 0x7fff827e4700
+    Joined thread: 0x7fff81fe3700
+    Joined thread: 0x7fff817e2700
+    Joined thread: 0x7fff80fe1700
+    Joined thread: 0x7fff807e0700
+    Joined thread: 0x7fff7ffdf700
+    Joined thread: 0x7fff7f7de700
+    Joined thread: 0x7fff7efdd700
+    Joined thread: 0x7fff7e7dc700
+    Joined thread: 0x7fff7dfdb700
+    Joined thread: 0x7fff7d7da700
+    Joined thread: 0x7fff7cfd9700
+    Joined thread: 0x7fff7c7d8700
+    Joined thread: 0x7fff7bfd7700
+    Joined thread: 0x7fff7b7d6700
+    Joined thread: 0x7fff7afd5700
+    Joined thread: 0x7fff7a7d4700
+    Joined thread: 0x7fff79fd3700
+    Joined thread: 0x7fff797d2700
+    Joined thread: 0x7fff78fd1700
+    Joined thread: 0x7fff787d0700
+    Joined thread: 0x7fff77fcf700
+    Joined thread: 0x7fff777ce700
+    Joined thread: 0x7fff76fcd700
+    Joined thread: 0x7fff767cc700
+    Joined thread: 0x7fff75fcb700
+    Joined thread: 0x7fff757ca700
+    Joined thread: 0x7fff74fc9700
+    Joined thread: 0x7fff747c8700
+    Joined thread: 0x7fff73fc7700
+    Joined thread: 0x7fff737c6700
+    Joined thread: 0x7fffadffb700
+    Joined thread: 0x7fff8effd700
+    Joined thread: 0x7fff8f7fe700
+    Joined thread: 0x7fff8ffff700
+    Joined thread: 0x7fff94ff9700
+    Joined thread: 0x7fffcf7fe700
+    Joined thread: 0x7fffceffd700
+    Joined thread: 0x7fffce7fc700
+    Joined thread: 0x7fffcdffb700
+    Joined thread: 0x7fffcd7fa700
+    Thread 0x7fff2af35700 exiting after successful execution
+    Thread 0x7fff32f45700 exiting after successful execution
+    Thread 0x7fff2c738700 exiting after successful execution
+    Joined thread: 0x7fffccff9700
+    Joined thread: 0x7fffaffff700
+    Joined thread: 0x7fffaf7fe700
+    Joined thread: 0x7fffaeffd700
+    Joined thread: 0x7fffae7fc700
+    Joined thread: 0x7fffad7fa700
+    Joined thread: 0x7fffacff9700
+    Joined thread: 0x7fff97fff700
+    Joined thread: 0x7fff977fe700
+    Joined thread: 0x7fff96ffd700
+    Joined thread: 0x7fff967fc700
+    Joined thread: 0x7fff95ffb700
+    Joined thread: 0x7fff957fa700
+    Joined thread: 0x7fff72fc5700
+    Joined thread: 0x7fff727c4700
+    Joined thread: 0x7fff71fc3700
+    Joined thread: 0x7fff717c2700
+    Joined thread: 0x7fff70fc1700
+    Joined thread: 0x7fff707c0700
+    Joined thread: 0x7fff6ffbf700
+    Joined thread: 0x7fff6f7be700
+    Joined thread: 0x7fff6efbd700
+    Joined thread: 0x7fff6e7bc700
+    Joined thread: 0x7fff6dfbb700
+    Joined thread: 0x7fff6d7ba700
+    Joined thread: 0x7fff6cfb9700
+    Joined thread: 0x7fff6c7b8700
+    Joined thread: 0x7fff6bfb7700
+    Joined thread: 0x7fff6b7b6700
+    Joined thread: 0x7fff6afb5700
+    Joined thread: 0x7fff6a7b4700
+    Joined thread: 0x7fff69fb3700
+    Joined thread: 0x7fff697b2700
+    Joined thread: 0x7fff68fb1700
+    Joined thread: 0x7fff687b0700
+    Joined thread: 0x7fff67faf700
+    Joined thread: 0x7fff677ae700
+    Joined thread: 0x7fff66fad700
+    Joined thread: 0x7fff667ac700
+    Joined thread: 0x7fff65fab700
+    Joined thread: 0x7fff657aa700
+    Joined thread: 0x7fff64fa9700
+    Joined thread: 0x7fff647a8700
+    Joined thread: 0x7fff63fa7700
+    Joined thread: 0x7fff637a6700
+    Joined thread: 0x7fff62fa5700
+    Joined thread: 0x7fff627a4700
+    Joined thread: 0x7fff61fa3700
+    Joined thread: 0x7fff617a2700
+    Joined thread: 0x7fff60fa1700
+    Joined thread: 0x7fff607a0700
+    Joined thread: 0x7fff5ff9f700
+    Joined thread: 0x7fff5f79e700
+    Joined thread: 0x7fff5ef9d700
+    Joined thread: 0x7fff5e79c700
+    Joined thread: 0x7fff5df9b700
+    Joined thread: 0x7fff5d79a700
+    Joined thread: 0x7fff5cf99700
+    Joined thread: 0x7fff5c798700
+    Joined thread: 0x7fff5bf97700
+    Joined thread: 0x7fff5b796700
+    Joined thread: 0x7fff5af95700
+    Joined thread: 0x7fff5a794700
+    Joined thread: 0x7fff59f93700
+    Joined thread: 0x7fff59792700
+    Joined thread: 0x7fff58f91700
+    Joined thread: 0x7fff58790700
+    Joined thread: 0x7fff57f8f700
+    Joined thread: 0x7fff5778e700
+    Joined thread: 0x7fff56f8d700
+    Joined thread: 0x7fff5678c700
+    Joined thread: 0x7fff55f8b700
+    Joined thread: 0x7fff5578a700
+    Joined thread: 0x7fff54f89700
+    Joined thread: 0x7fff54788700
+    Joined thread: 0x7fff53f87700
+    Joined thread: 0x7fff53786700
+    Joined thread: 0x7fff52f85700
+    Joined thread: 0x7fff52784700
+    Joined thread: 0x7fff51f83700
+    Joined thread: 0x7fff51782700
+    Joined thread: 0x7fff50f81700
+    Joined thread: 0x7fff50780700
+    Joined thread: 0x7fff4ff7f700
+    Joined thread: 0x7fff4f77e700
+    Joined thread: 0x7fff4ef7d700
+    Joined thread: 0x7fff4e77c700
+    Joined thread: 0x7fff4df7b700
+    Joined thread: 0x7fff4d77a700
+    Joined thread: 0x7fff4cf79700
+    Joined thread: 0x7fff4c778700
+    Joined thread: 0x7fff4bf77700
+    Joined thread: 0x7fff4b776700
+    Joined thread: 0x7fff4af75700
+    Joined thread: 0x7fff4a774700
+    Joined thread: 0x7fff49f73700
+    Joined thread: 0x7fff49772700
+    Joined thread: 0x7fff48f71700
+    Joined thread: 0x7fff48770700
+    Joined thread: 0x7fff47f6f700
+    Joined thread: 0x7fff4776e700
+    Joined thread: 0x7fff46f6d700
+    Joined thread: 0x7fff4676c700
+    Joined thread: 0x7fff45f6b700
+    Joined thread: 0x7fff4576a700
+    Joined thread: 0x7fff44f69700
+    Joined thread: 0x7fff44768700
+    Joined thread: 0x7fff43f67700
+    Joined thread: 0x7fff43766700
+    Joined thread: 0x7fff42f65700
+    Joined thread: 0x7fff42764700
+    Joined thread: 0x7fff41f63700
+    Joined thread: 0x7fff41762700
+    Joined thread: 0x7fff40f61700
+    Joined thread: 0x7fff40760700
+    Joined thread: 0x7fff3ff5f700
+    Joined thread: 0x7fff3f75e700
+    Joined thread: 0x7fff3ef5d700
+    Joined thread: 0x7fff3e75c700
+    Joined thread: 0x7fff3df5b700
+    Joined thread: 0x7fff3d75a700
+    Joined thread: 0x7fff3cf59700
+    Joined thread: 0x7fff3c758700
+    Joined thread: 0x7fff3bf57700
+    Joined thread: 0x7fff3b756700
+    Joined thread: 0x7fff3af55700
+    Joined thread: 0x7fff3a754700
+    Joined thread: 0x7fff39f53700
+    Joined thread: 0x7fff39752700
+    Joined thread: 0x7fff38f51700
+    Joined thread: 0x7fff38750700
+    Joined thread: 0x7fff37f4f700
+    Joined thread: 0x7fff3774e700
+    Joined thread: 0x7fff36f4d700
+    Joined thread: 0x7fff3674c700
+    Joined thread: 0x7fff35f4b700
+    Joined thread: 0x7fff3574a700
+    Joined thread: 0x7fff34f49700
+    Joined thread: 0x7fff34748700
+    Joined thread: 0x7fff33f47700
+    Joined thread: 0x7fff33746700
+    Joined thread: 0x7fff32f45700
+    Joined thread: 0x7fff32744700
+    Joined thread: 0x7fff31f43700
+    Joined thread: 0x7fff31742700
+    Joined thread: 0x7fff8e7fc700
+    Joined thread: 0x7fff30f41700
+    Joined thread: 0x7fff30740700
+    Joined thread: 0x7fff2ff3f700
+    Joined thread: 0x7fff2f73e700
+    Joined thread: 0x7fff2ef3d700
+    Joined thread: 0x7fff2e73c700
+    Joined thread: 0x7fff2df3b700
+    Joined thread: 0x7fff2d73a700
+    Joined thread: 0x7fff2cf39700
+    Joined thread: 0x7fff2c738700
+    Joined thread: 0x7fff2bf37700
+    Joined thread: 0x7fff2b736700
+    Joined thread: 0x7fff2af35700
+
+Scan complete
+Number of images: 0
+Number of directories: 55
+Number of threads: 275
+Done!
+
+------------------------------------------------
+
+Beginning program...
+Version: v2
+
+Beginning scan of directory: /home/schod005/Documents/CSCI_4061/
+    Thread 0x7ffff77f6700: /home/schod005/Documents/CSCI_4061/
+    BMP thread 0x7ffff6ff5700: /home/schod005/Documents/CSCI_4061/
+    GIF thread 0x7ffff67f4700: /home/schod005/Documents/CSCI_4061/
+    PNG thread 0x7ffff5ff3700: /home/schod005/Documents/CSCI_4061/
+    JPG thread 0x7ffff57f2700: /home/schod005/Documents/CSCI_4061/
+    Thread 0x7ffff6ff5700 exiting after successful execution
+    Thread 0x7ffff4ff1700: /home/schod005/Documents/CSCI_4061//A3
+    Thread 0x7ffff67f4700 exiting after successful execution
+    Thread 0x7ffff5ff3700 exiting after successful execution
+    Thread 0x7ffff57f2700 exiting after successful execution
+    BMP thread 0x7fffe7fff700: /home/schod005/Documents/CSCI_4061//A3
+    GIF thread 0x7fffe77fe700: /home/schod005/Documents/CSCI_4061//A3
+    PNG thread 0x7fffe6ffd700: /home/schod005/Documents/CSCI_4061//A3
+    JPG thread 0x7fffe67fc700: /home/schod005/Documents/CSCI_4061//A3
+    Thread 0x7fffe5ffb700: /home/schod005/Documents/CSCI_4061//A4
+    Thread 0x7fffe7fff700 exiting after successful execution
+    Thread 0x7ffff4ff1700 exiting after successful execution
+    Thread 0x7fffe77fe700 exiting after successful execution
+    Thread 0x7fffe6ffd700 exiting after successful execution
+    Thread 0x7fffe67fc700 exiting after successful execution
+    BMP thread 0x7fffe57fa700: /home/schod005/Documents/CSCI_4061//A4
+    GIF thread 0x7fffe4ff9700: /home/schod005/Documents/CSCI_4061//A4
+    PNG thread 0x7fffdbfff700: /home/schod005/Documents/CSCI_4061//A4
+    JPG thread 0x7fffdb7fe700: /home/schod005/Documents/CSCI_4061//A4
+    Thread 0x7fffdaffd700: /home/schod005/Documents/CSCI_4061//A5
+    Thread 0x7fffe4ff9700 exiting after successful execution
+    Thread 0x7fffdbfff700 exiting after successful execution
+    Thread 0x7fffe57fa700 exiting after successful execution
+    Thread 0x7fffdb7fe700 exiting after successful execution
+    Thread 0x7fffe5ffb700 exiting after successful execution
+    Thread 0x7fffda7fc700: /home/schod005/Documents/CSCI_4061//A2
+    BMP thread 0x7fffd9ffb700: /home/schod005/Documents/CSCI_4061//A5
+    GIF thread 0x7fffd97fa700: /home/schod005/Documents/CSCI_4061//A5
+    PNG thread 0x7fffd8ff9700: /home/schod005/Documents/CSCI_4061//A5
+    JPG thread 0x7fffd3fff700: /home/schod005/Documents/CSCI_4061//A5
+    Thread 0x7fffd8ff9700 exiting after successful execution
+    Thread 0x7fffd97fa700 exiting after successful execution
+    Thread 0x7fffd9ffb700 exiting after successful execution
+    Thread 0x7fffd37fe700: /home/schod005/Documents/CSCI_4061//.git
+    BMP thread 0x7fffd2ffd700: /home/schod005/Documents/CSCI_4061//A2
+    GIF thread 0x7fffd27fc700: /home/schod005/Documents/CSCI_4061//A2
+    PNG thread 0x7fffd1ffb700: /home/schod005/Documents/CSCI_4061//A2
+    JPG thread 0x7fffd17fa700: /home/schod005/Documents/CSCI_4061//A2
+    Thread 0x7fffd1ffb700 exiting after successful execution
+    Thread 0x7fffd27fc700 exiting after successful execution
+    Thread 0x7fffd2ffd700 exiting after successful execution
+    BMP thread 0x7fffd0ff9700: /home/schod005/Documents/CSCI_4061//.git
+    GIF thread 0x7fffcbfff700: /home/schod005/Documents/CSCI_4061//.git
+    PNG thread 0x7fffcb7fe700: /home/schod005/Documents/CSCI_4061//.git
+    JPG thread 0x7fffcaffd700: /home/schod005/Documents/CSCI_4061//.git
+    Thread 0x7fffda7fc700 exiting after successful execution
+    Thread 0x7fffd3fff700 exiting after successful execution
+    Thread 0x7fffd0ff9700 exiting after successful execution
+    Thread 0x7fffd17fa700 exiting after successful execution
+    Thread 0x7fffdaffd700 exiting after successful execution
+    Thread 0x7fffca7fc700: /home/schod005/Documents/CSCI_4061//A1
+    Thread 0x7ffff77f6700 exiting after successful execution
+    Thread 0x7fffcaffd700 exiting after successful execution
+    Thread 0x7fffcb7fe700 exiting after successful execution
+    Thread 0x7fffcbfff700 exiting after successful execution
+    BMP thread 0x7fffc9ffb700: /home/schod005/Documents/CSCI_4061//A1
+    GIF thread 0x7fffc97fa700: /home/schod005/Documents/CSCI_4061//A1
+    PNG thread 0x7ffff77f6700: /home/schod005/Documents/CSCI_4061//A1
+    JPG thread 0x7fffc8ff9700: /home/schod005/Documents/CSCI_4061//A1
+    Thread 0x7ffff77f6700 exiting after successful execution
+    Thread 0x7fffc97fa700 exiting after successful execution
+    Joined thread: 0x7ffff77f6700
+    Joined thread: 0x7ffff6ff5700
+    Joined thread: 0x7ffff67f4700
+    Joined thread: 0x7ffff5ff3700
+    Joined thread: 0x7ffff57f2700
+    Joined thread: 0x7ffff4ff1700
+    Joined thread: 0x7fffe7fff700
+    Joined thread: 0x7fffe77fe700
+    Joined thread: 0x7fffe6ffd700
+    Joined thread: 0x7fffe67fc700
+    Joined thread: 0x7fffe5ffb700
+    Joined thread: 0x7fffe57fa700
+    Joined thread: 0x7fffe4ff9700
+    Joined thread: 0x7fffdbfff700
+    Joined thread: 0x7fffdb7fe700
+    Thread 0x7fffca7fc700 exiting after successful execution
+    Thread 0x7fffdaffd700: /home/schod005/Documents/CSCI_4061//.git/branches
+    Thread 0x7fffc8ff9700 exiting after successful execution
+    Joined thread: 0x7fffdaffd700
+    Joined thread: 0x7fffda7fc700
+    Joined thread: 0x7fffd9ffb700
+    Joined thread: 0x7fffd97fa700
+    Joined thread: 0x7fffd8ff9700
+    Joined thread: 0x7fffd3fff700
+    BMP thread 0x7fffd3fff700: /home/schod005/Documents/CSCI_4061//.git/branches
+    GIF thread 0x7fffd8ff9700: /home/schod005/Documents/CSCI_4061//.git/branches
+    PNG thread 0x7fffd97fa700: /home/schod005/Documents/CSCI_4061//.git/branches
+    JPG thread 0x7fffd9ffb700: /home/schod005/Documents/CSCI_4061//.git/branches
+    Thread 0x7fffdaffd700 exiting after successful execution
+    Thread 0x7fffc9ffb700 exiting after successful execution
+    Thread 0x7ffff6ff5700: /home/schod005/Documents/CSCI_4061//.git/logs
+    Thread 0x7fffd3fff700 exiting after successful execution
+    Thread 0x7fffd8ff9700 exiting after successful execution
+    Thread 0x7fffd97fa700 exiting after successful execution
+    Thread 0x7fffd9ffb700 exiting after successful execution
+    BMP thread 0x7ffff67f4700: /home/schod005/Documents/CSCI_4061//.git/logs
+    GIF thread 0x7ffff5ff3700: /home/schod005/Documents/CSCI_4061//.git/logs
+    PNG thread 0x7ffff57f2700: /home/schod005/Documents/CSCI_4061//.git/logs
+    JPG thread 0x7ffff4ff1700: /home/schod005/Documents/CSCI_4061//.git/logs
+    Thread 0x7fffe7fff700: /home/schod005/Documents/CSCI_4061//.git/objects
+    Thread 0x7ffff5ff3700 exiting after successful execution
+    Thread 0x7ffff67f4700 exiting after successful execution
+    Thread 0x7fffe77fe700: /home/schod005/Documents/CSCI_4061//.git/logs/refs
+    Thread 0x7ffff6ff5700 exiting after successful execution
+    BMP thread 0x7fffe6ffd700: /home/schod005/Documents/CSCI_4061//.git/objects
+    GIF thread 0x7fffe67fc700: /home/schod005/Documents/CSCI_4061//.git/objects
+    PNG thread 0x7fffe5ffb700: /home/schod005/Documents/CSCI_4061//.git/objects
+    JPG thread 0x7fffe57fa700: /home/schod005/Documents/CSCI_4061//.git/objects
+    Thread 0x7fffe67fc700 exiting after successful execution
+    Thread 0x7ffff4ff1700 exiting after successful execution
+    BMP thread 0x7fffe4ff9700: /home/schod005/Documents/CSCI_4061//.git/logs/refs
+    GIF thread 0x7fffdbfff700: /home/schod005/Documents/CSCI_4061//.git/logs/refs
+    PNG thread 0x7fffdb7fe700: /home/schod005/Documents/CSCI_4061//.git/logs/refs
+    JPG thread 0x7fffda7fc700: /home/schod005/Documents/CSCI_4061//.git/logs/refs
+    Thread 0x7fffdb7fe700 exiting after successful execution
+    Thread 0x7fffe4ff9700 exiting after successful execution
+    Thread 0x7fffe57fa700 exiting after successful execution
+    Thread 0x7fffe5ffb700 exiting after successful execution
+    Thread 0x7fffe6ffd700 exiting after successful execution
+    Thread 0x7ffff57f2700 exiting after successful execution
+    Thread 0x7fffda7fc700 exiting after successful execution
+    Thread 0x7fffdbfff700 exiting after successful execution
+    Thread 0x7fffbffff700: /home/schod005/Documents/CSCI_4061//.git/info
+    Thread 0x7fffbf7fe700: /home/schod005/Documents/CSCI_4061//.git/objects/58
+    Thread 0x7fffbeffd700: /home/schod005/Documents/CSCI_4061//.git/logs/refs/heads
+    Thread 0x7fffe77fe700 exiting after successful execution
+    BMP thread 0x7fffbe7fc700: /home/schod005/Documents/CSCI_4061//.git/info
+    GIF thread 0x7fffbdffb700: /home/schod005/Documents/CSCI_4061//.git/info
+    PNG thread 0x7fffbd7fa700: /home/schod005/Documents/CSCI_4061//.git/info
+    JPG thread 0x7fffbcff9700: /home/schod005/Documents/CSCI_4061//.git/info
+    Thread 0x7fffbd7fa700 exiting after successful execution
+    Thread 0x7fffbdffb700 exiting after successful execution
+    Thread 0x7fffbe7fc700 exiting after successful execution
+    BMP thread 0x7fffb7fff700: /home/schod005/Documents/CSCI_4061//.git/logs/refs/heads
+    GIF thread 0x7fffb77fe700: /home/schod005/Documents/CSCI_4061//.git/logs/refs/heads
+    PNG thread 0x7fffb6ffd700: /home/schod005/Documents/CSCI_4061//.git/logs/refs/heads
+    JPG thread 0x7fffb67fc700: /home/schod005/Documents/CSCI_4061//.git/logs/refs/heads
+    Thread 0x7fffb77fe700 exiting after successful execution
+    Thread 0x7fffb6ffd700 exiting after successful execution
+    BMP thread 0x7fffb5ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/58
+    GIF thread 0x7fffb57fa700: /home/schod005/Documents/CSCI_4061//.git/objects/58
+    PNG thread 0x7fffb4ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/58
+    JPG thread 0x7fffb47f8700: /home/schod005/Documents/CSCI_4061//.git/objects/58
+    Thread 0x7fffb57fa700 exiting after successful execution
+    Thread 0x7fffb67fc700 exiting after successful execution
+    Thread 0x7fffb7fff700 exiting after successful execution
+    Thread 0x7fffbeffd700 exiting after successful execution
+    Thread 0x7fffbffff700 exiting after successful execution
+    Thread 0x7fffb3ff7700: /home/schod005/Documents/CSCI_4061//.git/refs
+    Thread 0x7fffb47f8700 exiting after successful execution
+    Thread 0x7fffb4ff9700 exiting after successful execution
+    Thread 0x7fffb5ffb700 exiting after successful execution
+    Thread 0x7fffbcff9700 exiting after successful execution
+    Thread 0x7fffbf7fe700 exiting after successful execution
+    Thread 0x7fffb37f6700: /home/schod005/Documents/CSCI_4061//.git/objects/36
+    BMP thread 0x7fffb2ff5700: /home/schod005/Documents/CSCI_4061//.git/refs
+    GIF thread 0x7fffb27f4700: /home/schod005/Documents/CSCI_4061//.git/refs
+    PNG thread 0x7fffb1ff3700: /home/schod005/Documents/CSCI_4061//.git/refs
+    JPG thread 0x7fffb17f2700: /home/schod005/Documents/CSCI_4061//.git/refs
+    Thread 0x7fffb1ff3700 exiting after successful execution
+    Thread 0x7fffb27f4700 exiting after successful execution
+    BMP thread 0x7fffb0ff1700: /home/schod005/Documents/CSCI_4061//.git/objects/36
+    GIF thread 0x7fffb07f0700: /home/schod005/Documents/CSCI_4061//.git/objects/36
+    PNG thread 0x7fffaffef700: /home/schod005/Documents/CSCI_4061//.git/objects/36
+    JPG thread 0x7fffaf7ee700: /home/schod005/Documents/CSCI_4061//.git/objects/36
+    Thread 0x7fffb0ff1700 exiting after successful execution
+    Thread 0x7fffb07f0700 exiting after successful execution
+    Thread 0x7fffb17f2700 exiting after successful execution
+    Thread 0x7fffb2ff5700 exiting after successful execution
+    Thread 0x7fffaefed700: /home/schod005/Documents/CSCI_4061//.git/refs/heads
+    Thread 0x7fffaf7ee700 exiting after successful execution
+    Thread 0x7fffaffef700 exiting after successful execution
+    Thread 0x7fffb37f6700 exiting after successful execution
+    Thread 0x7fffae7ec700: /home/schod005/Documents/CSCI_4061//.git/objects/09
+    BMP thread 0x7fffadfeb700: /home/schod005/Documents/CSCI_4061//.git/refs/heads
+    GIF thread 0x7fffad7ea700: /home/schod005/Documents/CSCI_4061//.git/refs/heads
+    PNG thread 0x7fffacfe9700: /home/schod005/Documents/CSCI_4061//.git/refs/heads
+    JPG thread 0x7fffac7e8700: /home/schod005/Documents/CSCI_4061//.git/refs/heads
+    Thread 0x7fffadfeb700 exiting after successful execution
+    Thread 0x7fffabfe7700: /home/schod005/Documents/CSCI_4061//.git/refs/tags
+    Thread 0x7fffb3ff7700 exiting after successful execution
+    Thread 0x7fffad7ea700 exiting after successful execution
+    Thread 0x7fffac7e8700 exiting after successful execution
+    BMP thread 0x7fffab7e6700: /home/schod005/Documents/CSCI_4061//.git/objects/09
+    GIF thread 0x7fffaafe5700: /home/schod005/Documents/CSCI_4061//.git/objects/09
+    PNG thread 0x7fffaa7e4700: /home/schod005/Documents/CSCI_4061//.git/objects/09
+    JPG thread 0x7fffa9fe3700: /home/schod005/Documents/CSCI_4061//.git/objects/09
+    BMP thread 0x7fffa97e2700: /home/schod005/Documents/CSCI_4061//.git/refs/tags
+    GIF thread 0x7fffa8fe1700: /home/schod005/Documents/CSCI_4061//.git/refs/tags
+    PNG thread 0x7fffa3fff700: /home/schod005/Documents/CSCI_4061//.git/refs/tags
+    JPG thread 0x7fffa37fe700: /home/schod005/Documents/CSCI_4061//.git/refs/tags
+    Thread 0x7fffabfe7700 exiting after successful execution
+    Thread 0x7fffaa7e4700 exiting after successful execution
+    Thread 0x7fffa9fe3700 exiting after successful execution
+    Thread 0x7fffa97e2700 exiting after successful execution
+    Thread 0x7fffaafe5700 exiting after successful execution
+    Thread 0x7fffab7e6700 exiting after successful execution
+    Thread 0x7fffae7ec700 exiting after successful execution
+    Thread 0x7fffacfe9700 exiting after successful execution
+    Thread 0x7fffaefed700 exiting after successful execution
+    Thread 0x7fffa2ffd700: /home/schod005/Documents/CSCI_4061//.git/objects/info
+    Thread 0x7fffa3fff700 exiting after successful execution
+    Thread 0x7fffa8fe1700 exiting after successful execution
+    Thread 0x7fffa27fc700: /home/schod005/Documents/CSCI_4061//.git/hooks
+    Thread 0x7fffd37fe700 exiting after successful execution
+    Thread 0x7fffa37fe700 exiting after successful execution
+    BMP thread 0x7fffa1ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/info
+    GIF thread 0x7fffa17fa700: /home/schod005/Documents/CSCI_4061//.git/objects/info
+    PNG thread 0x7fffa0ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/info
+    JPG thread 0x7fffd37fe700: /home/schod005/Documents/CSCI_4061//.git/objects/info
+    Thread 0x7fffa2ffd700 exiting after successful execution
+    Thread 0x7fffa0ff9700 exiting after successful execution
+    Thread 0x7fffa17fa700 exiting after successful execution
+    Thread 0x7fffa1ffb700 exiting after successful execution
+    BMP thread 0x7fff9bfff700: /home/schod005/Documents/CSCI_4061//.git/hooks
+    GIF thread 0x7fff9b7fe700: /home/schod005/Documents/CSCI_4061//.git/hooks
+    PNG thread 0x7fff9affd700: /home/schod005/Documents/CSCI_4061//.git/hooks
+    JPG thread 0x7fff9a7fc700: /home/schod005/Documents/CSCI_4061//.git/hooks
+    Thread 0x7fff9affd700 exiting after successful execution
+    Thread 0x7fff9b7fe700 exiting after successful execution
+    Thread 0x7fff9bfff700 exiting after successful execution
+    Thread 0x7fffd37fe700 exiting after successful execution
+    Thread 0x7fff99ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/a2
+    Thread 0x7fff9a7fc700 exiting after successful execution
+    Thread 0x7fffa27fc700 exiting after successful execution
+    Joined thread: 0x7fffd37fe700
+    Joined thread: 0x7fffd2ffd700
+    Joined thread: 0x7fffd27fc700
+    Joined thread: 0x7fffd1ffb700
+    Joined thread: 0x7fffd17fa700
+    Joined thread: 0x7fffd0ff9700
+    Joined thread: 0x7fffcbfff700
+    Joined thread: 0x7fffcb7fe700
+    Joined thread: 0x7fffcaffd700
+    Joined thread: 0x7fffca7fc700
+    Joined thread: 0x7fffc9ffb700
+    Joined thread: 0x7fffc97fa700
+    Joined thread: 0x7ffff77f6700
+    Joined thread: 0x7fffc8ff9700
+    Joined thread: 0x7fffdaffd700
+    Joined thread: 0x7fffd3fff700
+    Joined thread: 0x7fffd8ff9700
+    Joined thread: 0x7fffd97fa700
+    Joined thread: 0x7fffd9ffb700
+    Joined thread: 0x7ffff6ff5700
+    Joined thread: 0x7ffff67f4700
+    Joined thread: 0x7ffff5ff3700
+    Joined thread: 0x7ffff57f2700
+    Joined thread: 0x7ffff4ff1700
+    BMP thread 0x7ffff4ff1700: /home/schod005/Documents/CSCI_4061//.git/objects/a2
+    GIF thread 0x7ffff57f2700: /home/schod005/Documents/CSCI_4061//.git/objects/a2
+    PNG thread 0x7ffff5ff3700: /home/schod005/Documents/CSCI_4061//.git/objects/a2
+    JPG thread 0x7ffff67f4700: /home/schod005/Documents/CSCI_4061//.git/objects/a2
+    Thread 0x7ffff4ff1700 exiting after successful execution
+    Thread 0x7ffff77f6700: /home/schod005/Documents/CSCI_4061//.git/objects/ee
+    Thread 0x7fff99ffb700 exiting after successful execution
+    Thread 0x7ffff57f2700 exiting after successful execution
+    Thread 0x7ffff5ff3700 exiting after successful execution
+    Thread 0x7ffff67f4700 exiting after successful execution
+    BMP thread 0x7ffff6ff5700: /home/schod005/Documents/CSCI_4061//.git/objects/ee
+    GIF thread 0x7fffdaffd700: /home/schod005/Documents/CSCI_4061//.git/objects/ee
+    PNG thread 0x7fffd9ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/ee
+    JPG thread 0x7fffd97fa700: /home/schod005/Documents/CSCI_4061//.git/objects/ee
+    Thread 0x7ffff6ff5700 exiting after successful execution
+    Thread 0x7fffdaffd700 exiting after successful execution
+    Thread 0x7fffd9ffb700 exiting after successful execution
+    Thread 0x7fffd8ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/55
+    Thread 0x7ffff77f6700 exiting after successful execution
+    Thread 0x7fffd97fa700 exiting after successful execution
+    BMP thread 0x7fffd3fff700: /home/schod005/Documents/CSCI_4061//.git/objects/55
+    GIF thread 0x7fffd2ffd700: /home/schod005/Documents/CSCI_4061//.git/objects/55
+    PNG thread 0x7fffd27fc700: /home/schod005/Documents/CSCI_4061//.git/objects/55
+    JPG thread 0x7fffd1ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/55
+    Thread 0x7fffd3fff700 exiting after successful execution
+    Thread 0x7fffd17fa700: /home/schod005/Documents/CSCI_4061//.git/objects/9f
+    Thread 0x7fffd2ffd700 exiting after successful execution
+    Thread 0x7fffd8ff9700 exiting after successful execution
+    Thread 0x7fffd27fc700 exiting after successful execution
+    Thread 0x7fffd1ffb700 exiting after successful execution
+    BMP thread 0x7fffd0ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/9f
+    GIF thread 0x7fffcbfff700: /home/schod005/Documents/CSCI_4061//.git/objects/9f
+    PNG thread 0x7fffcb7fe700: /home/schod005/Documents/CSCI_4061//.git/objects/9f
+    JPG thread 0x7fffcaffd700: /home/schod005/Documents/CSCI_4061//.git/objects/9f
+    Thread 0x7fffd0ff9700 exiting after successful execution
+    Thread 0x7fffd17fa700 exiting after successful execution
+    Thread 0x7fffca7fc700: /home/schod005/Documents/CSCI_4061//.git/objects/48
+    Thread 0x7fffcbfff700 exiting after successful execution
+    Thread 0x7fffcb7fe700 exiting after successful execution
+    Thread 0x7fffc9ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/2d
+    Thread 0x7fffcaffd700 exiting after successful execution
+    Thread 0x7fffc97fa700: /home/schod005/Documents/CSCI_4061//.git/objects/8e
+    BMP thread 0x7fffc8ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/48
+    GIF thread 0x7fff997fa700: /home/schod005/Documents/CSCI_4061//.git/objects/48
+    PNG thread 0x7fff98ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/48
+    JPG thread 0x7fff987f8700: /home/schod005/Documents/CSCI_4061//.git/objects/48
+    BMP thread 0x7fff97ff7700: /home/schod005/Documents/CSCI_4061//.git/objects/2d
+    GIF thread 0x7fff977f6700: /home/schod005/Documents/CSCI_4061//.git/objects/2d
+    PNG thread 0x7fff96ff5700: /home/schod005/Documents/CSCI_4061//.git/objects/2d
+    JPG thread 0x7fff967f4700: /home/schod005/Documents/CSCI_4061//.git/objects/2d
+    BMP thread 0x7fff95ff3700: /home/schod005/Documents/CSCI_4061//.git/objects/8e
+    GIF thread 0x7fff957f2700: /home/schod005/Documents/CSCI_4061//.git/objects/8e
+    PNG thread 0x7fff94ff1700: /home/schod005/Documents/CSCI_4061//.git/objects/8e
+    JPG thread 0x7fff8ffff700: /home/schod005/Documents/CSCI_4061//.git/objects/8e
+    Thread 0x7fff97ff7700 exiting after successful execution
+    Thread 0x7fff987f8700 exiting after successful execution
+    Thread 0x7fff98ff9700 exiting after successful execution
+    Thread 0x7fff997fa700 exiting after successful execution
+    Thread 0x7fffc8ff9700 exiting after successful execution
+    Thread 0x7fffc9ffb700 exiting after successful execution
+    Thread 0x7fffca7fc700 exiting after successful execution
+    Thread 0x7fff8f7fe700: /home/schod005/Documents/CSCI_4061//.git/objects/e4
+    Thread 0x7fff957f2700 exiting after successful execution
+    Thread 0x7fff94ff1700 exiting after successful execution
+    Thread 0x7fff96ff5700 exiting after successful execution
+    Thread 0x7fff967f4700 exiting after successful execution
+    Thread 0x7fff8ffff700 exiting after successful execution
+    Thread 0x7fff977f6700 exiting after successful execution
+    Thread 0x7fffc97fa700 exiting after successful execution
+    BMP thread 0x7fff8effd700: /home/schod005/Documents/CSCI_4061//.git/objects/e4
+    GIF thread 0x7fff8e7fc700: /home/schod005/Documents/CSCI_4061//.git/objects/e4
+    PNG thread 0x7fff8dffb700: /home/schod005/Documents/CSCI_4061//.git/objects/e4
+    JPG thread 0x7fff8d7fa700: /home/schod005/Documents/CSCI_4061//.git/objects/e4
+    Thread 0x7fff8effd700 exiting after successful execution
+    Thread 0x7fff95ff3700 exiting after successful execution
+    Thread 0x7fff8f7fe700 exiting after successful execution
+    Thread 0x7fff8e7fc700 exiting after successful execution
+    Thread 0x7fff8dffb700 exiting after successful execution
+    Thread 0x7fff8cff9700: /home/schod005/Documents/CSCI_4061//.git/objects/ac
+    Thread 0x7fff8d7fa700 exiting after successful execution
+    BMP thread 0x7fff87fff700: /home/schod005/Documents/CSCI_4061//.git/objects/ac
+    GIF thread 0x7fff877fe700: /home/schod005/Documents/CSCI_4061//.git/objects/ac
+    PNG thread 0x7fff86ffd700: /home/schod005/Documents/CSCI_4061//.git/objects/ac
+    JPG thread 0x7fff867fc700: /home/schod005/Documents/CSCI_4061//.git/objects/ac
+    Thread 0x7fff877fe700 exiting after successful execution
+    Thread 0x7fff86ffd700 exiting after successful execution
+    Thread 0x7fff85ffb700: /home/schod005/Documents/CSCI_4061//.git/objects/19
+    Thread 0x7fff87fff700 exiting after successful execution
+    Thread 0x7fff867fc700 exiting after successful execution
+    Thread 0x7fff8cff9700 exiting after successful execution
+    BMP thread 0x7fff857fa700: /home/schod005/Documents/CSCI_4061//.git/objects/19
+    GIF thread 0x7fff84ff9700: /home/schod005/Documents/CSCI_4061//.git/objects/19
+    PNG thread 0x7fff7ffff700: /home/schod005/Documents/CSCI_4061//.git/objects/19
+    JPG thread 0x7fff7f7fe700: /home/schod005/Documents/CSCI_4061//.git/objects/19
+    Thread 0x7fff7effd700: /home/schod005/Documents/CSCI_4061//.git/objects/88
+    Thread 0x7fff84ff9700 exiting after successful execution
+    Thread 0x7fff7ffff700 exiting after successful execution
+    Thread 0x7fff857fa700 exiting after successful execution
+    Thread 0x7fff85ffb700 exiting after successful execution
+    Thread 0x7fff7f7fe700 exiting after successful execution
+    Thread 0x7fff7e7fc700: /home/schod005/Documents/CSCI_4061//.git/objects/4e
+    BMP thread 0x7fff7dffb700: /home/schod005/Documents/CSCI_4061//.git/objects/88
+    GIF thread 0x7fff7d7fa700: /home/schod005/Documents/CSCI_4061//.git/objects/88
+    PNG thread 0x7fff7cff9700: /home/schod005/Documents/CSCI_4061//.git/objects/88
+    JPG thread 0x7fff7c7f8700: /home/schod005/Documents/CSCI_4061//.git/objects/88
+    Thread 0x7fff7d7fa700 exiting after successful execution
+    Thread 0x7fff7cff9700 exiting after successful execution
+    Thread 0x7fff7dffb700 exiting after successful execution
+    BMP thread 0x7fff7bff7700: /home/schod005/Documents/CSCI_4061//.git/objects/4e
+    GIF thread 0x7fff7b7f6700: /home/schod005/Documents/CSCI_4061//.git/objects/4e
+    PNG thread 0x7fff7aff5700: /home/schod005/Documents/CSCI_4061//.git/objects/4e
+    JPG thread 0x7fff7a7f4700: /home/schod005/Documents/CSCI_4061//.git/objects/4e
+    Thread 0x7fff7effd700 exiting after successful execution
+    Thread 0x7fff7c7f8700 exiting after successful execution
+    Thread 0x7fff79ff3700: /home/schod005/Documents/CSCI_4061//.git/objects/02
+    Thread 0x7fff7bff7700 exiting after successful execution
+    Thread 0x7fff7b7f6700 exiting after successful execution
+    Thread 0x7fff7aff5700 exiting after successful execution
+    Thread 0x7fff7e7fc700 exiting after successful execution
+    Thread 0x7fff7a7f4700 exiting after successful execution
+    BMP thread 0x7fff797f2700: /home/schod005/Documents/CSCI_4061//.git/objects/02
+    GIF thread 0x7fff78ff1700: /home/schod005/Documents/CSCI_4061//.git/objects/02
+    PNG thread 0x7fff787f0700: /home/schod005/Documents/CSCI_4061//.git/objects/02
+    JPG thread 0x7fff77fef700: /home/schod005/Documents/CSCI_4061//.git/objects/02
+    Thread 0x7fff78ff1700 exiting after successful execution
+    Thread 0x7fff777ee700: /home/schod005/Documents/CSCI_4061//.git/objects/a9
+    Thread 0x7fff79ff3700 exiting after successful execution
+    Thread 0x7fff797f2700 exiting after successful execution
+    Thread 0x7fff787f0700 exiting after successful execution
+    Thread 0x7fff77fef700 exiting after successful execution
+    BMP thread 0x7fff76fed700: /home/schod005/Documents/CSCI_4061//.git/objects/a9
+    GIF thread 0x7fff767ec700: /home/schod005/Documents/CSCI_4061//.git/objects/a9
+    PNG thread 0x7fff75feb700: /home/schod005/Documents/CSCI_4061//.git/objects/a9
+    JPG thread 0x7fff757ea700: /home/schod005/Documents/CSCI_4061//.git/objects/a9
+    Thread 0x7fff75feb700 exiting after successful execution
+    Thread 0x7fff76fed700 exiting after successful execution
+    Thread 0x7fff767ec700 exiting after successful execution
+    Thread 0x7fff74fe9700: /home/schod005/Documents/CSCI_4061//.git/objects/30
+    Thread 0x7fff777ee700 exiting after successful execution
+    Thread 0x7fff757ea700 exiting after successful execution
+    Thread 0x7fff747e8700: /home/schod005/Documents/CSCI_4061//.git/objects/e1
+    BMP thread 0x7fff73fe7700: /home/schod005/Documents/CSCI_4061//.git/objects/30
+    GIF thread 0x7fff737e6700: /home/schod005/Documents/CSCI_4061//.git/objects/30
+    PNG thread 0x7fff72fe5700: /home/schod005/Documents/CSCI_4061//.git/objects/30
+    JPG thread 0x7fff727e4700: /home/schod005/Documents/CSCI_4061//.git/objects/30
+    Thread 0x7fff737e6700 exiting after successful execution
+    Thread 0x7fff71fe3700: /home/schod005/Documents/CSCI_4061//.git/objects/2f
+    BMP thread 0x7fff717e2700: /home/schod005/Documents/CSCI_4061//.git/objects/e1
+    GIF thread 0x7fff70fe1700: /home/schod005/Documents/CSCI_4061//.git/objects/e1
+    PNG thread 0x7fff707e0700: /home/schod005/Documents/CSCI_4061//.git/objects/e1
+    JPG thread 0x7fff6ffdf700: /home/schod005/Documents/CSCI_4061//.git/objects/e1
+    Thread 0x7fff717e2700 exiting after successful execution
+    Thread 0x7fff70fe1700 exiting after successful execution
+    BMP thread 0x7fff6f7de700: /home/schod005/Documents/CSCI_4061//.git/objects/2f
+    GIF thread 0x7fff6efdd700: /home/schod005/Documents/CSCI_4061//.git/objects/2f
+    PNG thread 0x7fff6e7dc700: /home/schod005/Documents/CSCI_4061//.git/objects/2f
+    JPG thread 0x7fff6dfdb700: /home/schod005/Documents/CSCI_4061//.git/objects/2f
+    Thread 0x7fff727e4700 exiting after successful execution
+    Thread 0x7fff72fe5700 exiting after successful execution
+    Thread 0x7fff73fe7700 exiting after successful execution
+    Thread 0x7fff747e8700 exiting after successful execution
+    Thread 0x7fff74fe9700 exiting after successful execution
+    Thread 0x7fff6d7da700: /home/schod005/Documents/CSCI_4061//.git/objects/pack
+    Thread 0x7fff707e0700 exiting after successful execution
+    Thread 0x7fff71fe3700 exiting after successful execution
+    Thread 0x7fff6e7dc700 exiting after successful execution
+    Thread 0x7fff6f7de700 exiting after successful execution
+    Thread 0x7fff6ffdf700 exiting after successful execution
+    Thread 0x7fff6dfdb700 exiting after successful execution
+    Thread 0x7fff6efdd700 exiting after successful execution
+    BMP thread 0x7fff6cfd9700: /home/schod005/Documents/CSCI_4061//.git/objects/pack
+    GIF thread 0x7fff6c7d8700: /home/schod005/Documents/CSCI_4061//.git/objects/pack
+    PNG thread 0x7fff6bfd7700: /home/schod005/Documents/CSCI_4061//.git/objects/pack
+    JPG thread 0x7fff6b7d6700: /home/schod005/Documents/CSCI_4061//.git/objects/pack
+    Thread 0x7fff6d7da700 exiting after successful execution
+    Thread 0x7fff6cfd9700 exiting after successful execution
+    Thread 0x7fff6c7d8700 exiting after successful execution
+    Thread 0x7fff6bfd7700 exiting after successful execution
+    Thread 0x7fff6afd5700: /home/schod005/Documents/CSCI_4061//.git/objects/40
+    Thread 0x7fff6b7d6700 exiting after successful execution
+    BMP thread 0x7fff6a7d4700: /home/schod005/Documents/CSCI_4061//.git/objects/40
+    GIF thread 0x7fff69fd3700: /home/schod005/Documents/CSCI_4061//.git/objects/40
+    PNG thread 0x7fff697d2700: /home/schod005/Documents/CSCI_4061//.git/objects/40
+    JPG thread 0x7fff68fd1700: /home/schod005/Documents/CSCI_4061//.git/objects/40
+    Thread 0x7fff687d0700: /home/schod005/Documents/CSCI_4061//.git/objects/37
+    Thread 0x7fff6a7d4700 exiting after successful execution
+    Thread 0x7fff6afd5700 exiting after successful execution
+    Thread 0x7fff69fd3700 exiting after successful execution
+    Thread 0x7fff68fd1700 exiting after successful execution
+    Thread 0x7fff697d2700 exiting after successful execution
+    BMP thread 0x7fff67fcf700: /home/schod005/Documents/CSCI_4061//.git/objects/37
+    GIF thread 0x7fff677ce700: /home/schod005/Documents/CSCI_4061//.git/objects/37
+    PNG thread 0x7fff66fcd700: /home/schod005/Documents/CSCI_4061//.git/objects/37
+    JPG thread 0x7fff667cc700: /home/schod005/Documents/CSCI_4061//.git/objects/37
+    Thread 0x7fff67fcf700 exiting after successful execution
+    Thread 0x7fff677ce700 exiting after successful execution
+    Thread 0x7fff66fcd700 exiting after successful execution
+    Thread 0x7fff65fcb700: /home/schod005/Documents/CSCI_4061//.git/objects/78
+    Thread 0x7fff687d0700 exiting after successful execution
+    Thread 0x7fff667cc700 exiting after successful execution
+    Thread 0x7fff657ca700: /home/schod005/Documents/CSCI_4061//.git/objects/7d
+    BMP thread 0x7fff64fc9700: /home/schod005/Documents/CSCI_4061//.git/objects/78
+    GIF thread 0x7fff647c8700: /home/schod005/Documents/CSCI_4061//.git/objects/78
+    PNG thread 0x7fff63fc7700: /home/schod005/Documents/CSCI_4061//.git/objects/78
+    JPG thread 0x7fff637c6700: /home/schod005/Documents/CSCI_4061//.git/objects/78
+    Thread 0x7fff647c8700 exiting after successful execution
+    Thread 0x7fff64fc9700 exiting after successful execution
+    BMP thread 0x7fff62fc5700: /home/schod005/Documents/CSCI_4061//.git/objects/7d
+    GIF thread 0x7fff627c4700: /home/schod005/Documents/CSCI_4061//.git/objects/7d
+    PNG thread 0x7fff61fc3700: /home/schod005/Documents/CSCI_4061//.git/objects/7d
+    JPG thread 0x7fff617c2700: /home/schod005/Documents/CSCI_4061//.git/objects/7d
+    Thread 0x7fff637c6700 exiting after successful execution
+    Thread 0x7fff627c4700 exiting after successful execution
+    Thread 0x7fff62fc5700 exiting after successful execution
+    Thread 0x7fff65fcb700 exiting after successful execution
+    Thread 0x7fff63fc7700 exiting after successful execution
+    Thread 0x7fff60fc1700: /home/schod005/Documents/CSCI_4061//.git/objects/65
+    Thread 0x7fff617c2700 exiting after successful execution
+    Thread 0x7fff61fc3700 exiting after successful execution
+    Thread 0x7fff657ca700 exiting after successful execution
+    BMP thread 0x7fff607c0700: /home/schod005/Documents/CSCI_4061//.git/objects/65
+    GIF thread 0x7fff5ffbf700: /home/schod005/Documents/CSCI_4061//.git/objects/65
+    PNG thread 0x7fff5f7be700: /home/schod005/Documents/CSCI_4061//.git/objects/65
+    JPG thread 0x7fff5efbd700: /home/schod005/Documents/CSCI_4061//.git/objects/65
+    Thread 0x7fff5e7bc700: /home/schod005/Documents/CSCI_4061//.git/objects/c1
+    Thread 0x7fff5ffbf700 exiting after successful execution
+    Thread 0x7fff5f7be700 exiting after successful execution
+    Thread 0x7fff5efbd700 exiting after successful execution
+    Thread 0x7fff60fc1700 exiting after successful execution
+    Thread 0x7fff607c0700 exiting after successful execution
+    BMP thread 0x7fff5dfbb700: /home/schod005/Documents/CSCI_4061//.git/objects/c1
+    GIF thread 0x7fff5d7ba700: /home/schod005/Documents/CSCI_4061//.git/objects/c1
+    PNG thread 0x7fff5cfb9700: /home/schod005/Documents/CSCI_4061//.git/objects/c1
+    JPG thread 0x7fff5c7b8700: /home/schod005/Documents/CSCI_4061//.git/objects/c1
+    Thread 0x7fff5bfb7700: /home/schod005/Documents/CSCI_4061//.git/objects/20
+    Thread 0x7fff5dfbb700 exiting after successful execution
+    Thread 0x7fff5d7ba700 exiting after successful execution
+    Thread 0x7fff5e7bc700 exiting after successful execution
+    Thread 0x7fff5cfb9700 exiting after successful execution
+    Thread 0x7fff5b7b6700: /home/schod005/Documents/CSCI_4061//.git/objects/a0
+    Thread 0x7fff5c7b8700 exiting after successful execution
+    BMP thread 0x7fff5afb5700: /home/schod005/Documents/CSCI_4061//.git/objects/20
+    GIF thread 0x7fff5a7b4700: /home/schod005/Documents/CSCI_4061//.git/objects/20
+    PNG thread 0x7fff59fb3700: /home/schod005/Documents/CSCI_4061//.git/objects/20
+    JPG thread 0x7fff597b2700: /home/schod005/Documents/CSCI_4061//.git/objects/20
+    Thread 0x7fff5afb5700 exiting after successful execution
+    Thread 0x7fff5a7b4700 exiting after successful execution
+    BMP thread 0x7fff58fb1700: /home/schod005/Documents/CSCI_4061//.git/objects/a0
+    GIF thread 0x7fff587b0700: /home/schod005/Documents/CSCI_4061//.git/objects/a0
+    PNG thread 0x7fff57faf700: /home/schod005/Documents/CSCI_4061//.git/objects/a0
+    JPG thread 0x7fff577ae700: /home/schod005/Documents/CSCI_4061//.git/objects/a0
+    Thread 0x7fff597b2700 exiting after successful execution
+    Thread 0x7fff56fad700: /home/schod005/Documents/CSCI_4061//.git/objects/98
+    Thread 0x7fff58fb1700 exiting after successful execution
+    Thread 0x7fff587b0700 exiting after successful execution
+    Thread 0x7fff59fb3700 exiting after successful execution
+    Thread 0x7fff5b7b6700 exiting after successful execution
+    Thread 0x7fff5bfb7700 exiting after successful execution
+    Thread 0x7fff577ae700 exiting after successful execution
+    BMP thread 0x7fff567ac700: /home/schod005/Documents/CSCI_4061//.git/objects/98
+    GIF thread 0x7fff55fab700: /home/schod005/Documents/CSCI_4061//.git/objects/98
+    PNG thread 0x7fff557aa700: /home/schod005/Documents/CSCI_4061//.git/objects/98
+    JPG thread 0x7fff54fa9700: /home/schod005/Documents/CSCI_4061//.git/objects/98
+    Thread 0x7fff547a8700: /home/schod005/Documents/CSCI_4061//.git/objects/2e
+    Thread 0x7fff567ac700 exiting after successful execution
+    Thread 0x7fff56fad700 exiting after successful execution
+    Thread 0x7fff55fab700 exiting after successful execution
+    Thread 0x7fff557aa700 exiting after successful execution
+    Thread 0x7fff54fa9700 exiting after successful execution
+    BMP thread 0x7fff53fa7700: /home/schod005/Documents/CSCI_4061//.git/objects/2e
+    GIF thread 0x7fff537a6700: /home/schod005/Documents/CSCI_4061//.git/objects/2e
+    PNG thread 0x7fff52fa5700: /home/schod005/Documents/CSCI_4061//.git/objects/2e
+    JPG thread 0x7fff527a4700: /home/schod005/Documents/CSCI_4061//.git/objects/2e
+    Thread 0x7fff537a6700 exiting after successful execution
+    Thread 0x7fff51fa3700: /home/schod005/Documents/CSCI_4061//.git/objects/5b
+    Thread 0x7fff547a8700 exiting after successful execution
+    Thread 0x7fff53fa7700 exiting after successful execution
+    Thread 0x7fff52fa5700 exiting after successful execution
+    Thread 0x7fff57faf700 exiting after successful execution
+    Thread 0x7fff527a4700 exiting after successful execution
+    BMP thread 0x7fff517a2700: /home/schod005/Documents/CSCI_4061//.git/objects/5b
+    GIF thread 0x7fff50fa1700: /home/schod005/Documents/CSCI_4061//.git/objects/5b
+    PNG thread 0x7fff507a0700: /home/schod005/Documents/CSCI_4061//.git/objects/5b
+    JPG thread 0x7fff4ff9f700: /home/schod005/Documents/CSCI_4061//.git/objects/5b
+    Thread 0x7fff50fa1700 exiting after successful execution
+    Thread 0x7fff507a0700 exiting after successful execution
+    Thread 0x7fff517a2700 exiting after successful execution
+    Thread 0x7fff4f79e700: /home/schod005/Documents/CSCI_4061//.git/objects/b5
+    Thread 0x7fff4ff9f700 exiting after successful execution
+    Thread 0x7fff51fa3700 exiting after successful execution
+    BMP thread 0x7fff4ef9d700: /home/schod005/Documents/CSCI_4061//.git/objects/b5
+    GIF thread 0x7fff4e79c700: /home/schod005/Documents/CSCI_4061//.git/objects/b5
+    PNG thread 0x7fff4df9b700: /home/schod005/Documents/CSCI_4061//.git/objects/b5
+    JPG thread 0x7fff4d79a700: /home/schod005/Documents/CSCI_4061//.git/objects/b5
+    Thread 0x7fff4cf99700: /home/schod005/Documents/CSCI_4061//.git/objects/e2
+    Thread 0x7fff4f79e700 exiting after successful execution
+    Thread 0x7fff4ef9d700 exiting after successful execution
+    Thread 0x7fff4df9b700 exiting after successful execution
+    Thread 0x7fff4e79c700 exiting after successful execution
+    Thread 0x7fff4d79a700 exiting after successful execution
+    Thread 0x7fff4c798700: /home/schod005/Documents/CSCI_4061//.git/objects/ae
+    BMP thread 0x7fff4bf97700: /home/schod005/Documents/CSCI_4061//.git/objects/e2
+    GIF thread 0x7fff4b796700: /home/schod005/Documents/CSCI_4061//.git/objects/e2
+    PNG thread 0x7fff4af95700: /home/schod005/Documents/CSCI_4061//.git/objects/e2
+    JPG thread 0x7fff4a794700: /home/schod005/Documents/CSCI_4061//.git/objects/e2
+    BMP thread 0x7fff49f93700: /home/schod005/Documents/CSCI_4061//.git/objects/ae
+    GIF thread 0x7fff49792700: /home/schod005/Documents/CSCI_4061//.git/objects/ae
+    PNG thread 0x7fff48f91700: /home/schod005/Documents/CSCI_4061//.git/objects/ae
+    JPG thread 0x7fff48790700: /home/schod005/Documents/CSCI_4061//.git/objects/ae
+    Thread 0x7fff4af95700 exiting after successful execution
+    Thread 0x7fff4cf99700 exiting after successful execution
+    Thread 0x7fff47f8f700: /home/schod005/Documents/CSCI_4061//.git/objects/15
+    Thread 0x7fff49792700 exiting after successful execution
+    Thread 0x7fff4bf97700 exiting after successful execution
+    Thread 0x7fff4c798700 exiting after successful execution
+    Thread 0x7fff4b796700 exiting after successful execution
+    Thread 0x7fff4a794700 exiting after successful execution
+    Thread 0x7fff48f91700 exiting after successful execution
+    Thread 0x7fff48790700 exiting after successful execution
+    Thread 0x7fff49f93700 exiting after successful execution
+    BMP thread 0x7fff4778e700: /home/schod005/Documents/CSCI_4061//.git/objects/15
+    GIF thread 0x7fff46f8d700: /home/schod005/Documents/CSCI_4061//.git/objects/15
+    PNG thread 0x7fff4678c700: /home/schod005/Documents/CSCI_4061//.git/objects/15
+    JPG thread 0x7fff45f8b700: /home/schod005/Documents/CSCI_4061//.git/objects/15
+    Thread 0x7fff4678c700 exiting after successful execution
+    Thread 0x7fff46f8d700 exiting after successful execution
+    Thread 0x7fff4778e700 exiting after successful execution
+    Thread 0x7fff4578a700: /home/schod005/Documents/CSCI_4061//.git/objects/0d
+    Thread 0x7fff45f8b700 exiting after successful execution
+    Thread 0x7fff47f8f700 exiting after successful execution
+    Thread 0x7fffe7fff700 exiting after successful execution
+    BMP thread 0x7fff44f89700: /home/schod005/Documents/CSCI_4061//.git/objects/0d
+    GIF thread 0x7fff44788700: /home/schod005/Documents/CSCI_4061//.git/objects/0d
+    PNG thread 0x7fffe7fff700: /home/schod005/Documents/CSCI_4061//.git/objects/0d
+    JPG thread 0x7fff43f87700: /home/schod005/Documents/CSCI_4061//.git/objects/0d
+    Thread 0x7fffe7fff700 exiting after successful execution
+    Thread 0x7fff44f89700 exiting after successful execution
+    Joined thread: 0x7fffe7fff700
+    Joined thread: 0x7fffe77fe700
+    Joined thread: 0x7fffe6ffd700
+    Joined thread: 0x7fffe67fc700
+    Joined thread: 0x7fffe5ffb700
+    Joined thread: 0x7fffe57fa700
+    Joined thread: 0x7fffe4ff9700
+    Joined thread: 0x7fffdbfff700
+    Joined thread: 0x7fffdb7fe700
+    Joined thread: 0x7fffda7fc700
+    Joined thread: 0x7fffbffff700
+    Joined thread: 0x7fffbf7fe700
+    Joined thread: 0x7fffbeffd700
+    Joined thread: 0x7fffbe7fc700
+    Joined thread: 0x7fffbdffb700
+    Joined thread: 0x7fffbd7fa700
+    Joined thread: 0x7fffbcff9700
+    Joined thread: 0x7fffb7fff700
+    Joined thread: 0x7fffb77fe700
+    Joined thread: 0x7fffb6ffd700
+    Joined thread: 0x7fffb67fc700
+    Joined thread: 0x7fffb5ffb700
+    Joined thread: 0x7fffb57fa700
+    Joined thread: 0x7fffb4ff9700
+    Joined thread: 0x7fffb47f8700
+    Joined thread: 0x7fffb3ff7700
+    Joined thread: 0x7fffb37f6700
+    Joined thread: 0x7fffb2ff5700
+    Joined thread: 0x7fffb27f4700
+    Joined thread: 0x7fffb1ff3700
+    Joined thread: 0x7fffb17f2700
+    Joined thread: 0x7fffb0ff1700
+    Joined thread: 0x7fffb07f0700
+    Joined thread: 0x7fffaffef700
+    Joined thread: 0x7fffaf7ee700
+    Joined thread: 0x7fffaefed700
+    Joined thread: 0x7fffae7ec700
+    Joined thread: 0x7fffadfeb700
+    Joined thread: 0x7fffad7ea700
+    Joined thread: 0x7fffacfe9700
+    Joined thread: 0x7fffac7e8700
+    Joined thread: 0x7fffabfe7700
+    Joined thread: 0x7fffab7e6700
+    Joined thread: 0x7fffaafe5700
+    Joined thread: 0x7fffaa7e4700
+    Joined thread: 0x7fffa9fe3700
+    Joined thread: 0x7fffa97e2700
+    Joined thread: 0x7fffa8fe1700
+    Joined thread: 0x7fffa3fff700
+    Joined thread: 0x7fffa37fe700
+    Joined thread: 0x7fffa2ffd700
+    Joined thread: 0x7fffa27fc700
+    Joined thread: 0x7fffa1ffb700
+    Joined thread: 0x7fffa17fa700
+    Joined thread: 0x7fffa0ff9700
+    Joined thread: 0x7fffd37fe700
+    Joined thread: 0x7fff9bfff700
+    Joined thread: 0x7fff9b7fe700
+    Joined thread: 0x7fff9affd700
+    Joined thread: 0x7fff9a7fc700
+    Joined thread: 0x7fff99ffb700
+    Joined thread: 0x7ffff4ff1700
+    Joined thread: 0x7ffff57f2700
+    Joined thread: 0x7ffff5ff3700
+    Joined thread: 0x7ffff67f4700
+    Joined thread: 0x7ffff77f6700
+    Joined thread: 0x7ffff6ff5700
+    Joined thread: 0x7fffdaffd700
+    Joined thread: 0x7fffd9ffb700
+    Joined thread: 0x7fffd97fa700
+    Joined thread: 0x7fffd8ff9700
+    Joined thread: 0x7fffd3fff700
+    Joined thread: 0x7fffd2ffd700
+    Joined thread: 0x7fffd27fc700
+    Joined thread: 0x7fffd1ffb700
+    Joined thread: 0x7fffd17fa700
+    Joined thread: 0x7fffd0ff9700
+    Joined thread: 0x7fffcbfff700
+    Joined thread: 0x7fffcb7fe700
+    Joined thread: 0x7fffcaffd700
+    Thread 0x7fff4578a700 exiting after successful execution
+    Thread 0x7fff43f87700 exiting after successful execution
+    Joined thread: 0x7fffca7fc700
+    Joined thread: 0x7fffc9ffb700
+    Joined thread: 0x7fffc97fa700
+    Joined thread: 0x7fffc8ff9700
+    Joined thread: 0x7fff997fa700
+    Joined thread: 0x7fff98ff9700
+    Joined thread: 0x7fff987f8700
+    Joined thread: 0x7fff97ff7700
+    Joined thread: 0x7fff977f6700
+    Joined thread: 0x7fff96ff5700
+    Joined thread: 0x7fff967f4700
+    Joined thread: 0x7fff95ff3700
+    Joined thread: 0x7fff957f2700
+    Joined thread: 0x7fff94ff1700
+    Joined thread: 0x7fff8ffff700
+    Joined thread: 0x7fff8f7fe700
+    Joined thread: 0x7fff8effd700
+    Joined thread: 0x7fff8e7fc700
+    Joined thread: 0x7fff8dffb700
+    Joined thread: 0x7fff8d7fa700
+    Joined thread: 0x7fff8cff9700
+    Joined thread: 0x7fff87fff700
+    Joined thread: 0x7fff877fe700
+    Joined thread: 0x7fff86ffd700
+    Joined thread: 0x7fff867fc700
+    Joined thread: 0x7fff85ffb700
+    Joined thread: 0x7fff857fa700
+    Joined thread: 0x7fff84ff9700
+    Joined thread: 0x7fff7ffff700
+    Joined thread: 0x7fff7f7fe700
+    Joined thread: 0x7fff7effd700
+    Joined thread: 0x7fff7e7fc700
+    Joined thread: 0x7fff7dffb700
+    Joined thread: 0x7fff7d7fa700
+    Joined thread: 0x7fff7cff9700
+    Joined thread: 0x7fff7c7f8700
+    Joined thread: 0x7fff7bff7700
+    Joined thread: 0x7fff7b7f6700
+    Joined thread: 0x7fff7aff5700
+    Joined thread: 0x7fff7a7f4700
+    Joined thread: 0x7fff79ff3700
+    Joined thread: 0x7fff797f2700
+    Joined thread: 0x7fff78ff1700
+    Joined thread: 0x7fff787f0700
+    Joined thread: 0x7fff77fef700
+    Joined thread: 0x7fff777ee700
+    Joined thread: 0x7fff76fed700
+    Joined thread: 0x7fff767ec700
+    Joined thread: 0x7fff75feb700
+    Joined thread: 0x7fff757ea700
+    Joined thread: 0x7fff74fe9700
+    Joined thread: 0x7fff747e8700
+    Joined thread: 0x7fff73fe7700
+    Joined thread: 0x7fff737e6700
+    Joined thread: 0x7fff72fe5700
+    Joined thread: 0x7fff727e4700
+    Joined thread: 0x7fff71fe3700
+    Joined thread: 0x7fff717e2700
+    Joined thread: 0x7fff70fe1700
+    Joined thread: 0x7fff707e0700
+    Joined thread: 0x7fff6ffdf700
+    Joined thread: 0x7fff6f7de700
+    Joined thread: 0x7fff6efdd700
+    Joined thread: 0x7fff6e7dc700
+    Joined thread: 0x7fff6dfdb700
+    Joined thread: 0x7fff6d7da700
+    Joined thread: 0x7fff6cfd9700
+    Joined thread: 0x7fff6c7d8700
+    Joined thread: 0x7fff6bfd7700
+    Joined thread: 0x7fff6b7d6700
+    Joined thread: 0x7fff6afd5700
+    Joined thread: 0x7fff6a7d4700
+    Joined thread: 0x7fff69fd3700
+    Joined thread: 0x7fff697d2700
+    Joined thread: 0x7fff68fd1700
+    Joined thread: 0x7fff687d0700
+    Joined thread: 0x7fff67fcf700
+    Joined thread: 0x7fff677ce700
+    Joined thread: 0x7fff66fcd700
+    Joined thread: 0x7fff667cc700
+    Joined thread: 0x7fff65fcb700
+    Joined thread: 0x7fff657ca700
+    Joined thread: 0x7fff64fc9700
+    Joined thread: 0x7fff647c8700
+    Joined thread: 0x7fff63fc7700
+    Joined thread: 0x7fff637c6700
+    Joined thread: 0x7fff62fc5700
+    Joined thread: 0x7fff627c4700
+    Joined thread: 0x7fff61fc3700
+    Joined thread: 0x7fff617c2700
+    Joined thread: 0x7fff60fc1700
+    Joined thread: 0x7fff607c0700
+    Joined thread: 0x7fff5ffbf700
+    Joined thread: 0x7fff5f7be700
+    Joined thread: 0x7fff5efbd700
+    Joined thread: 0x7fff5e7bc700
+    Joined thread: 0x7fff5dfbb700
+    Joined thread: 0x7fff5d7ba700
+    Thread 0x7fff44788700 exiting after successful execution
+    Joined thread: 0x7fff5cfb9700
+    Joined thread: 0x7fff5c7b8700
+    Joined thread: 0x7fff5bfb7700
+    Joined thread: 0x7fff5b7b6700
+    Joined thread: 0x7fff5afb5700
+    Joined thread: 0x7fff5a7b4700
+    Joined thread: 0x7fff59fb3700
+    Joined thread: 0x7fff597b2700
+    Joined thread: 0x7fff58fb1700
+    Joined thread: 0x7fff587b0700
+    Joined thread: 0x7fff57faf700
+    Joined thread: 0x7fff577ae700
+    Joined thread: 0x7fff56fad700
+    Joined thread: 0x7fff567ac700
+    Joined thread: 0x7fff55fab700
+    Joined thread: 0x7fff557aa700
+    Joined thread: 0x7fff54fa9700
+    Joined thread: 0x7fff547a8700
+    Joined thread: 0x7fff53fa7700
+    Joined thread: 0x7fff537a6700
+    Joined thread: 0x7fff52fa5700
+    Joined thread: 0x7fff527a4700
+    Joined thread: 0x7fff51fa3700
+    Joined thread: 0x7fff517a2700
+    Joined thread: 0x7fff50fa1700
+    Joined thread: 0x7fff507a0700
+    Joined thread: 0x7fff4ff9f700
+    Joined thread: 0x7fff4f79e700
+    Joined thread: 0x7fff4ef9d700
+    Joined thread: 0x7fff4e79c700
+    Joined thread: 0x7fff4df9b700
+    Joined thread: 0x7fff4d79a700
+    Joined thread: 0x7fff4cf99700
+    Joined thread: 0x7fff4c798700
+    Joined thread: 0x7fff4bf97700
+    Joined thread: 0x7fff4b796700
+    Joined thread: 0x7fff4af95700
+    Joined thread: 0x7fff4a794700
+    Joined thread: 0x7fff49f93700
+    Joined thread: 0x7fff49792700
+    Joined thread: 0x7fff48f91700
+    Joined thread: 0x7fff48790700
+    Joined thread: 0x7fff47f8f700
+    Joined thread: 0x7fff4778e700
+    Joined thread: 0x7fff46f8d700
+    Joined thread: 0x7fff4678c700
+    Joined thread: 0x7fff45f8b700
+    Joined thread: 0x7fff4578a700
+    Joined thread: 0x7fff44f89700
+    Joined thread: 0x7fff44788700
+    Joined thread: 0x7fffe7fff700
+    Joined thread: 0x7fff43f87700
+
+Scan complete
+Number of images: 0
+Number of directories: 55
+Number of threads: 275
+Done!
