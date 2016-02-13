@@ -1,0 +1,13 @@
+
+public class HanoiR {
+    public static Stack1Gen <Hanoi> h = new Stack1Gen<Hanoi>();
+
+	public static void main(String args[]) {
+		 h.push(new Hanoi());
+
+	        while(!h.isEmpty()) 
+	        {  // system loop goes until stack is empty
+	            h.top().run();
+	        }  // end system loop
+	} // main method
+}

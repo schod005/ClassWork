@@ -1,0 +1,185 @@
+                      | # David Schoder
+                      | # 4552990
+                      | # I modified ncopy to check whether len is odd or even
+                      | # If odd, copy once, subtract 1 fron len.
+                      | # Then check if len > 10.  If so, copy 10 objects, subtract 10 from len
+                      | # and check again.
+                      | # Continue doing this until len < 10. Check if len > 0.  If so, then
+                      | # copy two objects and subtract 2 from len.  Continue until len < 0.
+                      | # 
+                      | # If even, do all of the above without moving the first object.
+                      | #
+                      | # Moving 10 objects at a time, then two was optimal.  This was found
+                      | # through trial and error.
+                      | #
+                      | # There are other optimizations, such as putting the jump most likely
+                      | # to happen in front of the jump less likely to happen, since jumps are 
+                      | # always assumed to be taken.
+                      | #
+                      | # iaddl replaces irmovl/subl/addl in many places to reduce steps
+                      | #
+                      | # comments on each line of code explain the rest
+                      | #
+                      | # I thought it was pretty clever.  If iaddl didn't give a different
+                      | # benchmark, this code might be faster than the fastest one in the
+                      | # archlab.pdf file with 9.27 average CPE.
+                      | #
+                      | #/* $begin ncopy-ys */
+                      | ##################################################################
+                      | # ncopy.ys - Copy a src block of len ints to dst.
+                      | # Return the number of positive ints (>0) contained in src.
+                      | #
+                      | # Include your name and ID here.
+                      | #
+                      | # Describe how and why you modified the baseline code.
+                      | #
+                      | ##################################################################
+                      | # Do not modify this portion
+                      | # Function prologue.
+  0x000: a05f         | ncopy:	pushl %ebp		# Save old frame pointer
+  0x002: 2045         | 	rrmovl %esp,%ebp	# Set up new frame pointer
+  0x004: a06f         | 	pushl %esi		# Save callee-save regs
+  0x006: a03f         | 	pushl %ebx
+  0x008: a07f         | 	pushl %edi
+  0x00a: 503508000000 | 	mrmovl 8(%ebp),%ebx	# src
+  0x010: 502510000000 | 	mrmovl 16(%ebp),%edx	# len
+  0x016: 50150c000000 | 	mrmovl 12(%ebp),%ecx	# dst
+                      | 
+                      | ##################################################################
+                      | # You can modify this portion
+                      | 	# Loop header
+  0x01c: 6300         | 	xorl %eax,%eax
+  0x01e: 6222         | 	andl %edx,%edx
+  0x020: 762a000000   | 	jg NotDone				# more efficient if assumes NotDone is taken
+  0x025: 70f8010000   | 	jmp Done				# because Done is only taken for 1 case
+  0x02a:              | NotDone:	
+  0x02a: 2027         | 	rrmovl %edx,%edi		# edi = len
+  0x02c: 30f601000000 | 	irmovl $1,%esi			# eax = 1
+  0x032: 6267         | 	andl %esi,%edi			# if len odd, do one copy
+  0x034: 7370000000   | 	je Check
+  0x039: 506300000000 | 	mrmovl (%ebx), %esi		# read val from src...
+  0x03f: 406100000000 | 	rmmovl %esi, (%ecx)		# ...and store it to dst
+  0x045: 6266         | 	andl %esi, %esi			# val > 0?
+  0x047: 7152000000   | 	jle Bob					# if so, goto Bob:
+  0x04c: c0f001000000 | 	iaddl $1, %eax			# count++
+  0x052:              | Bob:
+  0x052: c0f2ffffffff | 	iaddl $-1, %edx			# len--
+  0x058: c0f304000000 | 	iaddl $4, %ebx			# src++
+  0x05e: c0f104000000 | 	iaddl $4, %ecx			# dst++
+  0x064: 6222         | 	andl %edx,%edx			# len > 0?
+  0x066: 7670000000   | 	jg Check				# if so, go to Check
+  0x06b: 70f8010000   | 	jmp Done				# else done
+                      | 
+  0x070:              | Check:	
+  0x070: 30f70a000000 | 	irmovl $10,%edi			# iaddl gives weird stuff here
+  0x076: 6172         | 	subl %edi,%edx			# len - 10 > 0?
+  0x078: 7684000000   | 	jg TenFix				# then jump to TenFix
+  0x07d: 6072         | 	addl %edi, %edx			# len > 0?
+  0x07f: 70ad010000   | 	jmp EvenFix				# still have even number
+                      | 	
+  0x084:              | TenFix:
+  0x084: 30f714000000 | 	irmovl $20,%edi			# reduce by one step by checking len and decrimenting count
+  0x08a:              | Ten:
+  0x08a: c0f20a000000 | 	iaddl $10,%edx			# add the 10 subtracted earlier
+  0x090: 506300000000 | 	mrmovl (%ebx), %esi		# read val from src...
+  0x096: 406100000000 | 	rmmovl %esi, (%ecx)		# ...and store it to dst
+  0x09c: 6266         | 	andl %esi, %esi			# val <= 0?
+  0x09e: 71a9000000   | 	jle Ne					# if so, goto Next:
+  0x0a3: c0f001000000 | 	iaddl $1, %eax			# count++
+  0x0a9:              | Ne:
+  0x0a9: 506304000000 | 	mrmovl 4(%ebx), %esi	# read val from src...
+  0x0af: 406104000000 | 	rmmovl %esi, 4(%ecx)	# ...and store it to dst
+  0x0b5: 6266         | 	andl %esi, %esi			# val <= 0?
+  0x0b7: 71c2000000   | 	jle Ne2					# if so, goto Npos:	
+  0x0bc: c0f001000000 | 	iaddl $1, %eax			# count++
+  0x0c2:              | Ne2:
+  0x0c2: 506308000000 | 	mrmovl 8(%ebx), %esi	# read val from src...
+  0x0c8: 406108000000 | 	rmmovl %esi, 8(%ecx)	# ...and store it to dst
+  0x0ce: 6266         | 	andl %esi, %esi			# val <= 0?
+  0x0d0: 71db000000   | 	jle Ne3					# if so, goto Next:
+  0x0d5: c0f001000000 | 	iaddl $1, %eax			# count++
+  0x0db:              | Ne3:
+  0x0db: 50630c000000 | 	mrmovl 12(%ebx), %esi	# read val from src...
+  0x0e1: 40610c000000 | 	rmmovl %esi, 12(%ecx)	# ...and store it to dst
+  0x0e7: 6266         | 	andl %esi, %esi			# val <= 0?
+  0x0e9: 71f4000000   | 	jle Ne4					# if so, goto Npos:	
+  0x0ee: c0f001000000 | 	iaddl $1, %eax			# count++
+  0x0f4:              | Ne4:
+  0x0f4: 506310000000 | 	mrmovl 16(%ebx), %esi	# read val from src...
+  0x0fa: 406110000000 | 	rmmovl %esi, 16(%ecx)	# ...and store it to dst
+  0x100: 6266         | 	andl %esi, %esi			# val <= 0?
+  0x102: 710d010000   | 	jle Ne5					# if so, goto Next:
+  0x107: c0f001000000 | 	iaddl $1, %eax			# count++
+  0x10d:              | Ne5:
+  0x10d: 506314000000 | 	mrmovl 20(%ebx), %esi	# read val from src...
+  0x113: 406114000000 | 	rmmovl %esi, 20(%ecx)	# ...and store it to dst
+  0x119: 6266         | 	andl %esi, %esi			# val <= 0?
+  0x11b: 7126010000   | 	jle Ne6					# if so, goto Npos:	
+  0x120: c0f001000000 | 	iaddl $1, %eax			# count++
+  0x126:              | Ne6:
+  0x126: 506318000000 | 	mrmovl 24(%ebx), %esi	# read val from src...
+  0x12c: 406118000000 | 	rmmovl %esi, 24(%ecx)	# ...and store it to dst
+  0x132: 6266         | 	andl %esi, %esi			# val <= 0?
+  0x134: 713f010000   | 	jle Ne7					# if so, goto Next:
+  0x139: c0f001000000 | 	iaddl $1, %eax			# count++
+  0x13f:              | Ne7:
+  0x13f: 50631c000000 | 	mrmovl 28(%ebx), %esi	# read val from src...
+  0x145: 40611c000000 | 	rmmovl %esi, 28(%ecx)	# ...and store it to dst
+  0x14b: 6266         | 	andl %esi, %esi			# val <= 0?
+  0x14d: 7158010000   | 	jle Ne8					# if so, goto Npos:	
+  0x152: c0f001000000 | 	iaddl $1, %eax			# count++
+  0x158:              | Ne8:
+  0x158: 506320000000 | 	mrmovl 32(%ebx), %esi	# read val from src...
+  0x15e: 406120000000 | 	rmmovl %esi, 32(%ecx)	# ...and store it to dst
+  0x164: 6266         | 	andl %esi, %esi			# val <= 0?
+  0x166: 7171010000   | 	jle Ne9					# if so, goto Npos:	
+  0x16b: c0f001000000 | 	iaddl $1, %eax			# count++
+  0x171:              | Ne9:
+  0x171: 506324000000 | 	mrmovl 36(%ebx), %esi	# read val from src...
+  0x177: 406124000000 | 	rmmovl %esi, 36(%ecx)	# ...and store it to dst
+  0x17d: 6266         | 	andl %esi, %esi			# val <= 0?
+  0x17f: 718a010000   | 	jle Npos10				# if so, goto Npos:	
+  0x184: c0f001000000 | 	iaddl $1, %eax			# count++
+  0x18a:              | Npos10:	
+  0x18a: c0f328000000 | 	iaddl $40, %ebx			# src+10
+  0x190: c0f128000000 | 	iaddl $40, %ecx			# dst+10
+  0x196: 6172         | 	subl %edi, %edx			# len-10 and len - 10 > 0?
+  0x198: 768a000000   | 	jg Ten					# loop
+  0x19d: c0f20a000000 | 	iaddl $10,%edx			# len > 0?
+  0x1a3: 76ad010000   | 	jg EvenFix				# still have even number of elements left
+  0x1a8: 70f8010000   | 	jmp Done				# len = 0
+                      | 
+  0x1ad:              | EvenFix:
+  0x1ad: 30f702000000 | 	irmovl $2, %edi			# fixes weird problem with iaddl
+  0x1b3:              | Even:	
+  0x1b3: 506300000000 | 	mrmovl (%ebx), %esi		# read val from src...
+  0x1b9: 406100000000 | 	rmmovl %esi, (%ecx)		# ...and store it to dst
+  0x1bf: 6266         | 	andl %esi, %esi			# val <= 0?
+  0x1c1: 71cc010000   | 	jle Next				# if so, goto Next:
+  0x1c6: c0f001000000 | 	iaddl $1, %eax			# count++
+  0x1cc:              | Next:
+  0x1cc: 506304000000 | 	mrmovl 4(%ebx), %esi	# read val from src...
+  0x1d2: 406104000000 | 	rmmovl %esi, 4(%ecx)	# ...and store it to dst
+  0x1d8: 6266         | 	andl %esi, %esi			# val <= 0?
+  0x1da: 71e5010000   | 	jle Npos				# if so, goto Npos:	
+  0x1df: c0f001000000 | 	iaddl $1, %eax			# count++
+  0x1e5:              | Npos:	
+  0x1e5: c0f308000000 | 	iaddl $8, %ebx			# src+2
+  0x1eb: c0f108000000 | 	iaddl $8, %ecx			# dst+2
+  0x1f1: 6172         | 	subl %edi, %edx			# len-2 and len > 0?
+  0x1f3: 76b3010000   | 	jg Even					# loop
+                      | 	
+                      | ##################################################################
+                      | # Do not modify the following section of code
+                      | # Function epilogue.
+  0x1f8:              | Done:
+  0x1f8: b07f         | 	popl %edi               # Restore callee-save registers
+  0x1fa: b03f         | 	popl %ebx
+  0x1fc: b06f         | 	popl %esi
+  0x1fe: 2054         | 	rrmovl %ebp, %esp
+  0x200: b05f         | 	popl %ebp
+  0x202: 90           | 	ret
+                      | ##################################################################
+                      | # Keep the following label at the end of your function
+  0x203:              | End:
+                      | #/* $end ncopy-ys */

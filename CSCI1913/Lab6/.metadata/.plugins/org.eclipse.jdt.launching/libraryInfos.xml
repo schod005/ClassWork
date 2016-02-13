@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="/soft/jdk1.7.0_45-arch" version="1.7.0_45">
+<bootpath>
+<entry path="/soft/jdk1.7.0_45-arch/jre/lib/resources.jar"/>
+<entry path="/soft/jdk1.7.0_45-arch/jre/lib/rt.jar"/>
+<entry path="/soft/jdk1.7.0_45-arch/jre/lib/sunrsasign.jar"/>
+<entry path="/soft/jdk1.7.0_45-arch/jre/lib/jsse.jar"/>
+<entry path="/soft/jdk1.7.0_45-arch/jre/lib/jce.jar"/>
+<entry path="/soft/jdk1.7.0_45-arch/jre/lib/charsets.jar"/>
+<entry path="/soft/jdk1.7.0_45-arch/jre/lib/jfr.jar"/>
+<entry path="/soft/jdk1.7.0_45-arch/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/soft/jdk1.7.0_45-arch/jre/lib/ext"/>
+<entry path="/usr/java/packages/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/soft/jdk1.7.0_45-arch/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

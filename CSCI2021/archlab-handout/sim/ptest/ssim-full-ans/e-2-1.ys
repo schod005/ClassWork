@@ -1,0 +1,12 @@
+    # Preamble.  Initialize memory and registers
+    irmovl $-1,%ecx    # Create nonzero value
+    irmovl $0x100,%eax
+    xorl %edx,%edx      # Set Z condition code
+    # Test 3 instruction sequence
+    rmmovl %eax,0xF0000000(%eax)
+    
+    rmmovl %ecx,(%eax)
+    # Complete
+    nop
+    nop
+    halt

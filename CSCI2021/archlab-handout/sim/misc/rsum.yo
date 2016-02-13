@@ -1,0 +1,46 @@
+                      | # David Schoder
+                      | # 4552990
+                      | 
+                      | # Set up stack and calling function with linked list
+  0x000: 30f400010000 | 	irmovl Stack,%esp
+  0x006: 2045         | 	rrmovl %esp,%ebp
+  0x008: 30f754000000 | 	irmovl ele1,%edi
+  0x00e: a07f         | 	pushl %edi
+  0x010: 8016000000   | 	call rsum_list
+  0x015: 00           | 	halt
+                      | 	
+  0x016:              | rsum_list:
+  0x016: a05f         | 	pushl %ebp
+  0x018: 2045         | 	rrmovl %esp,%ebp
+  0x01a: 507508000000 | 	mrmovl 8(%ebp),%edi		# edi = ls
+  0x020: 6277         | 	andl %edi,%edi			# if condition
+  0x022: 7432000000   | 	jne Else
+  0x027: 30f000000000 | 	irmovl 0,%eax			# return 0
+  0x02d: 704f000000   | 	jmp End
+  0x032:              | Else:
+  0x032: 500700000000 | 	mrmovl (%edi),%eax		# val = ls->val
+  0x038: a00f         | 	pushl %eax
+  0x03a: 507704000000 | 	mrmovl 4(%edi),%edi		# ls = ls->next
+  0x040: a07f         | 	pushl %edi
+  0x042: 8016000000   | 	call rsum_list
+  0x047: 5025fcffffff | 	mrmovl -4(%ebp),%edx	# edx = rest
+  0x04d: 6020         | 	addl %edx,%eax
+  0x04f:              | End:
+  0x04f: 2054         | 	rrmovl %ebp,%esp
+  0x051: b05f         | 	popl %ebp
+  0x053: 90           | 	ret
+                      | 	
+                      | # Sample linked list
+  0x054:              | .align 4	#each element is 8 bytes
+  0x054:              | ele1:
+  0x054: 0a000000     | 	.long 0x00a		# (%reg)
+  0x058: 5c000000     | 	.long ele2		# 4(%reg)
+  0x05c:              | ele2:
+  0x05c: b0000000     | 	.long 0x0b0
+  0x060: 64000000     | 	.long ele3
+  0x064:              | ele3:
+  0x064: 000c0000     | 	.long 0xc00
+  0x068: 00000000     | 	.long 0
+                      | 
+  0x100:              | .pos 0x100
+  0x100:              | Stack:

@@ -1,0 +1,50 @@
+
+public class HanoiRecord extends ActivationRecord {
+        
+        // *1* formal parameters
+        private int n;  // the value of parameter n for this instance 
+        char source;
+        char dest;
+        char temp;
+
+        // *2* no local variables for factorial
+
+        // *3* resume location
+        private int line = 0;
+
+        // constructor for new instance of an activation record
+        public HanoiRecord(int newN,char s,char d,char t) {
+            n = newN;
+            source = s;
+            dest = d;
+            temp = t;
+        }
+
+        // *4* reference to code for fact is kept within the run() method
+        public void run() {
+
+            switch (line) {
+                case 0:  // entry point
+                         if (n == 0) {
+                         System.out.println("Can't hanoi with 0 stacks");
+                         HanoiR.h.pop();  // this call done, remove frame from stack
+                           return;
+                         }
+                         // if we don't quit, we will fall into the "else" case below
+                         // else clause from fact
+                         line = 1;  // set resume point after recursive call below
+                         HanoiR.h.push(new HanoiRecord(n - 1,source,temp,dest));
+                         System.out.println(" Move disk " + n + " from " + source +
+                 				" to " + dest);
+                        line = 1;  // set resume point after recursive call below
+                 		HanoiR.h.push(new HanoiRecord(n - 1, temp, dest, source));
+                        return;
+                case 1:  // resume point after we have a factorial value for the n-1 case
+                         // no need to set resume line, because this call is done after this
+                         HanoiR.h.pop();  // this call done, remove frame from stack
+                 		 System.out.println(" Move disk 1 from " + source + " to " + dest);
+                         return;
+                default: System.out.println("\nWe should not get here.");
+            }
+        }
+}

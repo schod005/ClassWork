@@ -1,0 +1,59 @@
+                      | # /* $begin data-dep-ys */
+  0x000: 30f032000000 |     irmovl $50,%eax 	//line:arch:frag:irmovl
+  0x006: 6003         |     addl %eax,%ebx 	//line:arch:frag:addl
+  0x008: 502364000000 |     mrmovl 100(%ebx),%edx //line:arch:frag:mrmovl
+                      | # /* $end data-dep-ys */
+                      | 
+                      | # /* $begin control-dep-ys */
+  0x00e:              | loop:
+  0x00e: 6123         |     subl %edx,%ebx //line:arch:frag:subl
+  0x010: 7420000000   |     jne targ	//line:arch:frag:jne
+  0x015: 30f20a000000 |     irmovl $10,%edx //line:arch:frag:irmovl2
+  0x01b: 700e000000   |     jmp loop
+  0x020:              | targ:
+  0x020: 00           |     halt //line:arch:frag:halt
+                      | # /* $end control-dep-ys */
+                      | 
+                      | # /* $begin pipe-popl-ys */
+  0x021: 30f205000000 |     irmovl $5, %edx
+  0x027: 30f400010000 |     irmovl $0x100,%esp
+  0x02d: 402400000000 |     rmmovl %edx,0(%esp)
+  0x033: b04f         |     popl %esp		
+  0x035: 2040         |     rrmovl %esp,%eax //line:arch:frag:rrmovl
+                      | # /* $end pipe-popl-ys */
+                      | 
+                      | # /* $begin pipe-popl2-ys */
+  0x037: 30f205000000 |     irmovl $5, %edx
+  0x03d: 30f400010000 |     irmovl $0x100,%esp
+  0x043: 402400000000 |     rmmovl %edx,0(%esp)
+  0x049: b04f         |     popl %esp
+  0x04b: 10           |     nop
+  0x04c: 10           |     nop
+  0x04d: 2040         |     rrmovl %esp,%eax
+                      | # /* $end pipe-popl2-ys */
+                      | 
+                      | 
+                      | # /* $begin load-store-ys */
+  0x04f: 502100000000 |     mrmovl 0(%ecx),%edx   # Load  1
+  0x055: a02f         |     pushl  %edx           # Store 1
+  0x057: 10           |     nop
+  0x058: b02f         |     popl %edx             # Load  2
+  0x05a: 400200000000 |     rmmovl %eax,0(%edx)   # Store 2
+                      | # /* $end load-store-ys */
+                      | 
+                      | # /* $begin addr-exception-ys */
+  0x060: 30f001000000 |     irmovl $1,%eax
+  0x066: 6344         |     xorl %esp,%esp        # Set stack pointer to 0 and CC to 100
+  0x068: a00f         |     pushl %eax            # Attempt to write to 0xfffffffc
+  0x06a: 6000         |     addl  %eax,%eax       # (Should not be executed) Would set CC to 000
+                      | # /* $end addr-exception-ys */
+  0x06c: 30f002000000 |     irmovl $2, %eax       # Not executed
+  0x072: 30f003000000 |     irmovl $3, %eax	  # Not executed
+                      | 
+                      | # /* $begin basic-ys */
+  0x078: 30f001000000 |   irmovl  $1,%eax  # I1
+  0x07e: 30f302000000 |   irmovl  $2,%ebx  # I2
+  0x084: 30f103000000 |   irmovl  $3,%ecx  # I3
+  0x08a: 30f204000000 |   irmovl  $4,%edx  # I4
+  0x090: 00           |   halt             # I5
+                      | # /* $end basic-ys */

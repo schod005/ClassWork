@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="20" version="2.0">
+<workbenchAdvisor/>
+<window height="1176" width="1221" x="196" y="131">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="48" y="30"/>
+<coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.python.pydev.toolbars.evaluateActionSetterToolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1397490551167" focus="true" label="Workspace - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BankSim.java" partName="BankSim.java" path="/home/schod005/CSCI1913/Lab 10/Project 3/src/BankSim.java" title="BankSim.java" tooltip="Project 3/src/BankSim.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Project 3/src/BankSim.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2976" selectionTopPixel="470"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IndividualQTeller.java" partName="IndividualQTeller.java" path="/home/schod005/CSCI1913/Lab 10/Project 3/src/IndividualQTeller.java" title="IndividualQTeller.java" tooltip="Project 3/src/IndividualQTeller.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Project 3/src/IndividualQTeller.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="50" selectionOffset="591" selectionTopPixel="289"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SharedQTeller.java" partName="SharedQTeller.java" path="/home/schod005/CSCI1913/Lab 10/Project 3/src/SharedQTeller.java" title="SharedQTeller.java" tooltip="Project 3/src/SharedQTeller.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Project 3/src/SharedQTeller.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="939" selectionTopPixel="182"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SharedQStat.java" partName="SharedQStat.java" path="/home/schod005/CSCI1913/Lab 10/Project 3/src/SharedQStat.java" title="SharedQStat.java" tooltip="Project 3/src/SharedQStat.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Project 3/src/SharedQStat.java"/>
+<editorState selectionHorizontalPixel="917" selectionLength="0" selectionOffset="7033" selectionTopPixel="2794"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IndividualQStat.java" partName="IndividualQStat.java" path="/home/schod005/CSCI1913/Lab 10/Project 3/src/IndividualQStat.java" title="IndividualQStat.java" tooltip="Project 3/src/IndividualQStat.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Project 3/src/IndividualQStat.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6640" selectionTopPixel="3351"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Customer.java" partName="Customer.java" path="/home/schod005/CSCI1913/Lab 10/Project 3/src/Customer.java" title="Customer.java" tooltip="Project 3/src/Customer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Project 3/src/Customer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="32" selectionOffset="107" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CustomerMaker.java" partName="CustomerMaker.java" path="/home/schod005/CSCI1913/Lab 10/Project 3/src/CustomerMaker.java" title="CustomerMaker.java" tooltip="Project 3/src/CustomerMaker.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Project 3/src/CustomerMaker.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="91" selectionOffset="1247" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (100 of 502 items)"/>
+<category IMemento.internal.id="Warnings"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="951" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="Aggregate for window 1397490551167">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="adt.actionSet.wizards"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
+<alwaysOnActionSet id="adt.actionSet.lint"/>
+<alwaysOnActionSet id="adt.actionSet.refactorings"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.adt.project.NewProjectWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.editors.wizards.NewXmlFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.android.ide.eclipse.ddms.Perspective"/>
+<perspective_action id="com.android.ide.eclipse.hierarchyviewer.PixelPerfectPespective"/>
+<perspective_action id="com.android.ide.eclipse.hierarchyviewer.TreeViewPerspective"/>
+<perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@2f995e3e" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.4101942" ratioLeft="507" ratioRight="729" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.6883721" ratioLeft="740" ratioRight="335" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.8408408" ratioLeft="560" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/BankSim.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/IndividualQTeller.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/IndividualQStat.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/IndividualQTeller.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/SharedQTeller.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/SharedQStat.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/SharedQTeller.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/IndividualQTeller.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/SharedQStat.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/IndividualQStat.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/SharedQTeller.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/SharedQStat.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/IndividualQTeller.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/Customer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Project 3/src/CustomerMaker.java"/>
+</editors>
+<item historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="767" y="0"/>
+</item>
+<item historyLabel="IndividualQTeller.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="IndividualQStat.java" index="2">
+<position info="not_deleted" x="7508" y="0"/>
+</item>
+<item historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="767" y="0"/>
+</item>
+<item historyLabel="IndividualQTeller.java" index="3">
+<position info="not_deleted" x="872" y="36"/>
+</item>
+<item historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="1535" y="0"/>
+</item>
+<item historyLabel="SharedQTeller.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SharedQStat.java" index="5">
+<position/>
+</item>
+<item historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="1535" y="0"/>
+</item>
+<item historyLabel="SharedQStat.java" index="5">
+<position/>
+</item>
+<item historyLabel="SharedQTeller.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SharedQStat.java" index="5">
+<position/>
+</item>
+<item historyLabel="SharedQTeller.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SharedQTeller.java" index="4">
+<position info="not_deleted" x="939" y="0"/>
+</item>
+<item historyLabel="SharedQStat.java" index="5">
+<position info="not_deleted" x="7174" y="0"/>
+</item>
+<item historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="1535" y="0"/>
+</item>
+<item historyLabel="SharedQTeller.java" index="6">
+<position info="not_deleted" x="939" y="0"/>
+</item>
+<item historyLabel="IndividualQTeller.java" index="7">
+<position info="not_deleted" x="872" y="36"/>
+</item>
+<item historyLabel="SharedQStat.java" index="8">
+<position info="not_deleted" x="7238" y="0"/>
+</item>
+<item historyLabel="IndividualQStat.java" index="9">
+<position info="not_deleted" x="8218" y="0"/>
+</item>
+<item historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="791" y="0"/>
+</item>
+<item historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="1615" y="0"/>
+</item>
+<item historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="1453" y="0"/>
+</item>
+<item historyLabel="SharedQStat.java" index="8">
+<position info="not_deleted" x="6017" y="0"/>
+</item>
+<item historyLabel="IndividualQStat.java" index="9">
+<position info="not_deleted" x="8218" y="0"/>
+</item>
+<item historyLabel="SharedQStat.java" index="8">
+<position info="not_deleted" x="4744" y="0"/>
+</item>
+<item historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="552" y="0"/>
+</item>
+<item historyLabel="IndividualQStat.java" index="9">
+<position info="not_deleted" x="8218" y="0"/>
+</item>
+<item historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="552" y="0"/>
+</item>
+<item historyLabel="IndividualQTeller.java" index="7">
+<position info="not_deleted" x="872" y="36"/>
+</item>
+<item historyLabel="SharedQTeller.java" index="6">
+<position info="not_deleted" x="939" y="0"/>
+</item>
+<item historyLabel="SharedQStat.java" index="8">
+<position info="not_deleted" x="6873" y="0"/>
+</item>
+<item historyLabel="IndividualQStat.java" index="9">
+<position info="not_deleted" x="8218" y="0"/>
+</item>
+<item historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="639" y="0"/>
+</item>
+<item historyLabel="SharedQStat.java" index="8">
+<position info="not_deleted" x="6873" y="0"/>
+</item>
+<item historyLabel="SharedQStat.java" index="8">
+<position info="not_deleted" x="7175" y="0"/>
+</item>
+<item historyLabel="SharedQStat.java" index="8">
+<position info="not_deleted" x="7105" y="70"/>
+</item>
+<item historyLabel="IndividualQStat.java" index="9">
+<position info="not_deleted" x="6640" y="0"/>
+</item>
+<item historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="639" y="0"/>
+</item>
+<item historyLabel="BankSim.java" index="0">
+<position/>
+</item>
+<item historyLabel="SharedQTeller.java" index="10">
+<position info="not_deleted" x="939" y="0"/>
+</item>
+<item historyLabel="SharedQStat.java" index="11">
+<position info="not_deleted" x="7033" y="0"/>
+</item>
+<item historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="638" y="0"/>
+</item>
+<item historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="733" y="0"/>
+</item>
+<item historyLabel="IndividualQTeller.java" index="12">
+<position info="not_deleted" x="872" y="36"/>
+</item>
+<item historyLabel="IndividualQTeller.java" index="12">
+<position info="not_deleted" x="1889" y="91"/>
+</item>
+<item historyLabel="IndividualQTeller.java" index="12">
+<position info="not_deleted" x="591" y="50"/>
+</item>
+<item historyLabel="Customer.java" index="13">
+<position info="not_deleted" x="107" y="32"/>
+</item>
+<item historyLabel="CustomerMaker.java" index="14">
+<position info="not_deleted" x="1247" y="91"/>
+</item>
+<item active="true" historyLabel="BankSim.java" index="0">
+<position info="not_deleted" x="512" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CustomerMaker.java" tooltip="Project 3/src/CustomerMaker.java">
+<persistable path="/Project 3/src/CustomerMaker.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Customer.java" tooltip="Project 3/src/Customer.java">
+<persistable path="/Project 3/src/Customer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IndividualQStat.java" tooltip="Project 3/src/IndividualQStat.java">
+<persistable path="/Project 3/src/IndividualQStat.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SharedQStat.java" tooltip="Project 3/src/SharedQStat.java">
+<persistable path="/Project 3/src/SharedQStat.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SharedQTeller.java" tooltip="Project 3/src/SharedQTeller.java">
+<persistable path="/Project 3/src/SharedQTeller.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IndividualQTeller.java" tooltip="Project 3/src/IndividualQTeller.java">
+<persistable path="/Project 3/src/IndividualQTeller.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BankSim.java" tooltip="Project 3/src/BankSim.java">
+<persistable path="/Project 3/src/BankSim.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BankSimdatacollection.java" tooltip="Project 3/src/BankSimdatacollection.java">
+<persistable path="/Project 3/src/BankSimdatacollection.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CarMaker.java" tooltip="Lab 12/src/CarMaker.java">
+<persistable path="/Lab 12/src/CarMaker.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WasherEvent.java" tooltip="Lab 12/src/WasherEvent.java">
+<persistable path="/Lab 12/src/WasherEvent.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Car.java" tooltip="Lab 12/src/Car.java">
+<persistable path="/Lab 12/src/Car.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Washer.java" tooltip="Lab 12/src/Washer.java">
+<persistable path="/Lab 12/src/Washer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CarSim.java" tooltip="Lab 12/src/CarSim.java">
+<persistable path="/Lab 12/src/CarSim.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CarSim.java" tooltip="Lab 12 old/src/CarSim.java">
+<persistable path="/Lab 12 old/src/CarSim.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CarMaker.java" tooltip="Lab 12 old/src/CarMaker.java">
+<persistable path="/Lab 12 old/src/CarMaker.java"/>
+</file>
+</mruList>
+</workbench>

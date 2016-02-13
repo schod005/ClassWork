@@ -1,0 +1,7 @@
+	      irmovl $4, %edi
+	      irmovl $8, %esi
+	      irmovl $64, %eax
+	      irmovl $64, %edx
+	      subl %edx,%eax
+	      cmove %edi,%esi
+              halt

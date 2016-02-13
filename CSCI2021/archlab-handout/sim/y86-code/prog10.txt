@@ -1,0 +1,6 @@
+  0x000:     irmovl $1,%eax
+  0x006:     xorl %esp,%esp        # Set stack pointer to 0 and CC to 100
+  0x008:     pushl %eax            # Attempt to write to 0xfffffffc
+  0x00a:     addl  %eax,%eax       # (Should not be executed) Would set CC to 000
+  0x00c:     irmovl $2, %eax       # Not executed
+  0x012:     irmovl $3, %eax       # Not executed

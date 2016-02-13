@@ -1,0 +1,57 @@
+# David Schoder
+# 4552990
+
+# Set up stack and calling function with linked list
+	irmovl Stack,%esp
+	rrmovl %esp,%ebp
+	irmovl src,%edi			#src
+	irmovl dest,%esi		#dest
+	irmovl 3,%ecx			#len = 3
+	pushl %edi				#16(%ebp)	src
+	pushl %esi				#12(%ebp)	dest
+	pushl %ecx				#8(%ebp)	len
+	call copy_block
+	halt
+	
+# function
+copy_block:
+	pushl %ebp
+	rrmovl %esp,%ebp
+	mrmovl 16(%ebp),%edi	#*src
+	mrmovl 12(%ebp),%esi	#*dest
+	mrmovl 8(%ebp),%ecx		#len
+	xorl %eax,%eax			#result = 0
+	andl %ecx,%ecx			#while condition
+	jle End
+Loop:
+	mrmovl (%edi),%ebx		#val = *scr
+	irmovl 4,%edx			
+	addl %edx,%edi			#src++
+	rmmovl %ebx,(%esi)		#*dest = val
+	addl %edx,%esi			#dest++
+	xorl %ebx,%eax			
+	irmovl 1,%edx
+	subl %edx,%ecx			#len--
+	andl %ecx,%ecx
+	jg Loop
+End:
+	rrmovl %ebp,%esp
+	popl %ebp
+	ret
+
+.pos 0x100
+Stack:
+
+
+.align 4
+# Source block
+src:
+	.long 0x00a
+	.long 0x0b0
+	.long 0xc00
+	
+# Destination block
+dest:
+	.long 0x111
+	.long 0x222
+	.long 0x333

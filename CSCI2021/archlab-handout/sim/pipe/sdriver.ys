@@ -1,0 +1,244 @@
+#######################################################################
+# Test for copying block of size 4;
+#######################################################################
+	.pos 0
+main:	irmovl Stack, %esp  	# Set up stack pointer
+	irmovl Stack, %ebp  	# Set up base pointer
+
+	# Set up arguments for copy function and then invoke it
+	irmovl $4, %eax		# src and dst have 4 elements
+	pushl %eax
+	irmovl dest, %eax	# dst array
+	pushl %eax
+	irmovl src, %eax	# src array
+	pushl %eax
+	call ncopy		 
+	halt			# should halt with num nonzeros in %eax
+StartFun:
+# David Schoder
+# 4552990
+# I modified ncopy to check whether len is odd or even
+# If odd, copy once, subtract 1 fron len.
+# Then check if len > 10.  If so, copy 10 objects, subtract 10 from len
+# and check again.
+# Continue doing this until len < 10. Check if len > 0.  If so, then
+# copy two objects and subtract 2 from len.  Continue until len < 0.
+# 
+# If even, do all of the above without moving the first object.
+#
+# Moving 10 objects at a time, then two was optimal.  This was found
+# through trial and error.
+#
+# There are other optimizations, such as putting the jump most likely
+# to happen in front of the jump less likely to happen, since jumps are 
+# always assumed to be taken.
+#
+# iaddl replaces irmovl/subl/addl in many places to reduce steps
+#
+# comments on each line of code explain the rest
+#
+# I thought it was pretty clever.
+#
+#/* $begin ncopy-ys */
+##################################################################
+# ncopy.ys - Copy a src block of len ints to dst.
+# Return the number of positive ints (>0) contained in src.
+#
+# Include your name and ID here.
+#
+# Describe how and why you modified the baseline code.
+#
+##################################################################
+# Do not modify this portion
+# Function prologue.
+ncopy:	pushl %ebp		# Save old frame pointer
+	rrmovl %esp,%ebp	# Set up new frame pointer
+	pushl %esi		# Save callee-save regs
+	pushl %ebx
+	pushl %edi
+	mrmovl 8(%ebp),%ebx	# src
+	mrmovl 16(%ebp),%edx	# len
+	mrmovl 12(%ebp),%ecx	# dst
+
+##################################################################
+# You can modify this portion
+	# Loop header
+	xorl %eax,%eax
+	andl %edx,%edx
+	jg NotDone				# more efficient if assumes NotDone is taken
+	jmp Done				# because Done is only taken for 1 case
+NotDone:	
+	rrmovl %edx,%edi		# edi = len
+	irmovl $1,%esi			# eax = 1
+	andl %esi,%edi			# if len odd, do one copy
+	je Check
+	mrmovl (%ebx), %esi		# read val from src...
+	rmmovl %esi, (%ecx)		# ...and store it to dst
+	andl %esi, %esi			# val > 0?
+	jle Bob					# if so, goto Bob:
+	iaddl $1, %eax			# count++
+Bob:
+	iaddl $-1, %edx			# len--
+	iaddl $4, %ebx			# src++
+	iaddl $4, %ecx			# dst++
+	andl %edx,%edx			# len > 0?
+	jg Check				# if so, go to Check
+	jmp Done				# else done
+
+Check:	
+	irmovl $10,%edi			# iaddl gives weird stuff here
+	subl %edi,%edx			# len - 10 > 0?
+	jg TenFix				# then jump to TenFix
+	addl %edi, %edx			# len > 0?
+	jmp EvenFix				# still have even number
+	
+TenFix:
+	irmovl $20,%edi			# reduce by one step by checking len and decrimenting count
+Ten:
+	iaddl $10,%edx			# add the 10 subtracted earlier
+	mrmovl (%ebx), %esi		# read val from src...
+	rmmovl %esi, (%ecx)		# ...and store it to dst
+	andl %esi, %esi			# val <= 0?
+	jle Ne					# if so, goto Next:
+	iaddl $1, %eax			# count++
+Ne:
+	mrmovl 4(%ebx), %esi	# read val from src...
+	rmmovl %esi, 4(%ecx)	# ...and store it to dst
+	andl %esi, %esi			# val <= 0?
+	jle Ne2					# if so, goto Npos:	
+	iaddl $1, %eax			# count++
+Ne2:
+	mrmovl 8(%ebx), %esi	# read val from src...
+	rmmovl %esi, 8(%ecx)	# ...and store it to dst
+	andl %esi, %esi			# val <= 0?
+	jle Ne3					# if so, goto Next:
+	iaddl $1, %eax			# count++
+Ne3:
+	mrmovl 12(%ebx), %esi	# read val from src...
+	rmmovl %esi, 12(%ecx)	# ...and store it to dst
+	andl %esi, %esi			# val <= 0?
+	jle Ne4					# if so, goto Npos:	
+	iaddl $1, %eax			# count++
+Ne4:
+	mrmovl 16(%ebx), %esi	# read val from src...
+	rmmovl %esi, 16(%ecx)	# ...and store it to dst
+	andl %esi, %esi			# val <= 0?
+	jle Ne5					# if so, goto Next:
+	iaddl $1, %eax			# count++
+Ne5:
+	mrmovl 20(%ebx), %esi	# read val from src...
+	rmmovl %esi, 20(%ecx)	# ...and store it to dst
+	andl %esi, %esi			# val <= 0?
+	jle Ne6					# if so, goto Npos:	
+	iaddl $1, %eax			# count++
+Ne6:
+	mrmovl 24(%ebx), %esi	# read val from src...
+	rmmovl %esi, 24(%ecx)	# ...and store it to dst
+	andl %esi, %esi			# val <= 0?
+	jle Ne7					# if so, goto Next:
+	iaddl $1, %eax			# count++
+Ne7:
+	mrmovl 28(%ebx), %esi	# read val from src...
+	rmmovl %esi, 28(%ecx)	# ...and store it to dst
+	andl %esi, %esi			# val <= 0?
+	jle Ne8					# if so, goto Npos:	
+	iaddl $1, %eax			# count++
+Ne8:
+	mrmovl 32(%ebx), %esi	# read val from src...
+	rmmovl %esi, 32(%ecx)	# ...and store it to dst
+	andl %esi, %esi			# val <= 0?
+	jle Ne9					# if so, goto Npos:	
+	iaddl $1, %eax			# count++
+Ne9:
+	mrmovl 36(%ebx), %esi	# read val from src...
+	rmmovl %esi, 36(%ecx)	# ...and store it to dst
+	andl %esi, %esi			# val <= 0?
+	jle Npos10				# if so, goto Npos:	
+	iaddl $1, %eax			# count++
+Npos10:	
+	iaddl $40, %ebx			# src+10
+	iaddl $40, %ecx			# dst+10
+	subl %edi, %edx			# len-10 and len - 10 > 0?
+	jg Ten					# loop
+	iaddl $10,%edx			# len > 0?
+	jg EvenFix				# still have even number of elements left
+	jmp Done				# len = 0
+
+EvenFix:
+	irmovl $2, %edi			# fixes weird problem with iaddl
+Even:	
+	mrmovl (%ebx), %esi		# read val from src...
+	rmmovl %esi, (%ecx)		# ...and store it to dst
+	andl %esi, %esi			# val <= 0?
+	jle Next				# if so, goto Next:
+	iaddl $1, %eax			# count++
+Next:
+	mrmovl 4(%ebx), %esi	# read val from src...
+	rmmovl %esi, 4(%ecx)	# ...and store it to dst
+	andl %esi, %esi			# val <= 0?
+	jle Npos				# if so, goto Npos:	
+	iaddl $1, %eax			# count++
+Npos:	
+	iaddl $8, %ebx			# src+2
+	iaddl $8, %ecx			# dst+2
+	subl %edi, %edx			# len-2 and len > 0?
+	jg Even					# loop
+	
+##################################################################
+# Do not modify the following section of code
+# Function epilogue.
+Done:
+	popl %edi               # Restore callee-save registers
+	popl %ebx
+	popl %esi
+	rrmovl %ebp, %esp
+	popl %ebp
+	ret
+##################################################################
+# Keep the following label at the end of your function
+End:
+#/* $end ncopy-ys */
+EndFun:
+
+###############################
+# Source and destination blocks 
+###############################
+	.align 4
+src:
+	.long 1
+	.long -2
+	.long 3
+	.long -4
+	.long 0xbcdefa # This shouldn't get moved
+
+	.align 16
+Predest:
+	.long 0xbcdefa
+dest:
+	.long 0xcdefab
+	.long 0xcdefab
+	.long 0xcdefab
+	.long 0xcdefab
+Postdest:
+	.long 0xdefabc
+
+.align 4
+# Run time stack
+	.long 0
+	.long 0
+	.long 0
+	.long 0
+	.long 0
+	.long 0
+	.long 0
+	.long 0
+	.long 0
+	.long 0
+	.long 0
+	.long 0
+	.long 0
+	.long 0
+	.long 0
+	.long 0
+
+Stack:

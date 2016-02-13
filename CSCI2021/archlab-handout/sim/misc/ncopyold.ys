@@ -1,0 +1,61 @@
+#/* $begin ncopy-ys */
+##################################################################
+# ncopy.ys - Copy a src block of len ints to dst.
+# Return the number of positive ints (>0) contained in src.
+#
+# Include your name and ID here.
+#
+# Describe how and why you modified the baseline code.
+#
+##################################################################
+# Do not modify this portion
+# Function prologue.
+ncopy:	pushl %ebp		# Save old frame pointer
+	rrmovl %esp,%ebp	# Set up new frame pointer
+	pushl %esi		# Save callee-save regs
+	pushl %ebx
+	pushl %edi
+	mrmovl 8(%ebp),%ebx	# src       -18 rdi
+	mrmovl 16(%ebp),%edx	# len	-24 edx
+	mrmovl 12(%ebp),%ecx	# dst   -20 rsi
+
+##################################################################
+# You can modify this portion
+	# Loop header
+	irmovl 0,%esi		# count = 0;
+	jmp Cond
+Loop:
+	rrmovl %ebx,%eax
+	mrmovl (%eax),%eax
+	rrmovl %eax,%edi 	#edi = -8(%rbp)
+	irmovl 4,%eax
+	addl %eax,%ebx
+	rrmovl %ecx,%eax
+	rrmovl %edi,%edx
+	rmmovl %edx,(%eax)
+	irmovl 4,%eax
+	addl %eax,%ecx
+	andl %edi,%edi
+	irmovl 1,%eax
+	je Sub
+	addl %eax,%esi
+Sub:
+	subl %eax,%edx
+Cond:
+	andl %edx,%edx
+	jne Loop
+	mrmovl -4(%ebp),%eax
+##################################################################
+# Do not modify the following section of code
+# Function epilogue.
+Done:
+	popl %edi               # Restore callee-save registers
+	popl %ebx
+	popl %esi
+	rrmovl %ebp, %esp
+	popl %ebp
+	ret
+##################################################################
+# Keep the following label at the end of your function
+End:
+#/* $end ncopy-ys */

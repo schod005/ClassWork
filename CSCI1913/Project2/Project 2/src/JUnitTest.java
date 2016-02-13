@@ -1,0 +1,24 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class JUnitTest {
+
+	@Test
+	public void testListArrayadd() {
+		Integer i4 = 4;
+		Integer i5 = 5;
+		Integer i6 = 6;
+		Integer i7 = 7;
+		ListArray test = new ListArray(10,'a');
+		test.add(i4);
+		assertEquals("Test","4",test.toString());
+		test.add(i5);
+		assertEquals("Test","4 5",test.toString());
+		test.add(i6);
+		assertEquals("Test","4 5 6",test.toString());
+	}
+
+	
+}

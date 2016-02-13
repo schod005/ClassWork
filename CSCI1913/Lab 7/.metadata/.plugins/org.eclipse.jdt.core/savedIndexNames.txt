@@ -1,0 +1,14 @@
+INDEX VERSION 1.126+/home/schod005/CSCI1913/Lab 7/.metadata/.plugins/org.eclipse.jdt.core
+3323458439.index
+1761225130.index
+3067521873.index
+420374850.index
+2238639314.index
+4252287383.index
+1747790406.index
+123942643.index
+4233163208.index
+3773781888.index
+1090701415.index
+2859622728.index
+1698681687.index

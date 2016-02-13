@@ -1,0 +1,2 @@
+~/Documents/csci2021/archlab-handout/sim/pipe ~/Documents/csci2021/archlab-handout/sim/ptest
+~/Documents/csci2021/archlab-handout/sim/ptest

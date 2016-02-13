@@ -1,0 +1,692 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="AsciiDoc 8.4.5" />
+<title>CSCI 2021 - Dynamic Memory Management</title>
+<style type="text/css">
+/* Debug borders */
+p, li, dt, dd, div, pre, h1, h2, h3, h4, h5, h6 {
+/*
+  border: 1px solid red;
+*/
+}
+
+body {
+  margin: 1em 5% 1em 5%;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+a:visited {
+  color: fuchsia;
+}
+
+em {
+  font-style: italic;
+  color: navy;
+}
+
+strong {
+  font-weight: bold;
+  color: #083194;
+}
+
+tt {
+  color: navy;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #527bbd;
+  font-family: sans-serif;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+}
+
+h1, h2, h3 {
+  border-bottom: 2px solid silver;
+}
+h2 {
+  padding-top: 0.5em;
+}
+h3 {
+  float: left;
+}
+h3 + * {
+  clear: left;
+}
+
+div.sectionbody {
+  font-family: serif;
+  margin-left: 0;
+}
+
+hr {
+  border: 1px solid silver;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+ul, ol, li > p {
+  margin-top: 0;
+}
+
+pre {
+  padding: 0;
+  margin: 0;
+}
+
+span#author {
+  color: #527bbd;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+span#email {
+}
+span#revnumber, span#revdate, span#revremark {
+  font-family: sans-serif;
+}
+
+div#footer {
+  font-family: sans-serif;
+  font-size: small;
+  border-top: 2px solid silver;
+  padding-top: 0.5em;
+  margin-top: 4.0em;
+}
+div#footer-text {
+  float: left;
+  padding-bottom: 0.5em;
+}
+div#footer-badges {
+  float: right;
+  padding-bottom: 0.5em;
+}
+
+div#preamble {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+div.tableblock, div.imageblock, div.exampleblock, div.verseblock,
+div.quoteblock, div.literalblock, div.listingblock, div.sidebarblock,
+div.admonitionblock {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+div.admonitionblock {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+div.content { /* Block element content. */
+  padding: 0;
+}
+
+/* Block element titles. */
+div.title, caption.title {
+  color: #527bbd;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 1.0em;
+  margin-bottom: 0.5em;
+}
+div.title + * {
+  margin-top: 0;
+}
+
+td div.title:first-child {
+  margin-top: 0.0em;
+}
+div.content div.title:first-child {
+  margin-top: 0.0em;
+}
+div.content + div.title {
+  margin-top: 0.0em;
+}
+
+div.sidebarblock > div.content {
+  background: #ffffee;
+  border: 1px solid silver;
+  padding: 0.5em;
+}
+
+div.listingblock > div.content {
+  border: 1px solid silver;
+  background: #f4f4f4;
+  padding: 0.5em;
+}
+
+div.quoteblock {
+  padding-left: 2.0em;
+  margin-right: 10%;
+}
+div.quoteblock > div.attribution {
+  padding-top: 0.5em;
+  text-align: right;
+}
+
+div.verseblock {
+  padding-left: 2.0em;
+  margin-right: 10%;
+}
+div.verseblock > div.content {
+  white-space: pre;
+}
+div.verseblock > div.attribution {
+  padding-top: 0.75em;
+  text-align: left;
+}
+/* DEPRECATED: Pre version 8.2.7 verse style literal block. */
+div.verseblock + div.attribution {
+  text-align: left;
+}
+
+div.admonitionblock .icon {
+  vertical-align: top;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #527bbd;
+  padding-right: 0.5em;
+}
+div.admonitionblock td.content {
+  padding-left: 0.5em;
+  border-left: 2px solid silver;
+}
+
+div.exampleblock > div.content {
+  border-left: 2px solid silver;
+  padding: 0.5em;
+}
+
+div.imageblock div.content { padding-left: 0; }
+span.image img { border-style: none; }
+a.image:visited { color: white; }
+
+dl {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+dt {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-style: normal;
+  color: navy;
+}
+dd > *:first-child {
+  margin-top: 0.1em;
+}
+
+ul, ol {
+    list-style-position: outside;
+}
+ol.arabic {
+  list-style-type: decimal;
+}
+ol.loweralpha {
+  list-style-type: lower-alpha;
+}
+ol.upperalpha {
+  list-style-type: upper-alpha;
+}
+ol.lowerroman {
+  list-style-type: lower-roman;
+}
+ol.upperroman {
+  list-style-type: upper-roman;
+}
+
+div.compact ul, div.compact ol,
+div.compact p, div.compact p,
+div.compact div, div.compact div {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+div.tableblock > table {
+  border: 3px solid #527bbd;
+}
+thead {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+tfoot {
+  font-weight: bold;
+}
+td > div.verse {
+  white-space: pre;
+}
+p.table {
+  margin-top: 0;
+}
+/* Because the table frame attribute is overriden by CSS in most browsers. */
+div.tableblock > table[frame="void"] {
+  border-style: none;
+}
+div.tableblock > table[frame="hsides"] {
+  border-left-style: none;
+  border-right-style: none;
+}
+div.tableblock > table[frame="vsides"] {
+  border-top-style: none;
+  border-bottom-style: none;
+}
+
+
+div.hdlist {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+div.hdlist tr {
+  padding-bottom: 15px;
+}
+dt.hdlist1.strong, td.hdlist1.strong {
+  font-weight: bold;
+}
+td.hdlist1 {
+  vertical-align: top;
+  font-style: normal;
+  padding-right: 0.8em;
+  color: navy;
+}
+td.hdlist2 {
+  vertical-align: top;
+}
+div.hdlist.compact tr {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.comment {
+  background: yellow;
+}
+
+@media print {
+  div#footer-badges { display: none; }
+}
+
+div#toctitle {
+  color: #527bbd;
+  font-family: sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 1.0em;
+  margin-bottom: 0.1em;
+}
+
+div.toclevel1, div.toclevel2, div.toclevel3, div.toclevel4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+div.toclevel2 {
+  margin-left: 2em;
+  font-size: 0.9em;
+}
+div.toclevel3 {
+  margin-left: 4em;
+  font-size: 0.9em;
+}
+div.toclevel4 {
+  margin-left: 6em;
+  font-size: 0.9em;
+}
+/* Workarounds for IE6's broken and incomplete CSS2. */
+
+div.sidebar-content {
+  background: #ffffee;
+  border: 1px solid silver;
+  padding: 0.5em;
+}
+div.sidebar-title, div.image-title {
+  color: #527bbd;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 0.0em;
+  margin-bottom: 0.5em;
+}
+
+div.listingblock div.content {
+  border: 1px solid silver;
+  background: #f4f4f4;e 
+  padding: 0.5em;
+}
+
+div.quoteblock-attribution {
+  padding-top: 0.5em;
+  text-align: right;
+}
+
+div.verseblock-content {
+  white-space: pre;
+}
+div.verseblock-attribution {
+  padding-top: 0.75em;
+  text-align: left;
+}
+
+div.exampleblock-content {
+  border-left: 2px solid silver;
+  padding-left: 0.5em;
+}
+
+/* IE6 sets dynamically generated links as visited. */
+div#toc a:visited { color: blue; }
+</style>
+</head>
+<body>
+<div id="header">
+<h1>CSCI 2021 - Dynamic Memory Management</h1>
+<span id="author">100 Points</span><br />
+</div>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph"><p>Due December 10th, 4:00 pm </p></div>
+</div>
+</div>
+<h2 id="_1_1_introduction">1.1 Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph"><p><strong>The intent of this lab is to develop an introductory understanding of dynamic memory management. </strong><br />
+All questions about this lab should be directed to Emery Mizero. Also, feel free to ask questions on the forum or contact any of the other TAs. Our goal is to maximize <em>your</em> understanding of the class materials.<br />
+<strong>Note that this is an optional lab.</strong>  A good score on this lab will replace the lowest score obtained from previous labs (After normalizing each to a 100 points). Considering that it may only positively affect your grade, <strong>you are all encouraged</strong> to do this lab, as an addition to your <strong> C programming </strong> experience.
+
+</p> </div>
+</div>
+<h2 id="_1_2_rules_and_notes">1.2 Rules and Notes</h2>
+<div class="sectionbody">
+<div class="ulist"><ul>
+<li>
+<p>
+Once again, this is an <strong>individual lab</strong> but you are welcome to discuss approaches with the TAs and fellow students.  <strong>No code sharing.</strong>
+</p>
+</li>
+<li>
+<p>
+You will use the <strong>moodle</strong> to turn in your code. The submission page will accept all required six files individually.
+</p>
+</li>
+</ul></div>
+</div>
+<h2 id="_1_3_files_to_submit_and_grading">1.3 Files to Submit and Grading</h2>
+<div class="sectionbody">
+<div class="paragraph"><p>For this lab, you will submit the following files:</p></div>
+<div class="ulist">
+<ul>
+	<li>
+	<p>
+	<tt>README.txt</tt>
+	</p>
+	</li>
+
+	<li>
+	<p>
+	<tt>main.c</tt>
+	</p>
+	</li>
+
+	<li>
+	<p>
+	<tt>main_mm.c</tt>
+	</p>
+	</li>
+
+        <li>
+        <p>
+        <tt>main_malloc.c</tt>
+        </p>
+        </li>
+
+        <li>
+        <p>
+        <tt>mm_public.c</tt>
+        </p>
+        </li>
+
+        <li>
+        <p>
+        <tt>mm_public.h</tt>
+        </p>
+        </li>
+
+	<li>
+        <p>
+        <tt>dl_list.h</tt>
+        </p>
+        </li>
+
+	<li>
+        <p>
+        <tt>dl_list.c</tt>
+        </p>
+        </li>
+
+</ul></div>
+<div class="paragraph"><p>A preliminary rubric for grading this assignment is as follows:</p></div>
+<div class="tableblock">
+<table rules="none"
+width="100%"
+frame="void"
+cellspacing="0" cellpadding="4">
+<col width="20%" />
+<col width="80%" />
+<tbody>
+<tr>
+<td align="left" valign="top"><p class="table">Code structure, following instructions</p></td>
+<td align="left" valign="top"><p class="table">5 points</p></td>
+</tr>
+<tr>
+<td align="left" valign="top"><p class="table">Memory manager and performance test</p></td>
+<td align="left" valign="top"><p class="table">65 points</p></td>
+</tr>
+<tr>
+<td align="left" valign="top"><p class="table">Linked list implementation</p></td>
+<td align="left" valign="top"><p class="table">30 points</p></td>
+</tr>
+</tbody>
+</table>
+<p>
+
+Your README file shall contain: <br/>
+<ol>
+<li> Your full name and X500 </li>
+<li> How to compile your program </li>
+<li> How to run the program from the shell (syntax)</li>
+<li> Observed performance difference from section 2.4 below.</li>
+</ol>
+
+</div>
+</div>
+<h2 id="_2_1_setup">2.1 Setup</h2>
+<div class="sectionbody">
+<div class="paragraph"><p>First, download <tt>mmlab_handout.tar.gz</tt> file from moodle to your home cs2021 directory:</p></div>
+<div class="paragraph"><p>Then, use <tt>tar</tt> to extract the files contained within:</p></div>
+<div class="paragraph"><p><tt>tar xvzf mmlab_handount.tar.gz</tt></p></div>
+<div class="paragraph"><p>You should now have a directory named <tt>mmlab_handout</tt> with the following files in it:</p></div>
+<div class="tableblock">
+<table rules="none"
+width="100%"
+frame="void"
+cellspacing="0" cellpadding="4">
+<col width="10%" />
+<col width="90%" />
+<tbody>
+<tr>
+<td align="left" valign="top"><p class="table"><tt>mm_lab.html</tt></p></td>
+<td align="left" valign="top"><p class="table">This file.</p></td>
+</tr>
+<tr>
+<td align="left" valign="top"><p class="table"><tt>mm_public.h</tt></p></td>
+<td align="left" valign="top"><p class="table">Skeleton header file for your memory manager functions.  The mm_t struct type has been created for you.  You may change them to your liking with the understanding that this will render it harder for the TAs to offer you help.</p></td>
+</tr>
+<tr>
+<td align="left" valign="top"><p class="table"><tt>mm_public.c</tt></p></td>
+<td align="left" valign="top"><p class="table">A copy of all the skeleton functions in mm_public.h; Complete these functions as described.</p></td>
+</tr>
+<tr>
+<td align="left" valign="top"><p class="table"><tt>main_mm.c</tt></p></td>
+<td align="left" valign="top"><p class="table">A file to time mm_get and mm_put according to section 2.4 below.</p></td>
+</tr>
+<tr>
+<td align="left" valign="top"><p class="table"><tt>main_malloc.c</tt></p></td>
+<td align="left" valign="top"><p class="table">A file to time malloc and free according to section 2.4 below.</p></td>
+</tr>
+<tr>
+<td align="left" valign="top"><p class="table"><tt>dl_list.h</tt></p></td>
+<td align="left" valign="top"><p class="table">Skeleton header file for the doubly linked list functions.  Two struct types for node and dl_list have been created for you.  You may change them to your liking with the understanding that this will render it harder for the TAs to offer you help.</p></td>
+</tr>
+<tr>
+<td align="left" valign="top"><p class="table"><tt>dl_list.c</tt></p></td>
+<td align="left" valign="top"><p class="table">A copy of all the skeleton functions in dl_list.h; Complete these functions as described.</p></td>
+</tr>
+<tr>
+<td align="left" valign="top"><p class="table"><tt>main.c</tt></p></td>
+<td align="left" valign="top"><p class="table">A file to test your doubly linked list implementation according to section 2.5 below.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="_2_2_your_task">2.2 Your task</h2>
+<div class="sectionbody">
+<div class="paragraph"><p>
+
+In this assignment, you will become more familiar with the issues that surround 
+dynamic memory management: dynamic memory allocation and deallocation. Understanding 
+these issues is important in designing memory-efficient run-time systems, an important 
+task of the systems programming. You will make use of Unix system calls for memory 
+management: {re}malloc, free. You will also measure the performance of your dynamic 
+memory manager and show (hopefully) how we can outperform the Unix heap management routines! 
+</p>
+<h2 id="_2_3_functions">2.3 Dynamic Memory Management Functions</h2>
+<p>
+Dynamic memory allocation and deallocation in Unix is achieved via 
+the malloc family of system calls along with free. However, for 
+programs that wish to perform a great deal of allocation and deallocation, 
+this introduces a lot of overhead due to the expense of making system calls. 
+</p>
+<p>
+To combat these problems, you decide to write your own dynamic
+ memory manager and make it available to applications that 
+wish to utilize dynamic memory in a more convenient and efficient 
+manner. <strong> Your memory manager will 'manage' a pool of memory 
+divided into a fixed number of fixed-size chunks.</strong> For example, the pool of memory might be 100 chunks of 64 bytes (a total of 6400 bytes).
+Since most applications will want memory chunks of some size 
+corresponding to a data structure type, this is a reasonable restriction.
+</p>
+<p>
+Here is the interface of your memory manager. You must implement the following 
+functions of the memory manager: <br/><br/>
+
+<tt>int mm_init (mm_t *MM, int how_many_chunks, int chunk_size);</tt> <br/> 
+// allocate all memory, returns -1 on failure <br/><br/>
+<tt>void *mm_get (mm_t *MM);</tt> <br/>
+// get a chunk of memory (pointer to void), NULL on failure <br/><br/>
+<tt>void mm_put (mm_t *MM, void *chunk);</tt> <br/>
+// give back 'chunk' to the memory manager, don't free it though! <br/><br/>
+<tt>void mm_release (mm_t *MM);</tt> <br/>
+// release all memory back to the system <br/>
+</p>
+<br/>
+<p>
+Note that the <b>mm_init</b> function should allocate ahead of time ALL of the memory that 
+the manager will use for mm_get and mm_put. This creates an upper bound to the total 
+amount of memory that this mm_t can give out, which is <b>not truly</b> dynamic memory 
+allocation, but is close enough for our purposes.
+</p>
+
+<p>
+The idea is that an application would declare a variable of type <b>mm_t</b> for each 
+separate dynamic data structure they wished to manage. The main program would 
+then initialize this variable by calling mm_init. After that, calls can be made 
+to get or put memory chunks as needed by the program, using <b>mm_get</b> and <b>mm_put</b>.
+</p>
+
+<p>
+Prior to defining any of these functions you will need to define the type mm_t. 
+You will need to keep track of status of memory chunks (free or taken). Within mm_t,
+ you are not allowed to use arrays of a fixed-size length. (You cannot assume anything 
+about the maximum number of chunks.)
+</p>
+
+<p>
+We have provided the basic framework of these functions for you. We have left code 
+comments for you to fill in your code in specific areas of these files. The file 
+<b>mm_public.c</b> will contain your implementation of the memory manager routines and a timer 
+that you can use. The file mm_public.h contains the definition of mm_t. You will compile your memory manager as a separately compiled object file 
+(without a main program). 
+To do this type: <tt>gcc -c mm_public.c</tt><br/>
+<br/>
+This should produce mm_public.o (assuming there are no errors). This file will be 'linked in'
+ with several main programs as described in the next section. For successful linking, you 
+should include the mm_public.h header file at the top of the C files that use these memory 
+management functions.
+</p>
+
+</div></div>
+<h2 id="_2_4_mem_manager">2.4 Using the Memory Manager</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>
+Is your Memory Manager more efficient than native malloc/free? To test this, 
+create an MM instance of a given size (use 10000 objects of size 40 bytes). 
+Perform 10000 <tt>mm_get</tt> followed by 10000 <tt>mm_put</tt> and put a timer around this 
+code. For an example of a Unix timer, look at the example we provided in the 
+<tt>timer_example() function</tt>. Now, compare this performance against the time to perform 
+10000 <tt>malloc</tt>s of size 40 bytes followed by 10000 <tt>free</tt>s. I will be impressed 
+if you can defeat the native calls (you should be able to!). For the comparison, 
+write two separate main programs, main_malloc.c and main_mm.c that work as 
+described above and report your result in your README file For main_mm.c, you would compile it as:<br/> <tt>gcc -o main_mm main_mm.c mm_public.o.</tt> <br/><br/>
+Do not forget to include the correct headers in your main program for successful linking.
+</p>
+
+</div></div>
+<h2 id="_2_5_functions">2.5 Implementing the Linked List</h2>
+<div class="sectionbody">
+<div class="paragraph">
+
+<p>
+You will use your new memory manager to create a doubly linked list applications.  
+You will implement in <strong>dl_list.c</strong> all specified functions in <strong>dl_list.h</strong> header file. 
+</p>
+<p><strong> Instead of using standard C library calls to malloc and free to 
+allocate space for the node, USE your new memory manager calls to mm_get and mm_put.</strong>
+</p>
+
+<p>
+Two struct types have been created for your convenience. <b> dl_list </b> will be used to create a list item with a pointer to the head of the list, a pointer to the tail of the list and a cursor to traverse the list. <b>node</b> will be used to create a node with a <tt>long int</tt> value, one pointer to the previous node in the list and a pointer to the next node in the list.
+</p>
+<p> 
+Now going back to <strong> main.c </strong>:<br/>
+You will create 3 different linked lists of 500 items each; the first list should 
+have its number in the linked list as its value (i.e., node 0 has value 0, up to
+node 499 with value 499).  The second list should contain random 
+values from 0 to 500 (use the C standard General Utilities Library).  The third list should add 
+the first and second by index (third[0] = first[0] + second[0]). If altering the parameters
+of the linked list manipulation functions makes your task easier, feel free to do that.
+</p>
+
+<p>
+After building your list, search the first list for the values in the first 100 nodes
+in list 3, and remove them. There will not be a set number of nodes removed, since
+list 3 should have fairly random numbers as values.  Each time after <b>creating</b> or <b>modifying</b> a list, you <b>will also print</b> this list, to the terminal or to a new file.
+</p>
+<p>
+Lastly, join your lists together; list 1 to list 2 and then list 2 to list 3. Print out the values of this large list.  This is the end of your list manipulation; now you need to empty list 3, free all the lists (which should be empty at this point) then free the memory manager.
+</p>
+
+</ul></div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2014-11-17 
+</div>
+</div>
+</body>
+</html>

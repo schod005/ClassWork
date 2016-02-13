@@ -1,0 +1,91 @@
+#include <iostream>
+#ifndef BUG_h
+#define BUG_h
+
+using namespace std;
+
+
+
+
+/*
+		Bug::Bug()
+		{
+			position=0;
+			dir=1;
+		}
+		
+		Bug::Bug(int x)
+		{
+			position=x;
+			dir=1;
+		}
+		
+		Bug::move()
+		{
+			position+=dir;
+		}
+		
+		Bug::turn()
+		{
+			dir*=-1;
+		}
+		
+		Bug::display()
+		{
+			cout<<"the current position is "<<position<<", and the current direction is "<<dir<<endl;
+		}
+*/
+	class Bug
+	{
+		public:
+		Bug();
+		Bug(int);
+		void move();
+		void turn();
+		void display();
+		
+		Bug::Bug()
+		{
+			position=0;
+			dir=1;
+		}
+		
+		Bug::Bug(int x)
+		{
+			position=x;
+			dir=1;
+		}
+		
+		void Bug::move()
+		{
+			position+=dir;
+		}
+		
+		void Bug::turn()
+		{
+			dir*=-1;
+		}
+		
+		void Bug::display()
+		{
+			cout<<"the current position is "<<position<<", and the current direction is "<<dir<<endl;
+		}
+		
+		private:
+		int position;
+		int dir;
+	};
+	
+
+	
+	
+	/*
+	while(com!='e')
+	{
+	cout<<"m for move, t for turn, d for display, e to exit"<<endl;
+	cin>>com;
+	if (com=='m')
+	a.move
+	*/
+	
+#endif

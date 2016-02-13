@@ -1,0 +1,42 @@
+# David Schoder
+# 4552990
+
+# Set up stack and calling function with linked list
+	irmovl Stack,%esp
+	rrmovl %esp,%ebp
+	irmovl ele1,%edi
+	call sum_list
+	halt
+	
+# function
+sum_list:
+	pushl %ebp
+	rrmovl %esp,%ebp
+	irmovl 0,%ecx			# val = 0
+	rrmovl %edi,%eax  		# eax -> ele1
+Loop:
+	andl %eax,%eax			# while condition
+	je end					
+	mrmovl (%eax),%edx 		# edx = ele->val
+	addl %edx,%ecx			# val += ele->val
+	mrmovl 4(%eax),%eax		# eax = eax->next
+	jmp Loop
+end:
+	rrmovl %ecx,%eax		# return val
+	popl %ebp
+	ret
+	
+# Sample linked list
+.align 4	#each element is 8 bytes
+ele1:
+	.long 0x00a		# (%reg)
+	.long ele2		# 4(%reg)
+ele2:
+	.long 0x0b0
+	.long ele3
+ele3:
+	.long 0xc00
+	.long 0
+
+.pos 0x100
+Stack:

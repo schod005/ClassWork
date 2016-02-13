@@ -1,0 +1,6 @@
+~/Documents/csci2021/archlab-handout/sim/seq ~/Documents/csci2021/archlab-handout/sim/ptest
+# Building the seq-std.hcl version of SEQ
+../misc/hcl2c -n seq-std.hcl <seq-std.hcl >seq-std.c
+gcc -Wall -O1 -isystem /usr/include/tcl8.5 -I../misc  -o ssim \
+		seq-std.c ssim.c ../misc/isa.c -L/soft/tcl8.5-arch/lib -ltk8.5 -ltcl8.5 -lm
+~/Documents/csci2021/archlab-handout/sim/ptest

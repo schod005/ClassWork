@@ -1,0 +1,57 @@
+                      | # David Schoder
+                      | # 4552990
+                      | 
+                      | # Set up stack and calling function with linked list
+  0x000: 30f400010000 | 	irmovl Stack,%esp
+  0x006: 2045         | 	rrmovl %esp,%ebp
+  0x008: 30f700010000 | 	irmovl src,%edi			#src
+  0x00e: 30f60c010000 | 	irmovl dest,%esi		#dest
+  0x014: 30f103000000 | 	irmovl 3,%ecx			#len = 3
+  0x01a: a07f         | 	pushl %edi				#16(%ebp)	src
+  0x01c: a06f         | 	pushl %esi				#12(%ebp)	dest
+  0x01e: a01f         | 	pushl %ecx				#8(%ebp)	len
+  0x020: 8026000000   | 	call copy_block
+  0x025: 00           | 	halt
+                      | 	
+                      | # function
+  0x026:              | copy_block:
+  0x026: a05f         | 	pushl %ebp
+  0x028: 2045         | 	rrmovl %esp,%ebp
+  0x02a: 507510000000 | 	mrmovl 16(%ebp),%edi	#*src
+  0x030: 50650c000000 | 	mrmovl 12(%ebp),%esi	#*dest
+  0x036: 501508000000 | 	mrmovl 8(%ebp),%ecx		#len
+  0x03c: 6300         | 	xorl %eax,%eax			#result = 0
+  0x03e: 6211         | 	andl %ecx,%ecx			#while condition
+  0x040: 716c000000   | 	jle End
+  0x045:              | Loop:
+  0x045: 503700000000 | 	mrmovl (%edi),%ebx		#val = *scr
+  0x04b: 30f204000000 | 	irmovl 4,%edx			
+  0x051: 6027         | 	addl %edx,%edi			#src++
+  0x053: 403600000000 | 	rmmovl %ebx,(%esi)		#*dest = val
+  0x059: 6026         | 	addl %edx,%esi			#dest++
+  0x05b: 6330         | 	xorl %ebx,%eax			
+  0x05d: 30f201000000 | 	irmovl 1,%edx
+  0x063: 6121         | 	subl %edx,%ecx			#len--
+  0x065: 6211         | 	andl %ecx,%ecx
+  0x067: 7645000000   | 	jg Loop
+  0x06c:              | End:
+  0x06c: 2054         | 	rrmovl %ebp,%esp
+  0x06e: b05f         | 	popl %ebp
+  0x070: 90           | 	ret
+                      | 
+  0x100:              | .pos 0x100
+  0x100:              | Stack:
+                      | 
+                      | 
+  0x100:              | .align 4
+                      | # Source block
+  0x100:              | src:
+  0x100: 0a000000     | 	.long 0x00a
+  0x104: b0000000     | 	.long 0x0b0
+  0x108: 000c0000     | 	.long 0xc00
+                      | 	
+                      | # Destination block
+  0x10c:              | dest:
+  0x10c: 11010000     | 	.long 0x111
+  0x110: 22020000     | 	.long 0x222
+  0x114: 33030000     | 	.long 0x333

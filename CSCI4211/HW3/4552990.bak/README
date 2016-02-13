@@ -1,0 +1,33 @@
+David Schoder
+4552990
+CSCI 4211
+HW 3
+
+To compile, go to each directory 
+  app-client/
+  app-server/
+  dir-server/
+and type 
+  make
+
+To run the programs, go to the respective directories and run
+  ./db-server <port>
+  ./dir-server <port>
+  ./app-server <dir-port>
+  ./app-client <dir-port> <db-port>
+
+The db-server must be started first on atlas.cselabs.umn.edu.  The server
+waits for the app-client to connect and either send or receive data.
+
+The dir-server must be started second on apollo.cselabs.umn.edu.  The server
+waits for register or list-server commands from the app-servers or app-client.
+
+The app-servers each connect to the dir-server and register their ip/ports.
+Then they wait for the app-client to connect and send data to them.
+
+The app-client connects to the dir-server and receives a list of ip/port pairs
+to send data to.  Then it connects to each ip/port pair and sends 10KB 100KB
+1000KB and 10000KB of data, measuring the time in each case.  The app-client
+then connects to the db-server and sends the data to be stored as records.  Then
+the app-client asks the db-server for all the stored records and displays them 
+to the console.

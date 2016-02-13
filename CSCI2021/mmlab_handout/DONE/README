@@ -1,0 +1,21 @@
+David Schoder
+schod005
+4552990
+
+To compile the object files, type:
+gcc -c mm_public.c
+gcc -c dl_list.c
+
+
+To compile the main functions, type:
+gcc -o main_mm main_mm.c mm_public.o
+gcc -o main_malloc main_malloc.c mm_public.o
+gcc -o main main.c mm_public.o dl_list.o
+
+./main_mm displays:
+Time taken = 0.992000 msec
+
+./main_malloc displays:
+Time taken = 1.395000
+
+I have beaten the machine.

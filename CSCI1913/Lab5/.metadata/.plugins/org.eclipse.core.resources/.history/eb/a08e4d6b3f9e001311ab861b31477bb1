@@ -1,0 +1,65 @@
+
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Jordan Hayes
+ */
+public class Introduction {
+
+    public static void main(String[] args) 
+    {
+        Introduction app = new Introduction();
+        //To test your getUser method
+          app.getUser();
+        //To test your multiplyMatrix method
+   int[][] matrix = new int[2][2];
+  int[][] multiplierResult = app.multiplyMatrix(matrix, 5);
+  for(int i=0;i<2;i++)
+	  for(int j=0;j<2;j++)
+		  System.out.println(multiplierResult[i][j]+" ");
+        //To test your rowSumProduct
+//        int rowSumProduct(matrix, 0);
+        // There is no test for the PrintPascal function your output should look like the one in the PDF
+    }
+    
+    public void getUser()
+    {
+        Scanner input = new Scanner(System.in);
+        String s1 = input.next();
+        System.out.println("Welcome, "+s1+"!  This is lab 5!");
+    }
+    
+    public int[][] multiplyMatrix(int [][] matrix, int multiplier)
+    {
+    	
+        int [][] empty= new int[matrix.length][matrix[0].length];
+        if(matrix == null)
+        	return null;
+        for(int i=0;i<matrix.length;i++)
+    		for(int j=0;j<matrix[0].length;j++)
+    			empty[i][j]=matrix[i][j]*multiplier;
+
+        return empty;
+        
+    }
+    public Integer rowSumProduct(int [][] matrix, int currentRow)
+    {
+        //Enter your code here
+        return 0;
+    }
+    public void PrintPascal(int N){
+        int[][] pascal  = new int[N+1][]; //initializing array
+
+        // initialize first row
+        pascal[1] = new int[1 + 2];
+        pascal[1][1] = 1;
+        
+        // TODO fill in Pascal's triangle
+        
+        
+        //TODO print results
+
+    }
+}

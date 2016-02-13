@@ -1,0 +1,18 @@
+./optest.pl -s ./ssim-std/ssim -d ssim-std 
+Simulating with ./ssim-std/ssim
+  All 49 ISA Checks Succeed
+./jtest.pl -s ./ssim-std/ssim -d ssim-std 
+Simulating with ./ssim-std/ssim
+  All 64 ISA Checks Succeed
+./cmtest.pl -s ./ssim-std/ssim -d ssim-std 
+Simulating with ./ssim-std/ssim
+  All 28 ISA Checks Succeed
+./ctest.pl -s ./ssim-std/ssim -d ssim-std 
+Simulating with ./ssim-std/ssim
+  All 22 ISA Checks Succeed
+./htest.pl -s ./ssim-std/ssim -d ssim-std 
+Simulating with ./ssim-std/ssim
+  All 600 ISA Checks Succeed
+./etest.pl -s ./ssim-std/ssim -d ssim-std 
+Simulating with ./ssim-std/ssim
+  All 12 ISA Checks Succeed

@@ -1,0 +1,242 @@
+import java.io.DataOutputStream;
+import java.io.IOException;
+
+// SharedQStat.java
+
+// Priority Queue and Simulation
+
+// Statistics class for Bank Simulation
+
+public class SharedQStat {
+
+    // public methods
+	
+	public static void initialize(int n){
+		numberOfTellers = n;
+		numberOfNonExpressTellers = n;
+		if(BankSim.EXPRESS_AVAILABLE)
+			numberOfNonExpressTellers--;
+		averageSharedQueueWait = 0.0;
+		averagePriorityQueueWait = 0.0;
+		for(int i=0;i<n;i++){
+			lastUpdateTime = new double[n];
+			busyTime = new double[n];
+			idleTime = new double[n];
+			averageServiceTime = new double[n];
+			customersServed = new int[n];
+		}
+	}
+
+    public static void updateQueueStats(double time, int qlen) {
+
+        if (qlen > maxQLength)
+
+          maxQLength = qlen;
+
+        averageQLength += oldQLength * (time - lastQUpdateTime);
+
+        totalTime += time - lastQUpdateTime;
+
+        lastQUpdateTime = time;
+
+        oldQLength = qlen;
+
+    }
+
+    public static void updateBusyTimeStats(SharedQTeller t,double time) {
+    	
+    	int index = t.getIndex();
+
+        busyTime[index] += time - lastUpdateTime[index];
+
+        lastUpdateTime[index] = time;
+
+    }        
+
+    public static void updateIdleTimeStats(SharedQTeller t,double time) {
+
+        int index = t.getIndex();
+
+        idleTime[index] += time - lastUpdateTime[index];
+
+        lastUpdateTime[index] = time;
+
+    }
+
+    public static void updateServiceTimeStats(SharedQTeller t,double st) {
+
+        averageServiceTime[t.getIndex()] += st;
+
+    }
+
+    public static void updateWaitTimeStats(SharedQTeller t,double time, double enterTime) {
+
+    	int index = t.getIndex();
+
+        double wait = time - enterTime;
+        
+        if(wait >= 438)
+        	upsetcustomers++;
+
+        if (wait > maxWait)
+
+          maxWait = wait;
+
+        if(BankSim.EXPRESS_AVAILABLE&&index==numberOfTellers-1) // checks if the priority line is being processed
+            averagePriorityQueueWait += wait;
+        else
+        	averageSharedQueueWait += wait;
+        customersServed[index]++;
+
+    } 
+
+    public static void displayStats() {
+    	
+    	double totalIdleTime = 0;
+    	double totalBusyTime = 0;
+    	double totalAverageServiceTime = 0;
+    	int totalCustomersServed = 0;
+    	double totalAverageWait = 0.0;
+    	double totalAverageSharedQueueWait = 0.0;
+    			
+        System.out.println("\n** Simulation Results for single, shared queue in bank **\n");
+        
+        if(BankSim.EXPRESS_AVAILABLE){
+        	averagePriorityQueueWait = averagePriorityQueueWait/customersServed[numberOfTellers-1];
+        }
+        
+        for(int i = 0;i<numberOfNonExpressTellers;i++){
+        	System.out.println("Displaying results for Teller #"+(i+1)+ "\n");
+        	
+        	System.out.println(" Idle Time: " + idleTime[i]);
+
+            System.out.println(" Busy Time: " + busyTime[i]);
+            
+            System.out.println(" Average Service Time: " + averageServiceTime[i]/customersServed[i]+"\n");
+            
+            totalIdleTime += idleTime[i];
+            totalBusyTime += busyTime[i];
+            totalAverageServiceTime += averageServiceTime[i];
+            totalCustomersServed += customersServed[i];
+        }
+        totalAverageWait = totalAverageSharedQueueWait+averagePriorityQueueWait;
+        totalAverageSharedQueueWait = averageSharedQueueWait/totalCustomersServed;
+
+        if(BankSim.EXPRESS_AVAILABLE){
+        	System.out.println("Displaying results for Priority Queue Teller \n");
+        	
+        	System.out.println(" Idle Time: " + idleTime[numberOfTellers-1]);
+
+            System.out.println(" Busy Time: " + busyTime[numberOfTellers-1]);
+
+            //System.out.println("(Busy Time based on service time: " + averageServiceTime[i]+")");
+            
+            System.out.println(" Average Service Time: " + averageServiceTime[numberOfTellers-1]/customersServed[numberOfTellers-1]);
+            
+            System.out.println(" Average Wait Time: " + averagePriorityQueueWait+"\n");
+            totalIdleTime += idleTime[numberOfTellers-1];
+            totalBusyTime += busyTime[numberOfTellers-1];
+            totalAverageServiceTime += averageServiceTime[numberOfTellers-1]; 
+            totalCustomersServed += customersServed[numberOfTellers-1];
+        }
+        
+        System.out.println("Displaying OVERALL results for ALL tellers"+ "\n");
+
+        System.out.println(" Calculated Simulation Time: " + totalTime);
+
+        System.out.println(" Average Idle Time: " + totalIdleTime/numberOfTellers);
+
+        System.out.println(" Average Busy Time: " + totalBusyTime/numberOfTellers);
+
+        System.out.println(" Maximum Queue Length: " + maxQLength);
+
+        System.out.println(" Avg. Queue Length: " + averageQLength/totalTime);
+
+        System.out.println(" Maximum Waiting Time: " + maxWait);
+        
+        System.out.println(" Number of Frustrated Customers: " + upsetcustomers);
+
+        System.out.println(" Avg. Waiting Time for customers through the shared queue: " + totalAverageSharedQueueWait);
+
+        if(BankSim.EXPRESS_AVAILABLE)
+        	System.out.println(" Total average waiting time for all customers: " + totalAverageWait);
+        
+        System.out.println(" Avg. Service Time: " + totalAverageServiceTime/totalCustomersServed);
+
+        System.out.println(" Number of customers through bank: " + totalCustomersServed+"\n");
+
+        System.out.println("\n");
+
+    }  // displayStats
+
+    
+    public static void filestats(DataOutputStream file){
+    	double totalIdleTime = 0;
+    	double totalBusyTime = 0;
+    	double totalAverageServiceTime = 0;
+    	int totalCustomersServed = 0;
+    	double totalAverageWait = 0.0;
+    	double totalAverageSharedQueueWait = 0.0;
+        
+        if(BankSim.EXPRESS_AVAILABLE){
+        	averagePriorityQueueWait = averagePriorityQueueWait/customersServed[numberOfTellers-1];
+        }
+        
+        for(int i = 0;i<numberOfNonExpressTellers;i++){
+            totalIdleTime += idleTime[i];
+            totalBusyTime += busyTime[i];
+            totalAverageServiceTime += averageServiceTime[i];
+            totalCustomersServed += customersServed[i];
+        }
+        totalAverageWait = totalAverageSharedQueueWait+averagePriorityQueueWait;
+        totalAverageSharedQueueWait = averageSharedQueueWait/totalCustomersServed;
+
+        if(BankSim.EXPRESS_AVAILABLE){
+            totalIdleTime += idleTime[numberOfTellers-1];
+            totalBusyTime += busyTime[numberOfTellers-1];
+            totalAverageServiceTime += averageServiceTime[numberOfTellers-1]; 
+            totalCustomersServed += customersServed[numberOfTellers-1];
+        }
+        try {
+			file.writeBytes(numberOfNonExpressTellers+"\t"+BankSim.EXPRESS_AVAILABLE+"\t"+maxQLength+"\t"+averageQLength/totalTime+"\t"+totalAverageServiceTime/totalCustomersServed+"\t"+totalAverageServiceTime/totalCustomersServed+"\t"+upsetcustomers+"\t"+totalCustomersServed+"\t"+System.getProperty("line.separator"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+        
+    	
+    } // filestats
+    // private variables
+
+    private static double[] lastUpdateTime;
+    
+    private static int oldQLength;
+
+    private static double lastQUpdateTime;
+
+    private static int numberOfTellers;
+    
+    private static int numberOfNonExpressTellers;
+    
+    private static int[] customersServed;
+
+    private static double totalTime;
+
+    private static double[] busyTime;
+
+    private static double[] idleTime;
+
+    private static double maxWait;
+
+    private static double averageSharedQueueWait;
+    
+    private static double averagePriorityQueueWait;
+
+    private static int maxQLength;
+
+    private static double averageQLength; 
+
+    private static double[] averageServiceTime;
+    
+    private static int upsetcustomers;
+    
+}  // SharedQStat class

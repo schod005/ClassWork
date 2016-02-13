@@ -1,0 +1,15 @@
+
+public class ListNode<T>  {
+	
+	public ListNode (){
+		next = null;
+		
+	}
+	
+	public ListNode (T d){
+		data = d;
+	}
+	
+	public T data;
+	private ListNode<T> next;
+}

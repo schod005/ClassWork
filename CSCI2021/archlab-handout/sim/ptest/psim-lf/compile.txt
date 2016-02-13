@@ -1,0 +1,6 @@
+~/Documents/csci2021/archlab-handout/sim/pipe ~/Documents/csci2021/archlab-handout/sim/ptest
+# Building the pipe-lf.hcl version of PIPE
+../misc/hcl2c -n pipe-lf.hcl < pipe-lf.hcl > pipe-lf.c
+gcc -Wall -O2 -isystem /usr/include/tcl8.5 -I../misc  -o psim psim.c pipe-lf.c \
+		../misc/isa.c -L/soft/tcl/8.5 -ltk8.5 -ltcl8.5 -lm
+~/Documents/csci2021/archlab-handout/sim/ptest

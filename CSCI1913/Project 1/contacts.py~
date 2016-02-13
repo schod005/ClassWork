@@ -1,0 +1,68 @@
+
+"""A module to manage contacts between personalassistant and
+   a file."""
+import pickle
+
+__author__="Your Name"
+__date__=""
+
+class ContactManager:
+	"""Class for managing contacts on a file"""
+	listofcontacts=[]
+	newlist=[]
+	def __init__(self, file):
+		file=open("contactlist",'r')
+		try:
+			ContactManager.listofcontacts=pickle.load(file)
+			
+		except EOFError:
+			return None	
+		
+	def getAllContacts(self):
+		for x in ContactManager.listofcontacts:
+			print "Name: "+x.getName()+"\t Phone Number: "+x.getPhone()
+
+	def addContact(self,contact):
+		file=open("contactlist",'w')
+		ContactManager.listofcontacts.append(contact)
+		pickle.dump(ContactManager.listofcontacts,file)
+		file=open("contactlist",'r')
+		
+
+	def getContacts(self, name):
+		for x in ContactManager.listofcontacts:
+			if x.getName() == name:
+				print name
+				print x.getPhone()
+
+	def removeContact(self, phone_number):
+		
+		for x in ContactManager.listofcontacts:
+			if (x.getPhone() != phone_number):
+				ContactManager.newlist.append(x)
+			elif (x.getPhone() == phone_number):
+				return x.getName()
+		if (len(ContactManager.listofcontacts)==len(ContactManager.newlist)):
+			return False
+		ContactManager.listofcontacts=ContactManager.newlist
+
+
+
+class Contact:
+	"""A simple data structure for a contact"""
+	def __init__(self, name, phone_number):
+		self.name = name
+		self.phone_number = name
+
+	def getName(self):
+		return self.name
+
+	def getPhone(self):
+		return self.phone_number
+
+	def setName(self, name):
+		self.name = name
+
+	def setPhone(self, y):
+		self.phone_number = name
+

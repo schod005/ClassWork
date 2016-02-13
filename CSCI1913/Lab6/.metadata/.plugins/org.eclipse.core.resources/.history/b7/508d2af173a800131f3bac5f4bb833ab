@@ -1,0 +1,12 @@
+
+public class HanoiR {
+    public static Stack1Gen <HanoiRecord> h = new Stack1Gen<HanoiRecord>();
+
+	public static void main(String args[]) {
+		 h.push(new HanoiRecord(3,'a','b','c'));
+	        while(!h.isEmpty()) 
+	        {  // system loop goes until stack is empty
+	            h.top().run();
+	        }  // end system loop
+	} // main method
+}
