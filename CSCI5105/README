@@ -1,13 +1,80 @@
-Need to be done: 
+Srisaipavan Valluri 4815565
+David Schoder 4552990
+VM Machines used: x30-05 to x30-20
+**YOU MAY USE ANY MACHINES YOU'D LIKE TO RUN THE DHT NODES AND CLIENT
+**BUT THE SUPERNODE MUST BE RUN ON x30-05, OTHERWISE TEST SCRIPTS WON'T WORK
 
-1. Add command line arguments to Client, SuperNode, DHT Node
-2. Print structure of DHT (SuperNode provides list of DHT Nodes, Client gets the info)
-3. Extend Write() to actually write to the specified file
-4. Finish Read() and actually have it read from specified file
-5. For Write() and Read(), should print out the nodes visited, the node which contains file
-   and the content of file if Read() was called
-6. The “Read” and “Write” operations should also have an option of printing out log messages when
-   required.
-7. Create script to run test cases
-8. Need to print error message if file doesn't exist (This may or may not need to be implemented)
+How to setup DHT:
+
+1. SSH to x30-05 and change to thrift/ directory
+
+2. Run: ./startup_super.csh (This should compile and run the supernode)
+
+3. Write down the IP Address and Port for SuperNode (This will be printed in console)
+
+4. Open another terminal and change to thrift/ directory
+
+5. Run: ./startup_node.csh ****WARNING: This will open 8 new terminals where each terminal represents
+   a seperate DHT Node (These DHT Nodes are on the same IP. If you want to run DHT Nodes on different
+   machines, you will need to SSH to different machines MANUALLY and run the DHT Node code)
+
+6. On each terminal, you will see the following:
+	i) Fingertable of Node X
+	ii) Keys which Node X is responsible for 
+	iii) Predecessor and Successor of X
+	iv) Number of Files
+	v) Filenames of files which Node X is responsible for
+
+7. Open a new terminal and change to thrift/ directory
+8. Run: ./startup_client.csh < client_input (This command will start the client and write ALL files to DHT)
+9. This time run: ./startup_client.csh without the client_input
+10. This will prompt for the IP Address, Port of SuperNode which can be found on SuperNode terminal
+11. After, you will be presented with an interface. Enjoy!
+
+NOTE: If you want to test DHT Nodes on seperate machines, then you must SSH to seperate VMs. Once you
+      have SSH'd to a VM, do these steps:
+
+	1. Navigate to the thrift/gen-cpp-node folder
+	2. make clean
+	3. make all
+	4. ./dht_node <port_number> 128.101.37.70 8456
+
+
+Here is how our DHT works:
+
+	1. It meets the specifications mentioned in the Project 1 write-up
+	2. Once all files have been written to the DHT, they can be read, otherwise an error message will appear
+	3. The client interface gives the option of writing and reading a file to the DHT OR printing the DHT structure
+	4. For every request, it will go to the contact node which the SuperNode returned to the client
+	5. If the file is not on the contact node, then the request will be recursively forwarded to the correct node
+	6. The DHT Nodes use the finger table to find the CLOSEST PRECEDING NODE and eventually will converge to the
+	   correct node (Chord research paper)
+	7. For printing the DHT structure, we ask the SuperNode for all the DHT Nodes in the system. Then we will individually
+	   ask each DHT Node for their information, compile the results, and display on the client side.
+	8. Log information is printed on the SuperNode, DHT Nodes, and Client terminals based on their responsibilities.
+	9. When entering the filename on the client interface, do not use quotation marks. Ex: Do Expunge.txt, NOT "Expunge.txt"
+	10. We avoid infinite loops by directing the request to CLOSEST PRECEDING NODE and we check if DHT Node is responsible for key
+	    first.
+
+Negative test cases:
+	
+	- In the client interface, try to READ a file named ABC.txt. This will return "File not found" or "Invalid filename"
+	- In the client interface, try to WRITE a file named ABC.txt. This will return "File not found" or "Invalid filename"
+	- In the client interface, try to print DHT structure (option 3) BEFORE starting the DHT Nodes. This will print "No DHT Nodes".
+
+Positive test cases:
+
+	The client interface is pretty straightforward. As long as you use a valid filename, you can read/write any file and also
+        print DHT structure once DHT has been formed. 
+
+	To make life easier for you, we created a client_input file, which we mentioned in our "How to setup DHT".
+	On step 8 in that section, we'll have you run ./startup_client.csh < client_input which will WRITE ALL files to the DHT.
+	This is proof that our write works.
+
+DO NOT CHANGE THE FILE STRUCTURE/LAYOUT OF THE THRIFT/ FOLDER
+
+
+
+
+
 
