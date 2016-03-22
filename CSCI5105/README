@@ -1,0 +1,13 @@
+Need to be done: 
+
+1. Add command line arguments to Client, SuperNode, DHT Node
+2. Print structure of DHT (SuperNode provides list of DHT Nodes, Client gets the info)
+3. Extend Write() to actually write to the specified file
+4. Finish Read() and actually have it read from specified file
+5. For Write() and Read(), should print out the nodes visited, the node which contains file
+   and the content of file if Read() was called
+6. The “Read” and “Write” operations should also have an option of printing out log messages when
+   required.
+7. Create script to run test cases
+8. Need to print error message if file doesn't exist (This may or may not need to be implemented)
+
