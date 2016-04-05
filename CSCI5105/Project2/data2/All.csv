@@ -1,0 +1,16 @@
+type,nr,nw,read time,write time
+balanced,11,11,73219,223911
+balanced,1,11,80489,243861
+balanced,3,9,70504,199313
+balanced,5,8,62354,163757
+balanced,6,7,62483,146673
+readheavy,11,11,41483,191537
+readheavy,1,11,39145,187064
+readheavy,3,9,36305,161852
+readheavy,5,8,45077,171863
+readheavy,6,7,27669,134371
+writeheavy,1,11,110295,294491
+writeheavy,11,11,105246,254559
+writeheavy,3,9,93775,238180
+writeheavy,5,8,101210,228634
+writeheavy,6,7,90793,176480
