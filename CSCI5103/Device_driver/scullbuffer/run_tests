@@ -1,0 +1,61 @@
+#!/bin/bash
+
+#ensure buffer is empty
+sudo ./scull_unload
+sudo ./scull_load
+
+echo "Running testcase 1"
+sleep 2
+./testcase1
+sleep 7
+echo "Testcase 1 complete"
+sleep 2
+cat /dev/scullbuffer > /dev/null #clear buffer
+
+echo "Running testcase 2"
+sleep 2
+./testcase2
+sleep 7
+echo "Testcase 2 complete"
+sleep 2
+cat /dev/scullbuffer > /dev/null
+
+echo "Running testcase 3"
+sleep 2
+./testcase3
+sleep 12
+echo "Testcase 3 complete"
+sleep 2
+cat /dev/scullbuffer > /dev/null
+
+echo "Running testcase 4"
+sleep 2
+./testcase4
+sleep 12
+echo "Testcase 4 complete"
+sleep 2
+cat /dev/scullbuffer > /dev/null
+
+echo "Running testcase 5"
+sleep 2
+./testcase5
+sleep 7
+echo "Testcase 5 complete"
+sleep 2
+cat /dev/scullbuffer > /dev/null
+
+echo "Running testcase 6"
+sleep 2
+./testcase6
+sleep 7
+echo "Testcase 6 complete"
+sleep 2
+cat /dev/scullbuffer > /dev/null
+
+echo "Running testcase 7"
+sleep 2
+./testcase7
+sleep 12
+echo "Testcase 7 complete"
+sleep 2
+cat /dev/scullbuffer > /dev/null

@@ -1,0 +1,38 @@
+David Schoder
+4552990
+CSCI5103
+Assignment 7
+
+The scullbuffer is a simple character device that will allow concurrent reads 
+and writes.  The code base was taken from scull pipe and some modifications
+were made to alter it into a character buffer rather than a pipe.
+
+The code for scullbuffer is located in buffer.c
+
+Compiling and installing the scullbuffer device:
+--------------------------------------------------
+1. Execute Make: 
+   make
+2. If scull devices already exist then unload them first.
+   sudo ./scull_unload
+   This may ask you for your root password.
+3. Load scull devices
+   sudo ./scull_load
+   This will create four scull devices (scull0, scull1, scull2, scull3), and one
+   scullbuffer device. 
+
+Testing the functioning of scullbuffer  device:
+-------------------------------------------------
+
+To run all test cases:
+  sudo ./run_tests
+This will unload/load the module to ensure the tests run cleanly.
+
+To run tests individually:
+  sudo ./scull_unload
+  sudo ./scull_load
+  ./testcase[1-7]
+
+To run the producers and consumers individually:
+  ./producer <num_items_to_produce>
+  ./consumer <num_items_to_consume>

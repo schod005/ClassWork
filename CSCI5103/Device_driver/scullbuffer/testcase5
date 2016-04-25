@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./producer 50 &
+./consumer 25 &
+sleep 0.1
+./consumer 25 &
