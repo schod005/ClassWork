@@ -1,0 +1,713 @@
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,101031
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,195258
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,214293
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,226000
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,91211
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,28507
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,15265
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,10462
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,11927
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,152675
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,207424
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,76615
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,163619
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,238212
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,194708
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,231512
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,249583
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,73498
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,123636
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,232439
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,231520
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: BetFile version: 4
+Read,135843
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,122423
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,235365
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,196646
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,219457
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,218195
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,324598
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,318256
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,339480
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,264917
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,229587
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,307480
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,241344
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,137860
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,131543
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,153210
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,239431
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,243321
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,230368
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: CohesionFile version: 4
+Read,91724
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,237736
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,230321
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,237690
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,238947
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,105153
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,476932
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,480728
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,209381
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,219560
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: DebacleFile version: 4
+Read,89794
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,175603
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,216348
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,213826
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,284444
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,316423
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,270548
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,254463
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,231355
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,195302
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,237552
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,210957
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,245397
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,70115
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,147049
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,223259
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,271204
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,131953
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,124447
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,249399
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,145467
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,152825
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,238942
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,113293
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,96753
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,298441
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,233802
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,155744
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,162233
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,266293
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,117774
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,210822
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,59769
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,117972
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,199491
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,288422
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,150812
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,204654
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,202256
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,205279
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,219490
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,190430
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to read?
+File content: File version: 0
+Read,168859
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,277457
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,219548
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,235411
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,244503
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
+Which file would you like to write?
+Write,351431
+CHOOSE AN OPTION FROM THE MENU
+  [1] Write a file to the network
+  [2] Read a file from the network
+  [3] Print out the network
+  [4] Quit
